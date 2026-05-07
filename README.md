@@ -1,7 +1,7 @@
 # RAG-based-AI-Teaching-Assistant
 
 
-## The Live Project is on my laptop, I will soon upload Google Drive Video Related to the project video demo soon
+## The Live Project is on my laptop, I will soon upload Google Drive Video Related to the project video demo soon..
 
 # HOW TO USE THIS RAG AI TEACHING ASSISTANT ON OUR OWN DATA
 
