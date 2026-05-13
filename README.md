@@ -50,4 +50,4 @@ We convert the json files to a dataframe with Embeddings and save it as a joblib
 
 Read the joblib file and load it into the memory. Then create a relevant prompt as per the user query and feed it to the LLM.
 
---------------------------------------------------------- T H E - E N D ----------------------------------------------------------------------
+---------------------------------------- T H E - E N D --------------------------------------------
