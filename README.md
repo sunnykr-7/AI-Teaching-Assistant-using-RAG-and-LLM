@@ -49,6 +49,34 @@ We convert the json files to a dataframe with Embeddings and save it as a joblib
 
 ## Step 5 - Prompt generation and feeding to LLM.
 
-Read the joblib file and load it into the memory. Then create a relevant prompt as per the user query and feed it to the LLM.
+Read the joblib file and load it into the memory. Then create a relevant prompt as per the user.
+
+
+
+
+
+
+
+Steps To Complete
+
+Pehle 19-merge-chunks
+
+then
+
+12-using_joblib_to_save_dataframe_preprocess_json # - Run preprocessing scripts to regenerate embeddings
+
+then
+
+12-process_incoming
+
+then 15- Getting responses from LLM.
+
+Now See - 15-response.txt
+
+
+
+
+
+query and feed it to the LLM.
 
 ---------------------------------------- T H E - E N D --------------------------------------------
