@@ -3,6 +3,34 @@
 
 ## The Live Project is on my laptop, I will soon upload Google Drive Video Related to the project video demo soon..
 
+
+# 1 - Architecture Flow
+
+Videos → Audio → Whisper Transcription →
+Chunking → Embeddings →
+Cosine Similarity Retrieval →
+Prompt Engineering →
+LLM Response
+
+# 2 - Tech Stack
+- Python
+- Whisper
+- Ollama
+- Llama 3.2
+- BGE-M3
+- Pandas
+- Scikit-learn
+- Joblib
+
+# 3 - Features
+- Timestamp-aware retrieval
+- Semantic search
+- Course-specific Q&A
+- Local LLM inference
+- Quick Response From LLM
+
+
+
 # HOW TO USE THIS RAG AI TEACHING ASSISTANT ON OUR OWN DATA
 
 
