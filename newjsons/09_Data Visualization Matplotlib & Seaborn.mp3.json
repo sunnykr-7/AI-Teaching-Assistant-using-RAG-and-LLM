@@ -1,0 +1,138 @@
+{
+    "chunks": [
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 0.0,
+            "end": 56.92,
+            "text": " Hello everyone, this is Orhan Erdem.  In this video, we will be talking about data visualization.  The phrase, a picture is worth a thousand words, means that a single image can convey  complex ideas, emotions and narratives more effectively than a lengthy verbal or a written  description.  That's why visualization matters.  Data visualization serves as a bridge between the raw, often messy data and the analyst.  It provides a way to visually interrogate and understand the data, facilitating both  cleaning and subsequent analysis.  By turning abstract numbers into visual stories, errors, patterns and insights become much"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 56.92,
+            "end": 109.58,
+            "text": " more obvious.  Visualization supports data cleaning by finding outliers, spotting missing values, duplicate  rows and columns and the like.  It also helps us understand the distribution of data and identify clusters.  Now let's start our hands-on experience on Python.  Now let's start with opening an account on the navigator and then launching Jupyter here.  This is going to be the folder where I would like to create my Python code.  So I will hit new Python here and this is going to be my code.  And then I will first change the name of this folder as 3DataVisualization.  Let's start coding by first importing the necessary libraries that we will be using."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 109.58,
+            "end": 150.85999999999999,
+            "text": " These libraries are pandas, matplotlib and seaborne.  Now let's run the code.  So we are done with the libraries.  Now we can start coding.  In this class, I will basically be using two data files.  The first data file is going to be Apple stock prices.  And second data file is going to be Boston house prices.  Let me first import Apple stock prices.  Please don't forget that your Python file and the data file that you are importing Excel  file I mean, must be in the same folder."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 150.85999999999999,
+            "end": 192.16,
+            "text": " Okay, let's run the code.  Now it's working.  So most probably you recognize the first part of this code.  This is importing data from Excel.  The second part is basically about parsing the date.  So date data is mostly confusing from Python's point of view.  That's why we need this code to organize date data.  And then I am just asking Python to show me the first five lines of Apple stock prices.  So this is my first data, I'm going to basically be using this data to draw line charts, line  graphs."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 192.16,
+            "end": 234.28,
+            "text": " And the second data is Boston house prices data.  Boston housing data set is from a paper by Harrison and Rubinfeld.  The paper is called hedonic prices and demand for clean air.  This paper was published in 1978.  And the data is still widely used.  This data is publicly available here on this page.  And all of the variables I will use is explained here.  I just copied the data from here and paste it to Excel.  Now I will write a code to import it from Excel to Python.  Both Excel and Python files are available below the video."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 234.28,
+            "end": 273.68,
+            "text": " This time I asked Python to show me the first 10 rows instead of five.  This is just for fun, nothing else.  Okay, right now I have two data sets.  The first data set is Apple data.  And the second data set is house prices data from Boston.  So let's start with Apple stock prices.  So this is going to give me Apple stock price line chart if I run this code.  So this is Apple stock prices starting from 2013 to 2023.  Stock prices can play with the color of this chart.  You can play with the x axis label y axis label and you can even write a title here."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 273.68,
+            "end": 338.52,
+            "text": " The title command is plt title.  Now let's draw the box plot of Apple stock prices.  So box plots are basically showing a couple of statistics visually.  Now let's work on drawing a box plot for Apple stock prices.  The top and bottom of the box plot represent 75th and 25th percentile respectively.  The line inside the box represents the median 50th percentile.  So lines extending above and below the box cover the rest of the data range and outliers  may be depicted as points or circles but right now there is no outlier here.  Therefore this box encloses 50% of the data.  For example in this box half of the Apple stock prices are between 27 and 118."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 338.52,
+            "end": 390.18,
+            "text": " So I know this because I can write a code to see the 25th and 75th percentile in detail.  So as you can see 25th percentile is 27 and 75th percentile is 118.  So this box chart is basically showing that visually.  Now let's switch to Boston house price data.  In that data we are going to draw scatter plot first.  Okay scatter plot code is this one.  I am going to draw a scatter plot between two variables.  The first variable is going to be median house prices and the second variable is going to  be percentage of lower status of population.  So this code just gives the scatter plot."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 390.18,
+            "end": 439.38,
+            "text": " These are title, x label, y label and drawing command.  This is the scatter plot between those two variables.  As you can see there is kind of negative relationship between two variables.  The higher the percentage of lower status people in the region the lower the house prices.  The lower the percentage of lower status people the higher the house prices.  I am going to draw one more scatter plot and that's going to be the scatter plot between  the crime rates and median house prices.  So this is going to be the code here.  Scatter plot code title and showing command.  On y axis you see the median house prices again on x axis you see the crime rate."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 439.38,
+            "end": 483.5,
+            "text": " So the higher the crime rate the lower the house prices.  The lower the crime rate the higher the house prices in general.  In both of these commands we use the plot scatter function.  These functions are mostly coming from the same library.  We can also use SNSC born library.  In that library the code is as follows.  When you run this code it will give you another scatter plot.  This scatter plot and this one is basically the same scatter plots.  But here you can play with the colors again.  So you can change the color right color to red or anything any color you want."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 483.5,
+            "end": 522.82,
+            "text": " So this scatter plot this plot is the same plot basically just using different commands  and different libraries.  Now let's switch to bar charts.  Bar charts are useful for comparing a single statistic.  For example average count or percentage across groups.  The height of the bar or length in a horizontal display represents the value of the statistic  and different bars correspond to different groups.  So let me give an example.  In this example we will be comparing a numerical variable which is the median house prices  by groups."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 522.82,
+            "end": 578.26,
+            "text": " In the graph separate bars are used to denote homes in Boston that are near to Charles River  versus that are not.  Now let's write a code for bar charting.  This chart is comparing the two groups of houses here.  The first column which says zero here are the houses which are not near the Charles  River and the second column the column to the right is showing the house prices that  are near the Charles River.  As you can see the height of the second column is higher which means houses that are near  the Charles River have higher median prices which makes sense.  You can play with this code by changing the parameters in the code."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 578.26,
+            "end": 626.14,
+            "text": " For example you can change the figure size or you can change the statistics or even the  variable.  For example copy this code and paste it here and change the median value of houses to age  which shows proportion of houses that are built prior to 1940 and change the title y  y-axis title to age and run the code.  You would see a similar comparison with respect to age.  This chart is showing us the proportion of houses that are built prior to 1940 are more  in this group the houses near the Charles River than in that group.  Another interesting thing before we switch to histograms is that we can calculate the  statistics between those two groups."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 626.14,
+            "end": 691.6999999999999,
+            "text": " For example we can calculate mean by using the following command.  Basically what this command does is to compare the mean of all of these values across these  two groups.  So houses that are not near the Charles River and then the houses that are near the Charles  River.  So crime rate, nitrogen oxide concentration, number of rooms and median house prices etc.  It's making a comparison of the mean values across all of these variables.  Now let's switch to histograms.  Now let's prepare a histogram of median house prices in this data set.  This chart is showing us the distribution of median house prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 691.6999999999999,
+            "end": 745.86,
+            "text": " As you can see concentration is around 20 which is $20,000 as of 1980s of course and  there's a kind of skewness here.  You can use a different code to prepare a more customized version of this histogram  as follows.  As you can see you can play with the number of bins here you can increase or decrease  if you decrease it to 10 you would find a similar chart as we had above.  If you increase it you can find more zoom in version of this histogram.  You can also add a color for example.  Basically histograms are showing us how the values are distributed across the range of  the data set."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 745.86,
+            "end": 791.42,
+            "text": " You can also draw box plot for this data.  I will draw one with two box plots.  Let's take this as an additional material.  Again we group the data into two categories being near the Charles River and being not  near the Charles River.  So this is the first quartile.  This is the third quartile.  The box encloses 50% of the data and the green line is representing the median value.  Half of the tracks have median values between 20 and 33 thousand dollars.  Now let's take a look at correlation."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 791.42,
+            "end": 851.8199999999999,
+            "text": " Let me remind you what correlation is.  Correlation is a numerical measure of the linear relationship between two variables.  There are different methods to calculate the correlation coefficient but the most commonly  used one belongs to Pearson and it is varying between one which shows the strong positive  correlation and negative one which shows strong negative correlation.  Now let's write a code to find the correlations between the variables.  Okay this is the correlation matrix as well as a heat map.  A heat map is a graphical display of numerical value where color is used to denote the values.  So darker shades correspond to stronger or positive correlations and lighter shades correspond  to negative correlations."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 851.8199999999999,
+            "end": 903.54,
+            "text": " So any number you see on this chart corresponds to a pairwise correlation between variables.  For example take a look at the first row which is the crime rates and this value is negative  0.4 corresponds to correlation between median house prices and crime rates and then 0.5  here for example corresponds to correlation between crime rates and percentage of lower  status people.  There are different versions of the correlation matrix I will show you one more but it's basically  the same thing it's just a bigger figure and with more divergent values.  So this chart is basically showing the same exact thing with this chart crime rate 0.04  here 0.5 here as I showed you but the colors are different so the colors can be adjusted  but the main idea is still the same."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 903.54,
+            "end": 947.82,
+            "text": " Correlation table heat map shows us pairwise correlations.  One last thing before I finish so all the correlations we found here on Python is the  same correlation table that is already presented in the paper that I showed you a moment ago  Please take a look at the correlation between median house prices and the crime rate it  is negative 0.38 which we rounded to negative 0.4 and else that remember the crime rate  the correlation between crime rate and the percentage of lower status population was  0.5 which is again rounded all the numbers we found they are the same as the numbers  presented in the paper.  That's all for this class I hope you enjoyed it and hope to see you in the next video."
+        }
+    ],
+    "text": " Hello everyone, this is Orhan Erdem. In this video, we will be talking about data visualization. The phrase, a picture is worth a thousand words, means that a single image can convey complex ideas, emotions and narratives more effectively than a lengthy verbal or a written description. That's why visualization matters. Data visualization serves as a bridge between the raw, often messy data and the analyst. It provides a way to visually interrogate and understand the data, facilitating both cleaning and subsequent analysis. By turning abstract numbers into visual stories, errors, patterns and insights become much more obvious. Visualization supports data cleaning by finding outliers, spotting missing values, duplicate rows and columns and the like. It also helps us understand the distribution of data and identify clusters. Now let's start our hands-on experience on Python. Now let's start with opening an account on the navigator and then launching Jupyter here. This is going to be the folder where I would like to create my Python code. So I will hit new Python here and this is going to be my code. And then I will first change the name of this folder as 3DataVisualization. Let's start coding by first importing the necessary libraries that we will be using. These libraries are pandas, matplotlib and seaborne. Now let's run the code. So we are done with the libraries. Now we can start coding. In this class, I will basically be using two data files. The first data file is going to be Apple stock prices. And second data file is going to be Boston house prices. Let me first import Apple stock prices. Please don't forget that your Python file and the data file that you are importing Excel file I mean, must be in the same folder. Okay, let's run the code. Now it's working. So most probably you recognize the first part of this code. This is importing data from Excel. The second part is basically about parsing the date. So date data is mostly confusing from Python's point of view. That's why we need this code to organize date data. And then I am just asking Python to show me the first five lines of Apple stock prices. So this is my first data, I'm going to basically be using this data to draw line charts, line graphs. And the second data is Boston house prices data. Boston housing data set is from a paper by Harrison and Rubinfeld. The paper is called hedonic prices and demand for clean air. This paper was published in 1978. And the data is still widely used. This data is publicly available here on this page. And all of the variables I will use is explained here. I just copied the data from here and paste it to Excel. Now I will write a code to import it from Excel to Python. Both Excel and Python files are available below the video. This time I asked Python to show me the first 10 rows instead of five. This is just for fun, nothing else. Okay, right now I have two data sets. The first data set is Apple data. And the second data set is house prices data from Boston. So let's start with Apple stock prices. So this is going to give me Apple stock price line chart if I run this code. So this is Apple stock prices starting from 2013 to 2023. Stock prices can play with the color of this chart. You can play with the x axis label y axis label and you can even write a title here. The title command is plt title. Now let's draw the box plot of Apple stock prices. So box plots are basically showing a couple of statistics visually. Now let's work on drawing a box plot for Apple stock prices. The top and bottom of the box plot represent 75th and 25th percentile respectively. The line inside the box represents the median 50th percentile. So lines extending above and below the box cover the rest of the data range and outliers may be depicted as points or circles but right now there is no outlier here. Therefore this box encloses 50% of the data. For example in this box half of the Apple stock prices are between 27 and 118. So I know this because I can write a code to see the 25th and 75th percentile in detail. So as you can see 25th percentile is 27 and 75th percentile is 118. So this box chart is basically showing that visually. Now let's switch to Boston house price data. In that data we are going to draw scatter plot first. Okay scatter plot code is this one. I am going to draw a scatter plot between two variables. The first variable is going to be median house prices and the second variable is going to be percentage of lower status of population. So this code just gives the scatter plot. These are title, x label, y label and drawing command. This is the scatter plot between those two variables. As you can see there is kind of negative relationship between two variables. The higher the percentage of lower status people in the region the lower the house prices. The lower the percentage of lower status people the higher the house prices. I am going to draw one more scatter plot and that's going to be the scatter plot between the crime rates and median house prices. So this is going to be the code here. Scatter plot code title and showing command. On y axis you see the median house prices again on x axis you see the crime rate. So the higher the crime rate the lower the house prices. The lower the crime rate the higher the house prices in general. In both of these commands we use the plot scatter function. These functions are mostly coming from the same library. We can also use SNSC born library. In that library the code is as follows. When you run this code it will give you another scatter plot. This scatter plot and this one is basically the same scatter plots. But here you can play with the colors again. So you can change the color right color to red or anything any color you want. So this scatter plot this plot is the same plot basically just using different commands and different libraries. Now let's switch to bar charts. Bar charts are useful for comparing a single statistic. For example average count or percentage across groups. The height of the bar or length in a horizontal display represents the value of the statistic and different bars correspond to different groups. So let me give an example. In this example we will be comparing a numerical variable which is the median house prices by groups. In the graph separate bars are used to denote homes in Boston that are near to Charles River versus that are not. Now let's write a code for bar charting. This chart is comparing the two groups of houses here. The first column which says zero here are the houses which are not near the Charles River and the second column the column to the right is showing the house prices that are near the Charles River. As you can see the height of the second column is higher which means houses that are near the Charles River have higher median prices which makes sense. You can play with this code by changing the parameters in the code. For example you can change the figure size or you can change the statistics or even the variable. For example copy this code and paste it here and change the median value of houses to age which shows proportion of houses that are built prior to 1940 and change the title y y-axis title to age and run the code. You would see a similar comparison with respect to age. This chart is showing us the proportion of houses that are built prior to 1940 are more in this group the houses near the Charles River than in that group. Another interesting thing before we switch to histograms is that we can calculate the statistics between those two groups. For example we can calculate mean by using the following command. Basically what this command does is to compare the mean of all of these values across these two groups. So houses that are not near the Charles River and then the houses that are near the Charles River. So crime rate, nitrogen oxide concentration, number of rooms and median house prices etc. It's making a comparison of the mean values across all of these variables. Now let's switch to histograms. Now let's prepare a histogram of median house prices in this data set. This chart is showing us the distribution of median house prices. As you can see concentration is around 20 which is $20,000 as of 1980s of course and there's a kind of skewness here. You can use a different code to prepare a more customized version of this histogram as follows. As you can see you can play with the number of bins here you can increase or decrease if you decrease it to 10 you would find a similar chart as we had above. If you increase it you can find more zoom in version of this histogram. You can also add a color for example. Basically histograms are showing us how the values are distributed across the range of the data set. You can also draw box plot for this data. I will draw one with two box plots. Let's take this as an additional material. Again we group the data into two categories being near the Charles River and being not near the Charles River. So this is the first quartile. This is the third quartile. The box encloses 50% of the data and the green line is representing the median value. Half of the tracks have median values between 20 and 33 thousand dollars. Now let's take a look at correlation. Let me remind you what correlation is. Correlation is a numerical measure of the linear relationship between two variables. There are different methods to calculate the correlation coefficient but the most commonly used one belongs to Pearson and it is varying between one which shows the strong positive correlation and negative one which shows strong negative correlation. Now let's write a code to find the correlations between the variables. Okay this is the correlation matrix as well as a heat map. A heat map is a graphical display of numerical value where color is used to denote the values. So darker shades correspond to stronger or positive correlations and lighter shades correspond to negative correlations. So any number you see on this chart corresponds to a pairwise correlation between variables. For example take a look at the first row which is the crime rates and this value is negative 0.4 corresponds to correlation between median house prices and crime rates and then 0.5 here for example corresponds to correlation between crime rates and percentage of lower status people. There are different versions of the correlation matrix I will show you one more but it's basically the same thing it's just a bigger figure and with more divergent values. So this chart is basically showing the same exact thing with this chart crime rate 0.04 here 0.5 here as I showed you but the colors are different so the colors can be adjusted but the main idea is still the same. Correlation table heat map shows us pairwise correlations. One last thing before I finish so all the correlations we found here on Python is the same correlation table that is already presented in the paper that I showed you a moment ago Please take a look at the correlation between median house prices and the crime rate it is negative 0.38 which we rounded to negative 0.4 and else that remember the crime rate the correlation between crime rate and the percentage of lower status population was 0.5 which is again rounded all the numbers we found they are the same as the numbers presented in the paper. That's all for this class I hope you enjoyed it and hope to see you in the next video."
+}

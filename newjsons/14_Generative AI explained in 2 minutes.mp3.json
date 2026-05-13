@@ -1,0 +1,19 @@
+{
+    "chunks": [
+        {
+            "number": "14",
+            "title": "Generative AI explained in 2 minutes",
+            "start": 0.0,
+            "end": 53.0,
+            "text": " What exactly is Generative AI?  When new content is created by artificial intelligence, it's called Generative AI.  This could involve generating texts and images, as well as videos, music or voices.  To do this, you describe in a chat dialog box what you want the AI to create.  This description is called a prompt.  The Generative AI tools provide answers to all sorts of questions,  summarize complex information and generate diverse ideas quickly.  Depending on how they're used, they can create short stories, paintings, pieces of code or even musical compositions.  The foundation for this creation lies in large amounts of data that the AI system accesses to identify patterns and similarities.  The content produced by the AI is new."
+        },
+        {
+            "number": "14",
+            "title": "Generative AI explained in 2 minutes",
+            "start": 53.0,
+            "end": 117.0,
+            "text": " It's often impressive and challenging to distinguish from things humans have made.  Generative AI can also be misused.  In so-called deepfakes, AI is utilized to produce images or videos that seem real.  AI-generated texts are also tough to recognize as machine-made.  Moreover, the AI can provide answers that sound correct but are actually incorrect.  This is called hallucinating.  The quality of what's created depends on both the quality of the data used and the quality of the prompts given.  To effectively utilize Generative AI, we need to learn how to guide the tools with meaningful prompts and use them thoughtfully.  Generative AI holds immense potential and can help us in many ways, such as serving as a writing or learning partner.  However, the AI should do the hard work and humans should be responsible for the facts."
+        }
+    ],
+    "text": " What exactly is Generative AI? When new content is created by artificial intelligence, it's called Generative AI. This could involve generating texts and images, as well as videos, music or voices. To do this, you describe in a chat dialog box what you want the AI to create. This description is called a prompt. The Generative AI tools provide answers to all sorts of questions, summarize complex information and generate diverse ideas quickly. Depending on how they're used, they can create short stories, paintings, pieces of code or even musical compositions. The foundation for this creation lies in large amounts of data that the AI system accesses to identify patterns and similarities. The content produced by the AI is new. It's often impressive and challenging to distinguish from things humans have made. Generative AI can also be misused. In so-called deepfakes, AI is utilized to produce images or videos that seem real. AI-generated texts are also tough to recognize as machine-made. Moreover, the AI can provide answers that sound correct but are actually incorrect. This is called hallucinating. The quality of what's created depends on both the quality of the data used and the quality of the prompts given. To effectively utilize Generative AI, we need to learn how to guide the tools with meaningful prompts and use them thoughtfully. Generative AI holds immense potential and can help us in many ways, such as serving as a writing or learning partner. However, the AI should do the hard work and humans should be responsible for the facts."
+}

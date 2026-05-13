@@ -1,0 +1,75 @@
+{
+    "chunks": [
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 0.0,
+            "end": 43.0,
+            "text": " Hello everyone, welcome to my channel.  In this video I am discussing about what is machine learning and why it matters, types  of machine learning and so on.  So without a further ado, let's get this started.  So what is machine learning?  Machine learning often called as ML is a branch of an artificial intelligence that enables  a system to learn autonomously from data and make decisions without being explicitly programmed  The performance of ML model can be improved by providing large datasets and let the model  figure out the patterns.  Let's imagine how we teach a child to recognize a dog."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 43.0,
+            "end": 82.5,
+            "text": " We don't tell them proper rules to recognize a dog.  But we show them many dogs and say this is a dog.  Therefore over time they learn how a dog looks like.  So machine learning works the same way.  We train the machine by showing it with lots of examples and it learns how to make decisions  based on that.  Traditional Programming vs Machine Learning  Now let's compare machine learning with traditional programming.  In traditional programming we write a set of predefined instructions and the computer  follows those instructions in order to perform the task."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 82.5,
+            "end": 129.8,
+            "text": " Whereas in machine learning we give set of examples that is huge amount of data plus  our expected outputs and in machine learning the computer learns the rule automatically  and figure out how to accomplish the task.  Therefore machine learning is very versatile and powerful as it learns from the data and  improve its performance continuously.  So why machine learning matters?  As we know there are lots of data these days and machine learning can handle this large  set of data, analyze it and find a proper value as an output.  Machine learning is also leading to the exciting innovations.  It is the heart of many technologies we use today such as drones, VRs, robots and many more."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 129.8,
+            "end": 172.66,
+            "text": " It can contribute to business, finance, by fraud detection, detecting security threats,  disease diagnosis and so on.  Therefore machine learning is at the heart of many technologies we use today.  It helps machine to read like spam detection and machines to see such as object detection,  face recognition.  Similarly it helps machine to decide on fraud detection, choosing recommendations and it  also helps to hear by choosing voice assistants such as Alexa or Siri.  It helps machine to create by generating images, text, videos and so many things.  Therefore machine learning is very important as it is transforming various industries in  near future."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 172.66,
+            "end": 207.42,
+            "text": " Now let's understand the basic flow of machine learning process.  The step 1 is problem statement.  In order to decide which category of machine learning models we use, at first we should  have a deep understanding of our problems.  The next step is data collection where we collect all the data like emails, numbers,  photos and so on that is required for our models.  And the next step is data processing.  This step is very important part in machine learning.  It is like clearing the data by correcting errors, scaling and removing duplicates and  so on."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 207.42,
+            "end": 245.38,
+            "text": " The fourth step is to choose the right model.  We should choose proper machine learning model for our clean data.  Step 5 is to train the model.  Once we decide machine learning model, the next step is to train the model.  Training process is feeding the data to a learning algorithm.  Once we train the model, the next step is to test the model and see how well it predicts  new and unseen data.  The next step is to tune and optimize the model by using more data or better methods.  The last step is deployment where machine learning model is tested in production environment.  Types of Machine Learning"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 245.38,
+            "end": 285.5,
+            "text": " Machine learning is divided into supervised learning, unsupervised learning and reinforcement  learning.  Supervised learning  Supervised learning models learn from the labeled data that means we provide input plus  correct output.  The goal here is to predict future output.  Examples are object detection, spam detection, forecasting and so on.  Next we have is supervised learning algorithms.  There are different algorithms in supervised learning like linear regression, logistic  regression, decision trees, support vector machines or SVM, k-nearest neighbors, KNN,"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 285.5,
+            "end": 334.38,
+            "text": " random forest, Naive-Weir algorithm.  So we will discuss about supervised learning in our upcoming videos.  Now let's move to the unsupervised learning.  Unsupervised learning  Unsupervised learning models learn from unlabeled data that means we only provide lots of input  data and we do not give known output to the model.  The goal here is to find structure in data and provide us the proper output.  The examples are recommendation engines, anomaly detections, medical imaging and so on.  Next is unsupervised learning algorithms.  We have hierarchical clustering, fuzzy means, k-means clustering and so on."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 334.38,
+            "end": 379.06,
+            "text": " Reinforcement learning  In reinforcement learning, the model learns by doing and through various trials and errors.  The examples are game AI like chess, robotics, self-driving cars and so on.  Now reinforcement learning is rapidly growing with huge potential and we will experience  more groundbreaking innovations in near future.  Applications of machine learning  Machine learning is almost everywhere now like in self-driving cars, security, recommendation  systems, customer service, voice assistance, fraud detection, digital marketing, search  engines and face recognition.  So that's all for today."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 379.06,
+            "end": 400.3,
+            "text": " We have learnt what is machine learning, why it is such a big deal.  In the next video, we will talk about the types of machine learning.  Make sure to like and turn on the notification so you don't miss it.  If this video is helpful to you, give it a thumbs up and leave a comment below.  It would be great to hear what topics you are excited to learn about in machine learning.  Thank you for watching."
+        }
+    ],
+    "text": " Hello everyone, welcome to my channel. In this video I am discussing about what is machine learning and why it matters, types of machine learning and so on. So without a further ado, let's get this started. So what is machine learning? Machine learning often called as ML is a branch of an artificial intelligence that enables a system to learn autonomously from data and make decisions without being explicitly programmed The performance of ML model can be improved by providing large datasets and let the model figure out the patterns. Let's imagine how we teach a child to recognize a dog. We don't tell them proper rules to recognize a dog. But we show them many dogs and say this is a dog. Therefore over time they learn how a dog looks like. So machine learning works the same way. We train the machine by showing it with lots of examples and it learns how to make decisions based on that. Traditional Programming vs Machine Learning Now let's compare machine learning with traditional programming. In traditional programming we write a set of predefined instructions and the computer follows those instructions in order to perform the task. Whereas in machine learning we give set of examples that is huge amount of data plus our expected outputs and in machine learning the computer learns the rule automatically and figure out how to accomplish the task. Therefore machine learning is very versatile and powerful as it learns from the data and improve its performance continuously. So why machine learning matters? As we know there are lots of data these days and machine learning can handle this large set of data, analyze it and find a proper value as an output. Machine learning is also leading to the exciting innovations. It is the heart of many technologies we use today such as drones, VRs, robots and many more. It can contribute to business, finance, by fraud detection, detecting security threats, disease diagnosis and so on. Therefore machine learning is at the heart of many technologies we use today. It helps machine to read like spam detection and machines to see such as object detection, face recognition. Similarly it helps machine to decide on fraud detection, choosing recommendations and it also helps to hear by choosing voice assistants such as Alexa or Siri. It helps machine to create by generating images, text, videos and so many things. Therefore machine learning is very important as it is transforming various industries in near future. Now let's understand the basic flow of machine learning process. The step 1 is problem statement. In order to decide which category of machine learning models we use, at first we should have a deep understanding of our problems. The next step is data collection where we collect all the data like emails, numbers, photos and so on that is required for our models. And the next step is data processing. This step is very important part in machine learning. It is like clearing the data by correcting errors, scaling and removing duplicates and so on. The fourth step is to choose the right model. We should choose proper machine learning model for our clean data. Step 5 is to train the model. Once we decide machine learning model, the next step is to train the model. Training process is feeding the data to a learning algorithm. Once we train the model, the next step is to test the model and see how well it predicts new and unseen data. The next step is to tune and optimize the model by using more data or better methods. The last step is deployment where machine learning model is tested in production environment. Types of Machine Learning Machine learning is divided into supervised learning, unsupervised learning and reinforcement learning. Supervised learning Supervised learning models learn from the labeled data that means we provide input plus correct output. The goal here is to predict future output. Examples are object detection, spam detection, forecasting and so on. Next we have is supervised learning algorithms. There are different algorithms in supervised learning like linear regression, logistic regression, decision trees, support vector machines or SVM, k-nearest neighbors, KNN, random forest, Naive-Weir algorithm. So we will discuss about supervised learning in our upcoming videos. Now let's move to the unsupervised learning. Unsupervised learning Unsupervised learning models learn from unlabeled data that means we only provide lots of input data and we do not give known output to the model. The goal here is to find structure in data and provide us the proper output. The examples are recommendation engines, anomaly detections, medical imaging and so on. Next is unsupervised learning algorithms. We have hierarchical clustering, fuzzy means, k-means clustering and so on. Reinforcement learning In reinforcement learning, the model learns by doing and through various trials and errors. The examples are game AI like chess, robotics, self-driving cars and so on. Now reinforcement learning is rapidly growing with huge potential and we will experience more groundbreaking innovations in near future. Applications of machine learning Machine learning is almost everywhere now like in self-driving cars, security, recommendation systems, customer service, voice assistance, fraud detection, digital marketing, search engines and face recognition. So that's all for today. We have learnt what is machine learning, why it is such a big deal. In the next video, we will talk about the types of machine learning. Make sure to like and turn on the notification so you don't miss it. If this video is helpful to you, give it a thumbs up and leave a comment below. It would be great to hear what topics you are excited to learn about in machine learning. Thank you for watching."
+}

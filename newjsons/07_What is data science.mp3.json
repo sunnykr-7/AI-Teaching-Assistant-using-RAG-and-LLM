@@ -1,0 +1,40 @@
+{
+    "chunks": [
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 0.0,
+            "end": 31.0,
+            "text": " Hi, this is Preeti from Analytics India Magazine  and this is the first video out of many on data science as a career.  And let's start right at the beginning.  What is data science?  What do data scientists and analysts actually do?  And why should you opt for this field?  In simple words, data science uses data to solve real company problems  by collecting, analyzing and modeling the data.  But is it really this simple?  Let's take an example to find out what does the job actually entail."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 31.0,
+            "end": 68.0,
+            "text": " We have all experienced this.  While catching a flight to the airport, cab drivers usually cancel their rides  and sometimes it takes up to 4-5 attempts to actually get a cab driver to come pick you up.  And for a large company like Uber, this becomes a business problem.  Now your job as a data analyst is to figure out why this is happening.  In order to do that, you have to collect data.  Ask the right questions, look at the right places.  For example, you can get the data from customer complaints  which would serve as unstructured data.  And go look for data in the data warehouse which would be a structured data."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 68.0,
+            "end": 104.0,
+            "text": " And look for information like number of requests made for a ride to the airport  in the last 3 months or so.  How many of those rides were completed?  Trip information, flight schedules, number of drivers appointed to the route  and many other questions.  Then you start to analyse the data.  Compare the ratio of the trips requested to the completion rate  to find if there is a disparity between the supply and demand.  Check if the cab drivers are actually cancelling the cab during specific times in the night  to avoid the ideal time they have to wait at the airport to get a passenger back to the city."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 104.0,
+            "end": 142.0,
+            "text": " Since it's not economical for the cab driver to wait for a couple of hours at the airport for a ride back.  Check the flight schedules.  Are there more number of flights arriving than the flights departing?  This can also have an effect on the demand and supply.  Once you have collected and analysed this data,  you start by compiling it using statistics in the form of graphs and charts  to be presented to the stakeholders.  Even now you have only figured out what the problem is and not the solution yet.  But we hope this simple example gives you a picture of what data science is all about.  Data science has application in almost every field."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 142.0,
+            "end": 166.0,
+            "text": " From healthcare to retail to finance as well as the entertainment industry.  And its perks also include high salaries.  No wonder it is the most sought after job of this decade.  If data science is the field that you want to opt for,  then don't forget to subscribe to our channel, Analytics India Magazine  and follow this segment for everything in the world of data science.  Stay smart. Bye."
+        }
+    ],
+    "text": " Hi, this is Preeti from Analytics India Magazine and this is the first video out of many on data science as a career. And let's start right at the beginning. What is data science? What do data scientists and analysts actually do? And why should you opt for this field? In simple words, data science uses data to solve real company problems by collecting, analyzing and modeling the data. But is it really this simple? Let's take an example to find out what does the job actually entail. We have all experienced this. While catching a flight to the airport, cab drivers usually cancel their rides and sometimes it takes up to 4-5 attempts to actually get a cab driver to come pick you up. And for a large company like Uber, this becomes a business problem. Now your job as a data analyst is to figure out why this is happening. In order to do that, you have to collect data. Ask the right questions, look at the right places. For example, you can get the data from customer complaints which would serve as unstructured data. And go look for data in the data warehouse which would be a structured data. And look for information like number of requests made for a ride to the airport in the last 3 months or so. How many of those rides were completed? Trip information, flight schedules, number of drivers appointed to the route and many other questions. Then you start to analyse the data. Compare the ratio of the trips requested to the completion rate to find if there is a disparity between the supply and demand. Check if the cab drivers are actually cancelling the cab during specific times in the night to avoid the ideal time they have to wait at the airport to get a passenger back to the city. Since it's not economical for the cab driver to wait for a couple of hours at the airport for a ride back. Check the flight schedules. Are there more number of flights arriving than the flights departing? This can also have an effect on the demand and supply. Once you have collected and analysed this data, you start by compiling it using statistics in the form of graphs and charts to be presented to the stakeholders. Even now you have only figured out what the problem is and not the solution yet. But we hope this simple example gives you a picture of what data science is all about. Data science has application in almost every field. From healthcare to retail to finance as well as the entertainment industry. And its perks also include high salaries. No wonder it is the most sought after job of this decade. If data science is the field that you want to opt for, then don't forget to subscribe to our channel, Analytics India Magazine and follow this segment for everything in the world of data science. Stay smart. Bye."
+}

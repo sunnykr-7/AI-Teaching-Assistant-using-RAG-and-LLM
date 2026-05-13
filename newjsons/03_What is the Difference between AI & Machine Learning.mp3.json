@@ -1,0 +1,40 @@
+{
+    "chunks": [
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 0.0,
+            "end": 49.64,
+            "text": " The artificial intelligence paradigm is turning the traditional knowledge process on its head.  So traditionally we have observations of reality, we see something in reality and once you observe  it, we categorize it, our perception does that.  So we basically measure and measurement goes very deep and we measure something.  We could also like simplistically say we measure one, two, two, one, one, two, three, whatever,  we measure something and then we have a way to combine what we observe.  We could observe sceneries but then we combine it with some kind of recipe, we make sense  of it, we call that the algorithm and in order to get to a conclusion, we compute something  and traditionally that's what we say and that's how we teach.  Now what happened is a reason we turned it on our head."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 49.64,
+            "end": 88.32,
+            "text": " We feed into the machine and we will talk about what the machine is, that what this  lecture is about, what is this, what we call a computer, this machine.  We feed into it observations, data and where we want to go and then the master algorithm,  that's what Pedro Dominguez calls it, the master algorithm computes the best algorithm.  The machine learning is the master that computes the best algorithm and there can be different  ways that lead to the same result.  You could compute it this way here or you compute it this way here and what's the better  one?  Well that's in the eye of the beholder and you might choose or you can ask the machine  to choose for you as you wish."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 88.32,
+            "end": 124.4,
+            "text": " So the artificial intelligence paradigm is basically a machine learning paradigm.  So what I showed you this framework right now here, that's the crux of machine learning.  The machine learns.  It learns different ways of doing things.  What's the best way that you give the goal to the machine and you give the machine of  where it's at and the data input and then the machine tells you well given the constraints  you can do this optimally in this kind of sense optimally or you can do that.  But it learns the most important thing is here with data.  That's what kicked it off.  Artificial intelligence tried to do it different ways."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 124.4,
+            "end": 163.44,
+            "text": " Also usually the previous paradigm we try to write the recipes ourselves, the rules,  but once we had enough data, the digital footprint, once this was abundant, the data of the first  generation of the digital age kicked off communication which produced a flood of data which was  automatically recorded in our digital networks.  We had all this data.  We can turn this process around and we did machine learning.  So that's what happened.  That's thanks to the amount of data.  Now we didn't pay enough attention to this goal here yet, but the most important message  that I want to hammer home here is that for all practical purposes nowadays when people"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 163.44,
+            "end": 171.9,
+            "text": " say AI, they mean machine learning.  That means you need data and usually a lot, a lot of data for the machine to work."
+        }
+    ],
+    "text": " The artificial intelligence paradigm is turning the traditional knowledge process on its head. So traditionally we have observations of reality, we see something in reality and once you observe it, we categorize it, our perception does that. So we basically measure and measurement goes very deep and we measure something. We could also like simplistically say we measure one, two, two, one, one, two, three, whatever, we measure something and then we have a way to combine what we observe. We could observe sceneries but then we combine it with some kind of recipe, we make sense of it, we call that the algorithm and in order to get to a conclusion, we compute something and traditionally that's what we say and that's how we teach. Now what happened is a reason we turned it on our head. We feed into the machine and we will talk about what the machine is, that what this lecture is about, what is this, what we call a computer, this machine. We feed into it observations, data and where we want to go and then the master algorithm, that's what Pedro Dominguez calls it, the master algorithm computes the best algorithm. The machine learning is the master that computes the best algorithm and there can be different ways that lead to the same result. You could compute it this way here or you compute it this way here and what's the better one? Well that's in the eye of the beholder and you might choose or you can ask the machine to choose for you as you wish. So the artificial intelligence paradigm is basically a machine learning paradigm. So what I showed you this framework right now here, that's the crux of machine learning. The machine learns. It learns different ways of doing things. What's the best way that you give the goal to the machine and you give the machine of where it's at and the data input and then the machine tells you well given the constraints you can do this optimally in this kind of sense optimally or you can do that. But it learns the most important thing is here with data. That's what kicked it off. Artificial intelligence tried to do it different ways. Also usually the previous paradigm we try to write the recipes ourselves, the rules, but once we had enough data, the digital footprint, once this was abundant, the data of the first generation of the digital age kicked off communication which produced a flood of data which was automatically recorded in our digital networks. We had all this data. We can turn this process around and we did machine learning. So that's what happened. That's thanks to the amount of data. Now we didn't pay enough attention to this goal here yet, but the most important message that I want to hammer home here is that for all practical purposes nowadays when people say AI, they mean machine learning. That means you need data and usually a lot, a lot of data for the machine to work."
+}

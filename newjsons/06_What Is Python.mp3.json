@@ -1,0 +1,110 @@
+{
+    "chunks": [
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 0.0,
+            "end": 50.36,
+            "text": " Hello everyone, welcome to this video.  In this tutorial, you are going to learn everything you need to get started programming in Python.  Python is the most popular programming language in the world because of its simple and beginner  friendly syntax.  If you are learning Python to work in data science, machine learning, robotics or artificial  intelligence or you like to do cool things like automate your day to day work or develop  applications and websites like YouTube and Instagram, then you are in the right place  to start with.  You do not need to have any prior knowledge of programming.  I will teach you everything from scratch."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 50.68,
+            "end": 100.52,
+            "text": " First, we will talk about the core concepts of Python in the subsequent videos in this  channel 10.  Then we will learn some popular Python packages like NumPy, Pandas, Matplotlib and a popular  web framework called Flask.  These packages are heavily used in data science and machine learning.  We are going to build four real-life Python projects together.  That will build your confidence as a Python developer.  To learn different programming languages, frameworks, DSA, machine learning, AI, data  science and a lot more, please subscribe to this channel.  If you are new to this channel and not subscribed yet, then please hit the subscribe button"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 100.52,
+            "end": 142.64,
+            "text": " as I upload new content twice a week.  Let's get started.  Before we look into core concepts, let us see the three most common questions.  What is Python?  What can you do with Python?  And why is it so popular?  Python is the world's most popular programming language.  As per definition, Python is a high-level interpreted language.  Let's understand briefly these two keywords, high-level and interpreted.  Let's see high-level language first."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 142.64,
+            "end": 196.76000000000002,
+            "text": " A computer is a machine that can perform any computational task based on the instruction  we give it.  This set of instructions is called a program.  But computers only understand binary languages like zeros and ones.  We generally write some programs in different languages like Python, C++, Java, etc.  These programs convert into machine binary languages like zeros and ones by Python interpreter  or Java compiler to understand by computer or CPU to perform any task.  These popular languages are called high-level languages.  High-level languages are portable and can run on any platform.  These languages have English-like syntax and can be easily understood or written by humans"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 196.76000000000002,
+            "end": 260.8,
+            "text": " that is languages like Python, Java, etc.  Conversely, the syntax of low-level language is binary machine language like zeros, ones  or assembly language like x86 used in Intel or AMD processor use mnemonic instruction  like MOV for a move or ADD for addition.  Low-level languages are dependent on hardware and machine architecture.  They are way hard to understand by humans and not commonly used nowadays.  If you like to know more detailed properties of low-level and high-level languages, please  let me know in the comment box and I will create a detailed video on this topic.  Let's discuss briefly the keyword interpreter.  So when you execute a Python code, what happens here is that it starts the interpreter as"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 260.8,
+            "end": 312.91999999999996,
+            "text": " it shown in this image and the compiler grabs the source code and converts it into bytecode.  In the second step, Python virtual machine takes the bytecode and interprets into machine  code to execute the program.  Now let me tell you although the definition says it's an interpreter language, the truth  is it's an interpreter and compile language that is a hybrid language.  We will learn how the Python interpreter works under the hood in detail in the third  lecture of this tutorial.  So we now understand what is Python and its definition.  Now let's see what you can do with Python.  Python is a general purpose language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 312.91999999999996,
+            "end": 357.15999999999997,
+            "text": " It's so general that you can do pretty much anything you can imagine.  So if you learn Python, you can work on machine learning, data science, and artificial intelligence.  In fact, it's the number one language for data science and machine learning projects.  You can make a game, a backend server, or API.  You can work with databases.  You can do a lot.  You can use it for application and software development or automate your day-to-day work.  Anything.  It's a prevalent language for web development too.  It has two great frameworks, Django and Plus."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 357.15999999999997,
+            "end": 412.48,
+            "text": " There are many amazing websites like YouTube, Instagram, Spotify, and Dropbox built using  Python and its framework.  So you can do pretty much anything with this.  So as a first language, it's very good as it gives you multiple avenues to work with  and you can explore different paths with Python.  Later, you can pick up specific languages like Go, JavaScript, Rust, Java, etc. for  specific tasks.  In the future, I am going to teach those also in this channel.  But with the explosion of machine learning and AI, Python has a huge job market worldwide.  An experienced Python developer can earn up to an average of $130,000 per annum, which"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 412.48,
+            "end": 458.44,
+            "text": " is pretty cool, right?  Let me know in the comment box why you want to learn Python.  As per TOB and PYPL index, Python is the top programming language.  Let us see these two graphs.  This should give us a clear picture of how popular Python is.  By the way, I borrowed these graphs and data from pypl.github.io website.  PYPL is the famous index for popularity of programming language.  It's created by analyzing how often a language tutorial is searched in Google.  It is a worldwide leading indicator of the popularity of a programming language.  Now see the top graph."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 458.44,
+            "end": 517.88,
+            "text": " The blue line indicates Python, which is steadily rising from 90s and in 2024 it holds the top  position.  Its popularity skyrocketed with the advent of machine learning and AI in 2016 and became  number one by suppressing Java in 2018.  Now here Java is shown in red line.  As per the data, Java lost its ground the most, I mean minus 4% in the last five years,  whereas Rust grew the most, approx 2%.  And in the bottom graph shows the market share of the 12 languages for popularity in 2024  Here Python covers a major market with a staggering 28.43% market share, whereas the next popular  language Java falls behind a lot with 16.04% market share."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 517.88,
+            "end": 567.72,
+            "text": " So from the leading indicators also we can see that Python is way ahead compared to its  peers in popularity.  We have already seen that Python is extremely popular and used by tens of millions of people  and ranks number one as the most popular programming language.  There are tons of different jobs.  We already discussed that it's a general purpose programming language.  So if you learn Python, then you can write almost anything using Python.  We have already discussed multiple points regarding why Python is so popular here.  We'll discuss an additional four points.  It's a very beginner-friendly language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 567.72,
+            "end": 623.2,
+            "text": " It has an English-like syntax that is very easy to learn and you can pick it up in a  few weeks or even a month.  It's easy to read and fast to code.  If you are a software engineer or data science and machine learning enthusiast or someone  who likes to learn programming as a hobby or as a side activity, then also I will recommend  you to start learning Python and this course will help you in your learning journey.  Second point is it's open source, which means you can download the source code, modify or  use it to develop new tools and applications however you want.  You do not need to pay for it.  And it has a broad standard library and it's available for everyone, which means you don't"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 623.2,
+            "end": 674.32,
+            "text": " have to write code for every single function.  You can use the built-in modules for your everyday programming.  And not only the standard library, you can always access a vast ecosystem of resources,  packages and libraries.  There are thousands of useful libraries to make your coding journey smoother and easier.  Just to give an idea, there are approximately 147,000 libraries available for your use in  the UIPL repository.  I will cover several useful libraries in this channel, which you will need in your  machine learning and data science journey.  A few examples are like NumPy, Pandas, Matplotlib, BeautifulSoup, Django, Flask, etc."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 674.32,
+            "end": 727.52,
+            "text": " And last but not the least, it has a matured vast community for your help.  There are 8.2 million Python developers in the world, which is more than any other language.  That means you are not alone in this Python coding journey.  There is a robust community at your back to support you throughout.  So now you realize why Python is the most popular language in today's time.  So let's see a quick summary before we end this lecture.  We discussed four points in this lecture.  We discussed Python definition and two concepts, high level and interpreted language.  Then we talked about Python as a general purpose programming language like Swiss Army Knife  in your digital world."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 727.52,
+            "end": 779.0,
+            "text": " You can use this language to code in multiple areas.  We have seen two graphs and data from the UIPL index which shows that it's a number  one programming language and hugely popular in today's world.  We also discussed four points regarding why Python is so popular, ease of user learning,  it is open source, it has a robust library and a vast mature community.  If you like this video, please hit the like button and share it with others.  If you are new to this channel and not subscribed yet, then please hit the subscribe button  so that you will get notified when I upload new content.  See you in the next video.  Till then keep learning and happy coding."
+        }
+    ],
+    "text": " Hello everyone, welcome to this video. In this tutorial, you are going to learn everything you need to get started programming in Python. Python is the most popular programming language in the world because of its simple and beginner friendly syntax. If you are learning Python to work in data science, machine learning, robotics or artificial intelligence or you like to do cool things like automate your day to day work or develop applications and websites like YouTube and Instagram, then you are in the right place to start with. You do not need to have any prior knowledge of programming. I will teach you everything from scratch. First, we will talk about the core concepts of Python in the subsequent videos in this channel 10. Then we will learn some popular Python packages like NumPy, Pandas, Matplotlib and a popular web framework called Flask. These packages are heavily used in data science and machine learning. We are going to build four real-life Python projects together. That will build your confidence as a Python developer. To learn different programming languages, frameworks, DSA, machine learning, AI, data science and a lot more, please subscribe to this channel. If you are new to this channel and not subscribed yet, then please hit the subscribe button as I upload new content twice a week. Let's get started. Before we look into core concepts, let us see the three most common questions. What is Python? What can you do with Python? And why is it so popular? Python is the world's most popular programming language. As per definition, Python is a high-level interpreted language. Let's understand briefly these two keywords, high-level and interpreted. Let's see high-level language first. A computer is a machine that can perform any computational task based on the instruction we give it. This set of instructions is called a program. But computers only understand binary languages like zeros and ones. We generally write some programs in different languages like Python, C++, Java, etc. These programs convert into machine binary languages like zeros and ones by Python interpreter or Java compiler to understand by computer or CPU to perform any task. These popular languages are called high-level languages. High-level languages are portable and can run on any platform. These languages have English-like syntax and can be easily understood or written by humans that is languages like Python, Java, etc. Conversely, the syntax of low-level language is binary machine language like zeros, ones or assembly language like x86 used in Intel or AMD processor use mnemonic instruction like MOV for a move or ADD for addition. Low-level languages are dependent on hardware and machine architecture. They are way hard to understand by humans and not commonly used nowadays. If you like to know more detailed properties of low-level and high-level languages, please let me know in the comment box and I will create a detailed video on this topic. Let's discuss briefly the keyword interpreter. So when you execute a Python code, what happens here is that it starts the interpreter as it shown in this image and the compiler grabs the source code and converts it into bytecode. In the second step, Python virtual machine takes the bytecode and interprets into machine code to execute the program. Now let me tell you although the definition says it's an interpreter language, the truth is it's an interpreter and compile language that is a hybrid language. We will learn how the Python interpreter works under the hood in detail in the third lecture of this tutorial. So we now understand what is Python and its definition. Now let's see what you can do with Python. Python is a general purpose language. It's so general that you can do pretty much anything you can imagine. So if you learn Python, you can work on machine learning, data science, and artificial intelligence. In fact, it's the number one language for data science and machine learning projects. You can make a game, a backend server, or API. You can work with databases. You can do a lot. You can use it for application and software development or automate your day-to-day work. Anything. It's a prevalent language for web development too. It has two great frameworks, Django and Plus. There are many amazing websites like YouTube, Instagram, Spotify, and Dropbox built using Python and its framework. So you can do pretty much anything with this. So as a first language, it's very good as it gives you multiple avenues to work with and you can explore different paths with Python. Later, you can pick up specific languages like Go, JavaScript, Rust, Java, etc. for specific tasks. In the future, I am going to teach those also in this channel. But with the explosion of machine learning and AI, Python has a huge job market worldwide. An experienced Python developer can earn up to an average of $130,000 per annum, which is pretty cool, right? Let me know in the comment box why you want to learn Python. As per TOB and PYPL index, Python is the top programming language. Let us see these two graphs. This should give us a clear picture of how popular Python is. By the way, I borrowed these graphs and data from pypl.github.io website. PYPL is the famous index for popularity of programming language. It's created by analyzing how often a language tutorial is searched in Google. It is a worldwide leading indicator of the popularity of a programming language. Now see the top graph. The blue line indicates Python, which is steadily rising from 90s and in 2024 it holds the top position. Its popularity skyrocketed with the advent of machine learning and AI in 2016 and became number one by suppressing Java in 2018. Now here Java is shown in red line. As per the data, Java lost its ground the most, I mean minus 4% in the last five years, whereas Rust grew the most, approx 2%. And in the bottom graph shows the market share of the 12 languages for popularity in 2024 Here Python covers a major market with a staggering 28.43% market share, whereas the next popular language Java falls behind a lot with 16.04% market share. So from the leading indicators also we can see that Python is way ahead compared to its peers in popularity. We have already seen that Python is extremely popular and used by tens of millions of people and ranks number one as the most popular programming language. There are tons of different jobs. We already discussed that it's a general purpose programming language. So if you learn Python, then you can write almost anything using Python. We have already discussed multiple points regarding why Python is so popular here. We'll discuss an additional four points. It's a very beginner-friendly language. It has an English-like syntax that is very easy to learn and you can pick it up in a few weeks or even a month. It's easy to read and fast to code. If you are a software engineer or data science and machine learning enthusiast or someone who likes to learn programming as a hobby or as a side activity, then also I will recommend you to start learning Python and this course will help you in your learning journey. Second point is it's open source, which means you can download the source code, modify or use it to develop new tools and applications however you want. You do not need to pay for it. And it has a broad standard library and it's available for everyone, which means you don't have to write code for every single function. You can use the built-in modules for your everyday programming. And not only the standard library, you can always access a vast ecosystem of resources, packages and libraries. There are thousands of useful libraries to make your coding journey smoother and easier. Just to give an idea, there are approximately 147,000 libraries available for your use in the UIPL repository. I will cover several useful libraries in this channel, which you will need in your machine learning and data science journey. A few examples are like NumPy, Pandas, Matplotlib, BeautifulSoup, Django, Flask, etc. And last but not the least, it has a matured vast community for your help. There are 8.2 million Python developers in the world, which is more than any other language. That means you are not alone in this Python coding journey. There is a robust community at your back to support you throughout. So now you realize why Python is the most popular language in today's time. So let's see a quick summary before we end this lecture. We discussed four points in this lecture. We discussed Python definition and two concepts, high level and interpreted language. Then we talked about Python as a general purpose programming language like Swiss Army Knife in your digital world. You can use this language to code in multiple areas. We have seen two graphs and data from the UIPL index which shows that it's a number one programming language and hugely popular in today's world. We also discussed four points regarding why Python is so popular, ease of user learning, it is open source, it has a robust library and a vast mature community. If you like this video, please hit the like button and share it with others. If you are new to this channel and not subscribed yet, then please hit the subscribe button so that you will get notified when I upload new content. See you in the next video. Till then keep learning and happy coding."
+}

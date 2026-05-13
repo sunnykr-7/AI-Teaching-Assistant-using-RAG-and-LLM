@@ -1,0 +1,82 @@
+{
+    "chunks": [
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 0.0,
+            "end": 41.92,
+            "text": " Hi everyone, welcome back to the channel.  Today we are diving into one of the most popular technologies of our time that is large language  models which is also known as LLMs.  By the end of this video you will have a clear understanding of what LLMs are and why they  are important.  So without further ado let's get it started.  So what are LLMs?  A large language model or LLM is a type of advanced artificial intelligence system.  LLM is a computer program trained on vast amount of data hence it is named as large.  It learns patterns, structure and meaning of a language."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 41.92,
+            "end": 84.60000000000001,
+            "text": " Therefore it generates human-like responses.  LLMs are built on a type of neural network called transformer model.  LLMs can perform translation, summarization, coding and much more.  Examples of LLMs are Chatterbitty, Gemini, Lama, Cloudy and so on.  Now let's see how LLMs work.  Actually LLMs are built on type of neural networks called transformer architecture.  So here are the simple process of how LLM works.  The first is collection of huge amount of text data.  That means LLMs are trained on huge amount of text data either from books, articles,  websites and so on."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 84.60000000000001,
+            "end": 126.56,
+            "text": " Next step is data cleaning.  So before training the model first there is a cleaning of data such as removing duplicates,  low quality content, wrong data and so on.  Another is tokenization.  In this process text are split into smaller units called tokens.  For example I love coding will be split like I love coding.  Next step is embedding which means each token is converted into a numerical vector.  Attention mechanism.  This is very important part of using transformers.  Here the model look to all the sentences, words or figures and pays attention to the"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 126.56,
+            "end": 166.94,
+            "text": " most important part of a sentence.  For example in a sentence a boy fell asleep because he was tired.  Here he refers to a boy.  So this is the attention mechanism.  Next is training on data.  During the training the model process billions and trillions of data predicting next word  and if it is wrong the model corrects its knowledge by referring its huge data and this  process is repeated until the model launch proper patterns, creativity and reasoning.  The next step is fine tuning with human feedback.  That means after the training process humans give feedback."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 166.94,
+            "end": 209.8,
+            "text": " So it learns to give safer and more better answer.  The last step is inference.  Once our model is trained we can give prompt to the model and then it generate our response  by predicting words one by one.  For example Tokyo is in then it will predict Japan.  What are LLMs used for?  LLMs are used in chatbots and virtual assistants.  They are used for answering customer queries, performing back-end tasks and providing various  information to users as a part of customer services.  LLMs can generate code according to user instructions and can also perform debugging if required."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 209.8,
+            "end": 255.52,
+            "text": " These days some LLMs can perform sentiment analysis to help users to find customer's  intention or a response.  LLMs are used for language translation.  If LLMs are trained on various languages it can break the barrier among multilingual environment.  LLMs are used for summarizing multiple pages of articles, news, research papers and so on.  Here are some of popular LLMs recently.  OpenAI GPT family such as GPT 3.5, GPT 4.  Google's DeepMind Gemini which excels at long context reasoning.  Meta's open source model which are widely used by researchers.  Anthropx Cloudy which is known for safety-focused design."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 255.52,
+            "end": 296.04,
+            "text": " Google and Facebook's BERT and Robert are good at embedding and understanding tasks.  Mistral which is popular in open source communities.  Therefore they are some of the popular LLMs recently and each LLM has its own strength  and benefits.  Advantages of LLMs  Scalability LLMs can handle enormous amounts of data.  Continuous Improvements LLMs can learn and adapt new data continuously  and improve the performance as they are fine-tuned.  Flexibility LLMs are versatile.  That is one LLM can be used for different tasks such as translation, summarization,"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 296.04,
+            "end": 327.47999999999996,
+            "text": " text generation and so on.  Efficiency LLMs make our life easier as they automate  our routine tasks.  Efficiency and Training Many LLMs are trained on on-level data so  it is less time-consuming.  Hence these are some of the advantages of LLMs.  Now let's see the disadvantages.  Disadvantages of LLMs Despite many benefits of LLMs, they have  some limitations too.  Data Privacy Risk LLMs process huge amounts of data."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 327.47999999999996,
+            "end": 361.4,
+            "text": " If there are some sensitive data, the model should ensure its confidentiality.  Hallucinations Sometimes LLMs can provide false information  with confidence.  So it may cause problems.  Bias Since LLMs are trained by humans from many  sources, they may reflect biases in those data.  High Operating Cost Cost of operating LLMs can be high as they  are trained on large amounts of data and can require expensive computing power.  Ethical Concerns LLMs may have issues on data plagiarism or  malicious purposes."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 362.4,
+            "end": 403.32,
+            "text": " Why LLMs are important?  LLMs make knowledge easily readable and accessible than earlier days by summarizing long and  complex topics.  They allow people to use natural language instead of complicated commands.  With LLMs, we have powerful tools such as chatbots, AI assistants, and much more.  LLMs allow computers to interact in a more natural way with humans.  Therefore, in this way, LLMs are very important to us as they bring technology more closer.  Okay, that's all for today.  We understand LLMs are AI systems designed to understand human language and they work  using transformer neural networks and large amounts of data."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 403.32,
+            "end": 416.52,
+            "text": " They are important because they are one of the most revolutionary technologies of our  era.  I hope you liked this video.  If you found this video useful, don't forget to like, share and subscribe my channel.  Thank you for watching.  I will see you in the next episode."
+        }
+    ],
+    "text": " Hi everyone, welcome back to the channel. Today we are diving into one of the most popular technologies of our time that is large language models which is also known as LLMs. By the end of this video you will have a clear understanding of what LLMs are and why they are important. So without further ado let's get it started. So what are LLMs? A large language model or LLM is a type of advanced artificial intelligence system. LLM is a computer program trained on vast amount of data hence it is named as large. It learns patterns, structure and meaning of a language. Therefore it generates human-like responses. LLMs are built on a type of neural network called transformer model. LLMs can perform translation, summarization, coding and much more. Examples of LLMs are Chatterbitty, Gemini, Lama, Cloudy and so on. Now let's see how LLMs work. Actually LLMs are built on type of neural networks called transformer architecture. So here are the simple process of how LLM works. The first is collection of huge amount of text data. That means LLMs are trained on huge amount of text data either from books, articles, websites and so on. Next step is data cleaning. So before training the model first there is a cleaning of data such as removing duplicates, low quality content, wrong data and so on. Another is tokenization. In this process text are split into smaller units called tokens. For example I love coding will be split like I love coding. Next step is embedding which means each token is converted into a numerical vector. Attention mechanism. This is very important part of using transformers. Here the model look to all the sentences, words or figures and pays attention to the most important part of a sentence. For example in a sentence a boy fell asleep because he was tired. Here he refers to a boy. So this is the attention mechanism. Next is training on data. During the training the model process billions and trillions of data predicting next word and if it is wrong the model corrects its knowledge by referring its huge data and this process is repeated until the model launch proper patterns, creativity and reasoning. The next step is fine tuning with human feedback. That means after the training process humans give feedback. So it learns to give safer and more better answer. The last step is inference. Once our model is trained we can give prompt to the model and then it generate our response by predicting words one by one. For example Tokyo is in then it will predict Japan. What are LLMs used for? LLMs are used in chatbots and virtual assistants. They are used for answering customer queries, performing back-end tasks and providing various information to users as a part of customer services. LLMs can generate code according to user instructions and can also perform debugging if required. These days some LLMs can perform sentiment analysis to help users to find customer's intention or a response. LLMs are used for language translation. If LLMs are trained on various languages it can break the barrier among multilingual environment. LLMs are used for summarizing multiple pages of articles, news, research papers and so on. Here are some of popular LLMs recently. OpenAI GPT family such as GPT 3.5, GPT 4. Google's DeepMind Gemini which excels at long context reasoning. Meta's open source model which are widely used by researchers. Anthropx Cloudy which is known for safety-focused design. Google and Facebook's BERT and Robert are good at embedding and understanding tasks. Mistral which is popular in open source communities. Therefore they are some of the popular LLMs recently and each LLM has its own strength and benefits. Advantages of LLMs Scalability LLMs can handle enormous amounts of data. Continuous Improvements LLMs can learn and adapt new data continuously and improve the performance as they are fine-tuned. Flexibility LLMs are versatile. That is one LLM can be used for different tasks such as translation, summarization, text generation and so on. Efficiency LLMs make our life easier as they automate our routine tasks. Efficiency and Training Many LLMs are trained on on-level data so it is less time-consuming. Hence these are some of the advantages of LLMs. Now let's see the disadvantages. Disadvantages of LLMs Despite many benefits of LLMs, they have some limitations too. Data Privacy Risk LLMs process huge amounts of data. If there are some sensitive data, the model should ensure its confidentiality. Hallucinations Sometimes LLMs can provide false information with confidence. So it may cause problems. Bias Since LLMs are trained by humans from many sources, they may reflect biases in those data. High Operating Cost Cost of operating LLMs can be high as they are trained on large amounts of data and can require expensive computing power. Ethical Concerns LLMs may have issues on data plagiarism or malicious purposes. Why LLMs are important? LLMs make knowledge easily readable and accessible than earlier days by summarizing long and complex topics. They allow people to use natural language instead of complicated commands. With LLMs, we have powerful tools such as chatbots, AI assistants, and much more. LLMs allow computers to interact in a more natural way with humans. Therefore, in this way, LLMs are very important to us as they bring technology more closer. Okay, that's all for today. We understand LLMs are AI systems designed to understand human language and they work using transformer neural networks and large amounts of data. They are important because they are one of the most revolutionary technologies of our era. I hope you liked this video. If you found this video useful, don't forget to like, share and subscribe my channel. Thank you for watching. I will see you in the next episode."
+}

@@ -1,0 +1,68 @@
+{
+    "chunks": [
+        {
+            "number": "11",
+            "title": "Neural Networks",
+            "start": 0.0,
+            "end": 33.96,
+            "text": " What's up creators, before the video starts I just wanted to say that these AI videos  will not replace the game development part of my channel and are just extra content.  The streams will also be starting soon, so if you plan on taking part in those, make  sure to leave a comment on when you would like to see them happen.  If you haven't already, make sure to watch that video so you can actually understand  what I'm talking about.  So with that out of the way, let's get started.  So in a nutshell, a neural network is a structure that learns to predict information based on  what it has learned, through either a training stage or continuous evaluation.  This is a three-layer sequential neural network."
+        },
+        {
+            "number": "11",
+            "title": "Neural Networks",
+            "start": 33.96,
+            "end": 59.28,
+            "text": " It has three inputs and produces one output.  The middle layer is the hidden layer.  It's what processes the information.  Almost every neural network is different.  This can mean a different number of input nodes, output nodes, hidden layers, or hidden  nodes per layer.  You can even skip the hidden layer completely, but that wouldn't be very effective for most  situations.  A neural network is useless without the synapses.  Synapses are the connections between layers and they are what makes or breaks a neural"
+        },
+        {
+            "number": "11",
+            "title": "Neural Networks",
+            "start": 59.28,
+            "end": 93.88,
+            "text": " network.  From the moment of creation, the nodes of a neural network stay the same.  It's the synapses that change.  Each synapse has a value or weight.  These are multipliers that affect how much of a layer is transferred into another.  So this is a two-layer neural network and it will be easier to explain with.  It has two inputs, two synapses, and one output.  Let's say we're trying to predict whether the output is a 0 or 1 based on the two inputs  which are both either 0s or 1s.  In this situation, the relation is that the output is always equal to the first input."
+        },
+        {
+            "number": "11",
+            "title": "Neural Networks",
+            "start": 93.88,
+            "end": 126.10000000000001,
+            "text": " To train this, we will need a dataset of previously known inputs and outputs and this is what  the network will learn from.  So that's the table right there and that is the previous information.  To start with, the synapses will be equal to some random number between minus 1 and  1.  The synapses basically multiply the input connection by themselves and the result gets  added to the output connection's total.  In a normal neural network, there are also things called activation functions.  They are a curve or linear line that processes the resulting total of a node.  Normally you will use something called a rectifier which basically makes it so that if the resulting"
+        },
+        {
+            "number": "11",
+            "title": "Neural Networks",
+            "start": 126.10000000000001,
+            "end": 152.16,
+            "text": " value is less than 0, it becomes 0.  Everything else remains unaffected.  It's represented by the rectifier symbol.  The way you improve the synapses is by using something called backpropagation.  I'm not going to go too much into the maths behind it because it's quite complicated  but here's the main idea.  You evaluate the error, then you update the weights by how much they are responsible for  this error.  Applying that to this example, we know the output should be 1 but it outputs 0.5.  This is because the weights are wrong."
+        },
+        {
+            "number": "11",
+            "title": "Neural Networks",
+            "start": 152.16,
+            "end": 189.23999999999998,
+            "text": " So we evaluate the error by comparing the result to the correct answer.  So 1 minus 0.5 equals 0.5 which means the error is 0.5.  We adjust everything according to that and in this example, the output ended up being  correct but the weights would not work with everything else because they are not perfect.  What you do to solve this is repeat the process with some different examples.  In this situation, you can see that it is not perfect but it was close.  So you repeat the backpropagation process and now, not only does it work, the weights  are trained for every situation.  While this situation only needed a few repetitions, more complicated networks might need hundreds  or thousands of repetitions."
+        },
+        {
+            "number": "11",
+            "title": "Neural Networks",
+            "start": 189.23999999999998,
+            "end": 226.68,
+            "text": " For more complex neural networks, nothing changes.  Use the same process but on a larger scale.  The inputs feed into the hidden layer, the hidden layer feeds into the output layer and  this type of neural network could be used to, for example, predict house prices.  It would need some relevant information such as age and size and could go from there.  You can also have multiple outputs for things like categorization.  From this process, neural networks can learn to predict anything that is physically predictable.  There are other parts and variations, for example, biases.  Biases are just nodes that are equal to 1 with weights that are tuned with all the others.  They exist because sometimes a constant input that doesn't change is necessary to function"
+        },
+        {
+            "number": "11",
+            "title": "Neural Networks",
+            "start": 226.68,
+            "end": 253.72,
+            "text": " or be consistent.  It also just speeds up the network.  Earlier when I mentioned the activation function rectifier, I didn't mention that there are  other types of activation functions.  The most common one is called the logistic or sigmoid function.  It's good for probabilities because it makes it so that the outputs are more definitive  which is good for when you need to make a choice based on it.  It is represented by the second symbol.  The other symbol is the hyperbolic tangent and it is the same as sigmoid but extends  into the negatives."
+        },
+        {
+            "number": "11",
+            "title": "Neural Networks",
+            "start": 253.72,
+            "end": 277.8,
+            "text": " This is the basic concept behind neural networks.  In later videos, I will go into more detail and apply this knowledge to a practical example.  If there is something you feel like you could have explained better or you didn't understand,  leave it in the comments so I can improve the information for future videos.  Thanks for watching.  If you enjoyed this video, make sure to leave a like and check out some of my other videos.  If you haven't already, subscribe and enable notifications so you can know whenever I upload.  See you in the next video!"
+        }
+    ],
+    "text": " What's up creators, before the video starts I just wanted to say that these AI videos will not replace the game development part of my channel and are just extra content. The streams will also be starting soon, so if you plan on taking part in those, make sure to leave a comment on when you would like to see them happen. If you haven't already, make sure to watch that video so you can actually understand what I'm talking about. So with that out of the way, let's get started. So in a nutshell, a neural network is a structure that learns to predict information based on what it has learned, through either a training stage or continuous evaluation. This is a three-layer sequential neural network. It has three inputs and produces one output. The middle layer is the hidden layer. It's what processes the information. Almost every neural network is different. This can mean a different number of input nodes, output nodes, hidden layers, or hidden nodes per layer. You can even skip the hidden layer completely, but that wouldn't be very effective for most situations. A neural network is useless without the synapses. Synapses are the connections between layers and they are what makes or breaks a neural network. From the moment of creation, the nodes of a neural network stay the same. It's the synapses that change. Each synapse has a value or weight. These are multipliers that affect how much of a layer is transferred into another. So this is a two-layer neural network and it will be easier to explain with. It has two inputs, two synapses, and one output. Let's say we're trying to predict whether the output is a 0 or 1 based on the two inputs which are both either 0s or 1s. In this situation, the relation is that the output is always equal to the first input. To train this, we will need a dataset of previously known inputs and outputs and this is what the network will learn from. So that's the table right there and that is the previous information. To start with, the synapses will be equal to some random number between minus 1 and 1. The synapses basically multiply the input connection by themselves and the result gets added to the output connection's total. In a normal neural network, there are also things called activation functions. They are a curve or linear line that processes the resulting total of a node. Normally you will use something called a rectifier which basically makes it so that if the resulting value is less than 0, it becomes 0. Everything else remains unaffected. It's represented by the rectifier symbol. The way you improve the synapses is by using something called backpropagation. I'm not going to go too much into the maths behind it because it's quite complicated but here's the main idea. You evaluate the error, then you update the weights by how much they are responsible for this error. Applying that to this example, we know the output should be 1 but it outputs 0.5. This is because the weights are wrong. So we evaluate the error by comparing the result to the correct answer. So 1 minus 0.5 equals 0.5 which means the error is 0.5. We adjust everything according to that and in this example, the output ended up being correct but the weights would not work with everything else because they are not perfect. What you do to solve this is repeat the process with some different examples. In this situation, you can see that it is not perfect but it was close. So you repeat the backpropagation process and now, not only does it work, the weights are trained for every situation. While this situation only needed a few repetitions, more complicated networks might need hundreds or thousands of repetitions. For more complex neural networks, nothing changes. Use the same process but on a larger scale. The inputs feed into the hidden layer, the hidden layer feeds into the output layer and this type of neural network could be used to, for example, predict house prices. It would need some relevant information such as age and size and could go from there. You can also have multiple outputs for things like categorization. From this process, neural networks can learn to predict anything that is physically predictable. There are other parts and variations, for example, biases. Biases are just nodes that are equal to 1 with weights that are tuned with all the others. They exist because sometimes a constant input that doesn't change is necessary to function or be consistent. It also just speeds up the network. Earlier when I mentioned the activation function rectifier, I didn't mention that there are other types of activation functions. The most common one is called the logistic or sigmoid function. It's good for probabilities because it makes it so that the outputs are more definitive which is good for when you need to make a choice based on it. It is represented by the second symbol. The other symbol is the hyperbolic tangent and it is the same as sigmoid but extends into the negatives. This is the basic concept behind neural networks. In later videos, I will go into more detail and apply this knowledge to a practical example. If there is something you feel like you could have explained better or you didn't understand, leave it in the comments so I can improve the information for future videos. Thanks for watching. If you enjoyed this video, make sure to leave a like and check out some of my other videos. If you haven't already, subscribe and enable notifications so you can know whenever I upload. See you in the next video!"
+}
