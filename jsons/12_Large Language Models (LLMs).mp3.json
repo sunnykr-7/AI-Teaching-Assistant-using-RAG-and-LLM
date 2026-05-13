@@ -1,0 +1,747 @@
+{
+    "chunks": [
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 0.0,
+            "end": 6.48,
+            "text": " Hi everyone, welcome back to the channel."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 6.48,
+            "end": 11.8,
+            "text": " Today we are diving into one of the most popular technologies of our time that is large language"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 11.8,
+            "end": 15.0,
+            "text": " models which is also known as LLMs."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 15.0,
+            "end": 19.36,
+            "text": " By the end of this video you will have a clear understanding of what LLMs are and why they"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 19.36,
+            "end": 20.400000000000002,
+            "text": " are important."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 20.400000000000002,
+            "end": 24.88,
+            "text": " So without further ado let's get it started."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 24.88,
+            "end": 25.88,
+            "text": " So what are LLMs?"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 25.88,
+            "end": 32.44,
+            "text": " A large language model or LLM is a type of advanced artificial intelligence system."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 32.44,
+            "end": 38.48,
+            "text": " LLM is a computer program trained on vast amount of data hence it is named as large."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 38.48,
+            "end": 41.92,
+            "text": " It learns patterns, structure and meaning of a language."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 41.92,
+            "end": 44.44,
+            "text": " Therefore it generates human-like responses."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 44.44,
+            "end": 48.92,
+            "text": " LLMs are built on a type of neural network called transformer model."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 48.92,
+            "end": 53.44,
+            "text": " LLMs can perform translation, summarization, coding and much more."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 53.44,
+            "end": 60.199999999999996,
+            "text": " Examples of LLMs are Chatterbitty, Gemini, Lama, Cloudy and so on."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 60.199999999999996,
+            "end": 63.0,
+            "text": " Now let's see how LLMs work."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 63.0,
+            "end": 68.08,
+            "text": " Actually LLMs are built on type of neural networks called transformer architecture."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 68.08,
+            "end": 71.2,
+            "text": " So here are the simple process of how LLM works."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 71.2,
+            "end": 75.16,
+            "text": " The first is collection of huge amount of text data."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 75.16,
+            "end": 80.47999999999999,
+            "text": " That means LLMs are trained on huge amount of text data either from books, articles,"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 80.48,
+            "end": 84.60000000000001,
+            "text": " websites and so on."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 84.60000000000001,
+            "end": 86.32000000000001,
+            "text": " Next step is data cleaning."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 86.32000000000001,
+            "end": 91.92,
+            "text": " So before training the model first there is a cleaning of data such as removing duplicates,"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 91.92,
+            "end": 97.72,
+            "text": " low quality content, wrong data and so on."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 97.72,
+            "end": 99.12,
+            "text": " Another is tokenization."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 99.12,
+            "end": 103.38000000000001,
+            "text": " In this process text are split into smaller units called tokens."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 103.38000000000001,
+            "end": 110.0,
+            "text": " For example I love coding will be split like I love coding."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 110.52,
+            "end": 117.56,
+            "text": " Next step is embedding which means each token is converted into a numerical vector."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 117.56,
+            "end": 118.84,
+            "text": " Attention mechanism."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 118.84,
+            "end": 121.76,
+            "text": " This is very important part of using transformers."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 121.76,
+            "end": 126.56,
+            "text": " Here the model look to all the sentences, words or figures and pays attention to the"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 126.56,
+            "end": 129.52,
+            "text": " most important part of a sentence."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 129.52,
+            "end": 133.96,
+            "text": " For example in a sentence a boy fell asleep because he was tired."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 133.96,
+            "end": 135.84,
+            "text": " Here he refers to a boy."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 135.84,
+            "end": 140.72,
+            "text": " So this is the attention mechanism."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 140.72,
+            "end": 141.88,
+            "text": " Next is training on data."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 141.88,
+            "end": 147.08,
+            "text": " During the training the model process billions and trillions of data predicting next word"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 147.08,
+            "end": 151.74,
+            "text": " and if it is wrong the model corrects its knowledge by referring its huge data and this"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 151.74,
+            "end": 160.08,
+            "text": " process is repeated until the model launch proper patterns, creativity and reasoning."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 160.08,
+            "end": 162.92000000000002,
+            "text": " The next step is fine tuning with human feedback."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 162.92,
+            "end": 166.94,
+            "text": " That means after the training process humans give feedback."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 166.94,
+            "end": 171.95999999999998,
+            "text": " So it learns to give safer and more better answer."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 171.95999999999998,
+            "end": 174.27999999999997,
+            "text": " The last step is inference."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 174.27999999999997,
+            "end": 179.35999999999999,
+            "text": " Once our model is trained we can give prompt to the model and then it generate our response"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 179.35999999999999,
+            "end": 181.76,
+            "text": " by predicting words one by one."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 181.76,
+            "end": 188.51999999999998,
+            "text": " For example Tokyo is in then it will predict Japan."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 188.51999999999998,
+            "end": 190.51999999999998,
+            "text": " What are LLMs used for?"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 191.12,
+            "end": 193.72,
+            "text": " LLMs are used in chatbots and virtual assistants."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 193.72,
+            "end": 199.04000000000002,
+            "text": " They are used for answering customer queries, performing back-end tasks and providing various"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 199.04000000000002,
+            "end": 202.56,
+            "text": " information to users as a part of customer services."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 202.56,
+            "end": 209.8,
+            "text": " LLMs can generate code according to user instructions and can also perform debugging if required."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 209.8,
+            "end": 214.92000000000002,
+            "text": " These days some LLMs can perform sentiment analysis to help users to find customer's"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 214.92000000000002,
+            "end": 217.56,
+            "text": " intention or a response."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 217.6,
+            "end": 220.52,
+            "text": " LLMs are used for language translation."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 220.52,
+            "end": 226.36,
+            "text": " If LLMs are trained on various languages it can break the barrier among multilingual environment."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 226.36,
+            "end": 232.76,
+            "text": " LLMs are used for summarizing multiple pages of articles, news, research papers and so on."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 234.76,
+            "end": 237.76,
+            "text": " Here are some of popular LLMs recently."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 237.76,
+            "end": 242.24,
+            "text": " OpenAI GPT family such as GPT 3.5, GPT 4."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 242.24,
+            "end": 247.08,
+            "text": " Google's DeepMind Gemini which excels at long context reasoning."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 247.60000000000002,
+            "end": 251.20000000000002,
+            "text": " Meta's open source model which are widely used by researchers."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 251.20000000000002,
+            "end": 255.52,
+            "text": " Anthropx Cloudy which is known for safety-focused design."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 255.52,
+            "end": 261.08000000000004,
+            "text": " Google and Facebook's BERT and Robert are good at embedding and understanding tasks."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 261.08000000000004,
+            "end": 264.52000000000004,
+            "text": " Mistral which is popular in open source communities."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 264.52000000000004,
+            "end": 269.8,
+            "text": " Therefore they are some of the popular LLMs recently and each LLM has its own strength"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 269.8,
+            "end": 270.8,
+            "text": " and benefits."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 273.8,
+            "end": 274.8,
+            "text": " Advantages of LLMs"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 275.52000000000004,
+            "end": 280.52000000000004,
+            "text": " Scalability LLMs can handle enormous amounts of data."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 280.52000000000004,
+            "end": 284.88,
+            "text": " Continuous Improvements LLMs can learn and adapt new data continuously"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 284.88,
+            "end": 287.04,
+            "text": " and improve the performance as they are fine-tuned."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 288.04,
+            "end": 290.92,
+            "text": " Flexibility LLMs are versatile."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 290.92,
+            "end": 296.04,
+            "text": " That is one LLM can be used for different tasks such as translation, summarization,"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 296.04,
+            "end": 298.04,
+            "text": " text generation and so on."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 298.04,
+            "end": 302.04,
+            "text": " Efficiency LLMs make our life easier as they automate"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 302.04,
+            "end": 303.84000000000003,
+            "text": " our routine tasks."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 303.88,
+            "end": 307.52,
+            "text": " Efficiency and Training Many LLMs are trained on on-level data so"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 307.52,
+            "end": 309.52,
+            "text": " it is less time-consuming."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 309.52,
+            "end": 312.32,
+            "text": " Hence these are some of the advantages of LLMs."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 312.32,
+            "end": 314.32,
+            "text": " Now let's see the disadvantages."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 317.32,
+            "end": 321.44,
+            "text": " Disadvantages of LLMs Despite many benefits of LLMs, they have"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 321.44,
+            "end": 323.47999999999996,
+            "text": " some limitations too."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 323.47999999999996,
+            "end": 327.47999999999996,
+            "text": " Data Privacy Risk LLMs process huge amounts of data."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 327.47999999999996,
+            "end": 332.08,
+            "text": " If there are some sensitive data, the model should ensure its confidentiality."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 332.32,
+            "end": 336.56,
+            "text": " Hallucinations Sometimes LLMs can provide false information"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 336.56,
+            "end": 337.8,
+            "text": " with confidence."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 337.8,
+            "end": 339.8,
+            "text": " So it may cause problems."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 339.8,
+            "end": 342.64,
+            "text": " Bias Since LLMs are trained by humans from many"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 342.64,
+            "end": 346.71999999999997,
+            "text": " sources, they may reflect biases in those data."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 346.71999999999997,
+            "end": 350.47999999999996,
+            "text": " High Operating Cost Cost of operating LLMs can be high as they"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 350.47999999999996,
+            "end": 355.59999999999997,
+            "text": " are trained on large amounts of data and can require expensive computing power."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 355.59999999999997,
+            "end": 359.4,
+            "text": " Ethical Concerns LLMs may have issues on data plagiarism or"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 359.4,
+            "end": 361.4,
+            "text": " malicious purposes."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 362.4,
+            "end": 364.4,
+            "text": " Why LLMs are important?"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 364.4,
+            "end": 370.15999999999997,
+            "text": " LLMs make knowledge easily readable and accessible than earlier days by summarizing long and"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 370.15999999999997,
+            "end": 371.15999999999997,
+            "text": " complex topics."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 371.15999999999997,
+            "end": 376.36,
+            "text": " They allow people to use natural language instead of complicated commands."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 376.36,
+            "end": 381.32,
+            "text": " With LLMs, we have powerful tools such as chatbots, AI assistants, and much more."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 381.32,
+            "end": 385.84,
+            "text": " LLMs allow computers to interact in a more natural way with humans."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 385.84,
+            "end": 391.36,
+            "text": " Therefore, in this way, LLMs are very important to us as they bring technology more closer."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 392.96,
+            "end": 394.4,
+            "text": " Okay, that's all for today."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 394.4,
+            "end": 399.59999999999997,
+            "text": " We understand LLMs are AI systems designed to understand human language and they work"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 399.59999999999997,
+            "end": 403.32,
+            "text": " using transformer neural networks and large amounts of data."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 403.32,
+            "end": 407.24,
+            "text": " They are important because they are one of the most revolutionary technologies of our"
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 407.24,
+            "end": 408.24,
+            "text": " era."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 408.24,
+            "end": 409.24,
+            "text": " I hope you liked this video."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 409.24,
+            "end": 414.08,
+            "text": " If you found this video useful, don't forget to like, share and subscribe my channel."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 414.08,
+            "end": 415.08,
+            "text": " Thank you for watching."
+        },
+        {
+            "number": "12",
+            "title": "Large Language Models (LLMs)",
+            "start": 415.08,
+            "end": 416.52,
+            "text": " I will see you in the next episode."
+        }
+    ],
+    "text": " Hi everyone, welcome back to the channel. Today we are diving into one of the most popular technologies of our time that is large language models which is also known as LLMs. By the end of this video you will have a clear understanding of what LLMs are and why they are important. So without further ado let's get it started. So what are LLMs? A large language model or LLM is a type of advanced artificial intelligence system. LLM is a computer program trained on vast amount of data hence it is named as large. It learns patterns, structure and meaning of a language. Therefore it generates human-like responses. LLMs are built on a type of neural network called transformer model. LLMs can perform translation, summarization, coding and much more. Examples of LLMs are Chatterbitty, Gemini, Lama, Cloudy and so on. Now let's see how LLMs work. Actually LLMs are built on type of neural networks called transformer architecture. So here are the simple process of how LLM works. The first is collection of huge amount of text data. That means LLMs are trained on huge amount of text data either from books, articles, websites and so on. Next step is data cleaning. So before training the model first there is a cleaning of data such as removing duplicates, low quality content, wrong data and so on. Another is tokenization. In this process text are split into smaller units called tokens. For example I love coding will be split like I love coding. Next step is embedding which means each token is converted into a numerical vector. Attention mechanism. This is very important part of using transformers. Here the model look to all the sentences, words or figures and pays attention to the most important part of a sentence. For example in a sentence a boy fell asleep because he was tired. Here he refers to a boy. So this is the attention mechanism. Next is training on data. During the training the model process billions and trillions of data predicting next word and if it is wrong the model corrects its knowledge by referring its huge data and this process is repeated until the model launch proper patterns, creativity and reasoning. The next step is fine tuning with human feedback. That means after the training process humans give feedback. So it learns to give safer and more better answer. The last step is inference. Once our model is trained we can give prompt to the model and then it generate our response by predicting words one by one. For example Tokyo is in then it will predict Japan. What are LLMs used for? LLMs are used in chatbots and virtual assistants. They are used for answering customer queries, performing back-end tasks and providing various information to users as a part of customer services. LLMs can generate code according to user instructions and can also perform debugging if required. These days some LLMs can perform sentiment analysis to help users to find customer's intention or a response. LLMs are used for language translation. If LLMs are trained on various languages it can break the barrier among multilingual environment. LLMs are used for summarizing multiple pages of articles, news, research papers and so on. Here are some of popular LLMs recently. OpenAI GPT family such as GPT 3.5, GPT 4. Google's DeepMind Gemini which excels at long context reasoning. Meta's open source model which are widely used by researchers. Anthropx Cloudy which is known for safety-focused design. Google and Facebook's BERT and Robert are good at embedding and understanding tasks. Mistral which is popular in open source communities. Therefore they are some of the popular LLMs recently and each LLM has its own strength and benefits. Advantages of LLMs Scalability LLMs can handle enormous amounts of data. Continuous Improvements LLMs can learn and adapt new data continuously and improve the performance as they are fine-tuned. Flexibility LLMs are versatile. That is one LLM can be used for different tasks such as translation, summarization, text generation and so on. Efficiency LLMs make our life easier as they automate our routine tasks. Efficiency and Training Many LLMs are trained on on-level data so it is less time-consuming. Hence these are some of the advantages of LLMs. Now let's see the disadvantages. Disadvantages of LLMs Despite many benefits of LLMs, they have some limitations too. Data Privacy Risk LLMs process huge amounts of data. If there are some sensitive data, the model should ensure its confidentiality. Hallucinations Sometimes LLMs can provide false information with confidence. So it may cause problems. Bias Since LLMs are trained by humans from many sources, they may reflect biases in those data. High Operating Cost Cost of operating LLMs can be high as they are trained on large amounts of data and can require expensive computing power. Ethical Concerns LLMs may have issues on data plagiarism or malicious purposes. Why LLMs are important? LLMs make knowledge easily readable and accessible than earlier days by summarizing long and complex topics. They allow people to use natural language instead of complicated commands. With LLMs, we have powerful tools such as chatbots, AI assistants, and much more. LLMs allow computers to interact in a more natural way with humans. Therefore, in this way, LLMs are very important to us as they bring technology more closer. Okay, that's all for today. We understand LLMs are AI systems designed to understand human language and they work using transformer neural networks and large amounts of data. They are important because they are one of the most revolutionary technologies of our era. I hope you liked this video. If you found this video useful, don't forget to like, share and subscribe my channel. Thank you for watching. I will see you in the next episode."
+}

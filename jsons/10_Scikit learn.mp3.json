@@ -1,0 +1,845 @@
+{
+    "chunks": [
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 0.0,
+            "end": 5.64,
+            "text": " Welcome back. We're in a totally new section now, which is very, very exciting."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 5.64,
+            "end": 10.64,
+            "text": " And once again, we'll start off reminding ourselves of the framework we're using for machine learning projects."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 10.64,
+            "end": 14.24,
+            "text": " We begin with problem definition. We look at what data we have."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 14.24,
+            "end": 17.16,
+            "text": " We define an evaluation metric for ourselves."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 17.16,
+            "end": 20.04,
+            "text": " We check out the features, which one should we model."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 20.04,
+            "end": 22.92,
+            "text": " We figure out what kind of machine learning model we use."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 22.92,
+            "end": 27.32,
+            "text": " And then we run some experiments on seeing if we can improve things or try something else."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 27.48,
+            "end": 31.36,
+            "text": " And once again, all of this is an iterative process."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 31.36,
+            "end": 34.76,
+            "text": " And we've seen a few tools now that we can use for our framework,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 34.76,
+            "end": 38.68,
+            "text": " which is Pandas, Matplotlib, NumPy."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 38.68,
+            "end": 42.96,
+            "text": " But now I'm bursting at the seams here with excitement for this section. Why?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 42.96,
+            "end": 48.2,
+            "text": " Because we're going to start getting into the machine learning of things, writing machine learning code."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 48.2,
+            "end": 52.400000000000006,
+            "text": " And to do so, we're going to be using Scikit-learn."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 52.400000000000006,
+            "end": 56.519999999999996,
+            "text": " Now, you might have a question. What is Scikit-learn?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 56.52,
+            "end": 63.720000000000006,
+            "text": " Now, I've put here in brackets, SKlearn, because you'll often hear Scikit-learn and SKlearn used interchangeably."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 63.720000000000006,
+            "end": 67.56,
+            "text": " And it's SKlearn is just the shortened version of Scikit-learn."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 67.56,
+            "end": 69.48,
+            "text": " So, S-K-learn."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 69.48,
+            "end": 75.16,
+            "text": " If you see SKlearn or Scikit-learn, you can think of them talking about the same thing."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 75.16,
+            "end": 81.0,
+            "text": " Well, fundamentally, Scikit-learn is a Python machine learning library,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 81.0,
+            "end": 87.0,
+            "text": " which means if we have data, Scikit-learn helps us build machine learning models"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 87.0,
+            "end": 91.4,
+            "text": " to make predictions or learn patterns within that data and then make predictions."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 91.4,
+            "end": 96.6,
+            "text": " And it also implements tools to help us evaluate those predictions."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 96.6,
+            "end": 99.92,
+            "text": " Are they good or are they bad? Are they worth holding on to?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 99.92,
+            "end": 104.16,
+            "text": " Could we put them into our application and actually use them?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 104.16,
+            "end": 106.24000000000001,
+            "text": " Now, why Scikit-learn?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 106.24000000000001,
+            "end": 110.76,
+            "text": " Well, it's built on NumPy and Matplotlib, a couple of tools that we've seen."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 110.76,
+            "end": 114.2,
+            "text": " Oh, and Python, of course, which is our language of choice."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 114.2,
+            "end": 117.92,
+            "text": " It has many built-in or inbuilt machine learning models,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 117.92,
+            "end": 120.2,
+            "text": " as we'll see, we'll get hands-on with a few of them."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 120.2,
+            "end": 121.64,
+            "text": " And now this is important, right?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 121.64,
+            "end": 126.32000000000001,
+            "text": " Because a lot of the time people get confused thinking they have to learn machine learning,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 126.32000000000001,
+            "end": 130.48000000000002,
+            "text": " the math inside and out before they can start to use machine learning models."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 130.48000000000002,
+            "end": 135.92000000000002,
+            "text": " But Scikit-learn sort of abstracts away from that and lets us apply the benefits of machine learning"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 135.92,
+            "end": 143.6,
+            "text": " to our problem straight away by leveraging the machine learning models it has inbuilt in the library."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 143.6,
+            "end": 147.76,
+            "text": " And it also has methods to evaluate such machine learning models."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 147.76,
+            "end": 150.35999999999999,
+            "text": " So say we build one, as we talked about before,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 150.35999999999999,
+            "end": 153.0,
+            "text": " on our data for some sort of problem that we're working on,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 153.0,
+            "end": 155.83999999999997,
+            "text": " how do we know if that model has actually learned anything?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 155.83999999999997,
+            "end": 159.92,
+            "text": " Or if we did put it into production, could we trust it in some way or another?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 159.92,
+            "end": 164.39999999999998,
+            "text": " And as a little bit of an aside, it is a very well-designed API."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 164.44,
+            "end": 167.84,
+            "text": " And API, another word for just programming library."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 167.84,
+            "end": 171.0,
+            "text": " At Scikit-learn, once you get into it, once you get hands-on with it,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 171.0,
+            "end": 173.12,
+            "text": " there's a lot there, but you'll start to realize,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 173.12,
+            "end": 179.72,
+            "text": " oh, wow, the people who have made this have put a lot of thought into it and made it beautiful."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 179.72,
+            "end": 181.88,
+            "text": " So what are we going to cover?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 181.88,
+            "end": 185.96,
+            "text": " Well, we're going to devise a Scikit-learn workflow."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 185.96,
+            "end": 187.24,
+            "text": " So what's this look like?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 187.24,
+            "end": 190.64000000000001,
+            "text": " Well, the first step is to get our data ready."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 190.64000000000001,
+            "end": 193.52,
+            "text": " And the next is to pick a model to suit your problem."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 193.52,
+            "end": 198.12,
+            "text": " And if you're wondering what is going on here with this web of circles and blobs"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 198.12,
+            "end": 201.04000000000002,
+            "text": " and different colours and different shapes, well, don't worry."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 201.04000000000002,
+            "end": 202.32000000000002,
+            "text": " We're going to see what that is."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 202.32000000000002,
+            "end": 203.92000000000002,
+            "text": " Just hold tight, hold tight."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 203.92000000000002,
+            "end": 205.36,
+            "text": " I'm excited too."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 205.36,
+            "end": 208.12,
+            "text": " And then step three is we're going to fit the model."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 208.12,
+            "end": 211.20000000000002,
+            "text": " So once we've chosen a model using this web here,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 211.20000000000002,
+            "end": 216.08,
+            "text": " we're going to fit that to our data and fit in Scikit-learn is another word for,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 216.08,
+            "end": 218.88,
+            "text": " hey, model, find patterns within our data."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 218.88,
+            "end": 222.20000000000002,
+            "text": " And then once we fit it, once it's found patterns within the data,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 222.2,
+            "end": 224.07999999999998,
+            "text": " we'll use that trained model,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 224.07999999999998,
+            "end": 226.44,
+            "text": " which is another word for a machine learning model"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 226.44,
+            "end": 229.88,
+            "text": " who has found patterns in data to make a prediction."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 229.88,
+            "end": 231.67999999999998,
+            "text": " Then we'll evaluate those predictions,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 231.67999999999998,
+            "end": 234.04,
+            "text": " see if they're worth holding on to or maybe not."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 234.04,
+            "end": 237.6,
+            "text": " Maybe we need to improve through experimentation."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 237.6,
+            "end": 241.79999999999998,
+            "text": " And that might involve turning the knobs on some of our models or doing experiments."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 241.79999999999998,
+            "end": 246.56,
+            "text": " And then finally, we'll see how to save and reload a trained model"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 246.56,
+            "end": 249.64,
+            "text": " because sometimes machine learning or training machine learning models,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 249.64,
+            "end": 251.72,
+            "text": " it can take a while for them to learn."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 251.72,
+            "end": 255.68,
+            "text": " And so it would be helpful if we could save a model and then reload it"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 255.68,
+            "end": 259.52,
+            "text": " so we could share it with a colleague or share our results online"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 259.52,
+            "end": 262.56,
+            "text": " or put our model into an application of sorts."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 262.56,
+            "end": 266.72,
+            "text": " And we wouldn't have to learn the patterns in data every single time that you used it."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 266.72,
+            "end": 269.6,
+            "text": " So this is what we'll be working through."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 269.6,
+            "end": 273.56,
+            "text": " And then more specifically, we're going to do an end to end Scikit-learn workflow."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 273.56,
+            "end": 276.48,
+            "text": " And then these steps here are really diving deeper"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 276.48,
+            "end": 279.56,
+            "text": " into the steps in that workflow that we just saw."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 279.6,
+            "end": 281.92,
+            "text": " So we're going to start off with this."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 281.92,
+            "end": 285.8,
+            "text": " We're going to first and foremost, just go straight through this to begin with."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 285.8,
+            "end": 287.12,
+            "text": " And then we're going to break it down."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 287.12,
+            "end": 289.8,
+            "text": " So we'll have an end to end Scikit-learn workflow."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 289.8,
+            "end": 292.28000000000003,
+            "text": " Then we'll look at the step one, getting data ready,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 292.28000000000003,
+            "end": 294.84000000000003,
+            "text": " prepare it to be used with our machine learning models."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 294.84000000000003,
+            "end": 298.48,
+            "text": " We'll see how to choose a machine learning model for what problem we're working on."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 298.48,
+            "end": 302.36,
+            "text": " We'll learn how to fit a model to the data, aka learning patterns."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 302.36,
+            "end": 304.92,
+            "text": " We'll learn how to make predictions with a machine learning model,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 304.92,
+            "end": 307.6,
+            "text": " aka using those patterns that it's learned."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 307.6,
+            "end": 310.56,
+            "text": " And then we'll learn how to evaluate those predictions."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 310.56,
+            "end": 315.28000000000003,
+            "text": " So evaluating whether a machine learning model has learned patterns that are worthwhile."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 315.28000000000003,
+            "end": 317.84000000000003,
+            "text": " We'll see how to improve said predictions."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 317.84000000000003,
+            "end": 322.24,
+            "text": " And then we'll finally finish up with saving and reloading models."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 324.20000000000005,
+            "end": 327.48,
+            "text": " Another important question, where can you get help?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 327.48,
+            "end": 330.36,
+            "text": " Well, as always, follow along as best you can with the code."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 330.36,
+            "end": 332.64000000000004,
+            "text": " We'll be going hands on in a Jupyter notebook."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 332.64000000000004,
+            "end": 334.88,
+            "text": " So if you can, write the code."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 334.88,
+            "end": 336.40000000000003,
+            "text": " If in doubt, run the code."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 336.4,
+            "end": 338.67999999999995,
+            "text": " This is part of this step. Try it for yourself."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 338.67999999999995,
+            "end": 341.4,
+            "text": " Remember our motto, if in doubt, run the code."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 341.4,
+            "end": 344.47999999999996,
+            "text": " If you want to find out more about what a particular function is doing,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 344.47999999999996,
+            "end": 347.96,
+            "text": " don't forget to press shift and tab to read the doc string."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 347.96,
+            "end": 349.28,
+            "text": " So when you're in the middle of a function,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 349.28,
+            "end": 351.67999999999995,
+            "text": " we'll see this in play when we're going through the notebook."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 351.67999999999995,
+            "end": 352.79999999999995,
+            "text": " You can see the doc string."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 352.79999999999995,
+            "end": 355.4,
+            "text": " This will take you straight to the documentation."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 355.4,
+            "end": 357.47999999999996,
+            "text": " If you're still stuck, you can search for it."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 357.47999999999996,
+            "end": 359.59999999999997,
+            "text": " And when you do search for a Scikit-learn function,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 359.59999999999997,
+            "end": 363.91999999999996,
+            "text": " such as how to evaluate a Scikit-learn classification model,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 363.92,
+            "end": 368.48,
+            "text": " you'll probably come along resources such as Stack Overflow or the user guide."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 368.48,
+            "end": 371.28000000000003,
+            "text": " And remember, these resources, the library is vast."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 371.28000000000003,
+            "end": 373.72,
+            "text": " So just be patient with searching for it."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 373.72,
+            "end": 376.12,
+            "text": " It does take me a while to figure things out too."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 376.12,
+            "end": 377.20000000000005,
+            "text": " I'm not perfect."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 377.20000000000005,
+            "end": 381.04,
+            "text": " It is okay to look something up and try and figure it out for yourself."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 381.04,
+            "end": 384.56,
+            "text": " And then once you have searched for it, if you do find something, try again."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 384.56,
+            "end": 387.68,
+            "text": " And if you're still stuck, finally, it's okay to ask."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 387.68,
+            "end": 390.36,
+            "text": " Never be afraid to ask a question."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 390.36,
+            "end": 392.52000000000004,
+            "text": " So, are you as excited as I am?"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 392.52,
+            "end": 394.79999999999995,
+            "text": " Well, if you are, let's get into it."
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 394.79999999999995,
+            "end": 397.15999999999997,
+            "text": " Let's get hands-on, let's build some machine learning models,"
+        },
+        {
+            "number": "10",
+            "title": "Scikit learn",
+            "start": 397.15999999999997,
+            "end": 400.64,
+            "text": " and let's get ourselves familiar with Scikit-learn."
+        }
+    ],
+    "text": " Welcome back. We're in a totally new section now, which is very, very exciting. And once again, we'll start off reminding ourselves of the framework we're using for machine learning projects. We begin with problem definition. We look at what data we have. We define an evaluation metric for ourselves. We check out the features, which one should we model. We figure out what kind of machine learning model we use. And then we run some experiments on seeing if we can improve things or try something else. And once again, all of this is an iterative process. And we've seen a few tools now that we can use for our framework, which is Pandas, Matplotlib, NumPy. But now I'm bursting at the seams here with excitement for this section. Why? Because we're going to start getting into the machine learning of things, writing machine learning code. And to do so, we're going to be using Scikit-learn. Now, you might have a question. What is Scikit-learn? Now, I've put here in brackets, SKlearn, because you'll often hear Scikit-learn and SKlearn used interchangeably. And it's SKlearn is just the shortened version of Scikit-learn. So, S-K-learn. If you see SKlearn or Scikit-learn, you can think of them talking about the same thing. Well, fundamentally, Scikit-learn is a Python machine learning library, which means if we have data, Scikit-learn helps us build machine learning models to make predictions or learn patterns within that data and then make predictions. And it also implements tools to help us evaluate those predictions. Are they good or are they bad? Are they worth holding on to? Could we put them into our application and actually use them? Now, why Scikit-learn? Well, it's built on NumPy and Matplotlib, a couple of tools that we've seen. Oh, and Python, of course, which is our language of choice. It has many built-in or inbuilt machine learning models, as we'll see, we'll get hands-on with a few of them. And now this is important, right? Because a lot of the time people get confused thinking they have to learn machine learning, the math inside and out before they can start to use machine learning models. But Scikit-learn sort of abstracts away from that and lets us apply the benefits of machine learning to our problem straight away by leveraging the machine learning models it has inbuilt in the library. And it also has methods to evaluate such machine learning models. So say we build one, as we talked about before, on our data for some sort of problem that we're working on, how do we know if that model has actually learned anything? Or if we did put it into production, could we trust it in some way or another? And as a little bit of an aside, it is a very well-designed API. And API, another word for just programming library. At Scikit-learn, once you get into it, once you get hands-on with it, there's a lot there, but you'll start to realize, oh, wow, the people who have made this have put a lot of thought into it and made it beautiful. So what are we going to cover? Well, we're going to devise a Scikit-learn workflow. So what's this look like? Well, the first step is to get our data ready. And the next is to pick a model to suit your problem. And if you're wondering what is going on here with this web of circles and blobs and different colours and different shapes, well, don't worry. We're going to see what that is. Just hold tight, hold tight. I'm excited too. And then step three is we're going to fit the model. So once we've chosen a model using this web here, we're going to fit that to our data and fit in Scikit-learn is another word for, hey, model, find patterns within our data. And then once we fit it, once it's found patterns within the data, we'll use that trained model, which is another word for a machine learning model who has found patterns in data to make a prediction. Then we'll evaluate those predictions, see if they're worth holding on to or maybe not. Maybe we need to improve through experimentation. And that might involve turning the knobs on some of our models or doing experiments. And then finally, we'll see how to save and reload a trained model because sometimes machine learning or training machine learning models, it can take a while for them to learn. And so it would be helpful if we could save a model and then reload it so we could share it with a colleague or share our results online or put our model into an application of sorts. And we wouldn't have to learn the patterns in data every single time that you used it. So this is what we'll be working through. And then more specifically, we're going to do an end to end Scikit-learn workflow. And then these steps here are really diving deeper into the steps in that workflow that we just saw. So we're going to start off with this. We're going to first and foremost, just go straight through this to begin with. And then we're going to break it down. So we'll have an end to end Scikit-learn workflow. Then we'll look at the step one, getting data ready, prepare it to be used with our machine learning models. We'll see how to choose a machine learning model for what problem we're working on. We'll learn how to fit a model to the data, aka learning patterns. We'll learn how to make predictions with a machine learning model, aka using those patterns that it's learned. And then we'll learn how to evaluate those predictions. So evaluating whether a machine learning model has learned patterns that are worthwhile. We'll see how to improve said predictions. And then we'll finally finish up with saving and reloading models. Another important question, where can you get help? Well, as always, follow along as best you can with the code. We'll be going hands on in a Jupyter notebook. So if you can, write the code. If in doubt, run the code. This is part of this step. Try it for yourself. Remember our motto, if in doubt, run the code. If you want to find out more about what a particular function is doing, don't forget to press shift and tab to read the doc string. So when you're in the middle of a function, we'll see this in play when we're going through the notebook. You can see the doc string. This will take you straight to the documentation. If you're still stuck, you can search for it. And when you do search for a Scikit-learn function, such as how to evaluate a Scikit-learn classification model, you'll probably come along resources such as Stack Overflow or the user guide. And remember, these resources, the library is vast. So just be patient with searching for it. It does take me a while to figure things out too. I'm not perfect. It is okay to look something up and try and figure it out for yourself. And then once you have searched for it, if you do find something, try again. And if you're still stuck, finally, it's okay to ask. Never be afraid to ask a question. So, are you as excited as I am? Well, if you are, let's get into it. Let's get hands-on, let's build some machine learning models, and let's get ourselves familiar with Scikit-learn."
+}

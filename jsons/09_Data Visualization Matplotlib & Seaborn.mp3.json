@@ -1,0 +1,1328 @@
+{
+    "chunks": [
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 0.0,
+            "end": 13.32,
+            "text": " Hello everyone, this is Orhan Erdem."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 13.32,
+            "end": 17.16,
+            "text": " In this video, we will be talking about data visualization."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 17.16,
+            "end": 23.04,
+            "text": " The phrase, a picture is worth a thousand words, means that a single image can convey"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 23.04,
+            "end": 29.28,
+            "text": " complex ideas, emotions and narratives more effectively than a lengthy verbal or a written"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 29.28,
+            "end": 30.28,
+            "text": " description."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 30.28,
+            "end": 34.36,
+            "text": " That's why visualization matters."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 34.36,
+            "end": 40.44,
+            "text": " Data visualization serves as a bridge between the raw, often messy data and the analyst."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 40.44,
+            "end": 46.72,
+            "text": " It provides a way to visually interrogate and understand the data, facilitating both"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 46.72,
+            "end": 50.400000000000006,
+            "text": " cleaning and subsequent analysis."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 50.400000000000006,
+            "end": 56.92,
+            "text": " By turning abstract numbers into visual stories, errors, patterns and insights become much"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 56.92,
+            "end": 57.92,
+            "text": " more obvious."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 58.52,
+            "end": 65.92,
+            "text": " Visualization supports data cleaning by finding outliers, spotting missing values, duplicate"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 65.92,
+            "end": 68.76,
+            "text": " rows and columns and the like."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 68.76,
+            "end": 75.92,
+            "text": " It also helps us understand the distribution of data and identify clusters."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 75.92,
+            "end": 79.8,
+            "text": " Now let's start our hands-on experience on Python."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 79.8,
+            "end": 85.58,
+            "text": " Now let's start with opening an account on the navigator and then launching Jupyter here."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 85.58,
+            "end": 89.74,
+            "text": " This is going to be the folder where I would like to create my Python code."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 89.74,
+            "end": 96.38,
+            "text": " So I will hit new Python here and this is going to be my code."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 96.38,
+            "end": 104.7,
+            "text": " And then I will first change the name of this folder as 3DataVisualization."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 104.7,
+            "end": 109.58,
+            "text": " Let's start coding by first importing the necessary libraries that we will be using."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 109.58,
+            "end": 119.82,
+            "text": " These libraries are pandas, matplotlib and seaborne."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 119.82,
+            "end": 122.2,
+            "text": " Now let's run the code."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 122.2,
+            "end": 124.16,
+            "text": " So we are done with the libraries."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 124.16,
+            "end": 125.82,
+            "text": " Now we can start coding."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 125.82,
+            "end": 129.82,
+            "text": " In this class, I will basically be using two data files."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 129.82,
+            "end": 133.84,
+            "text": " The first data file is going to be Apple stock prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 133.84,
+            "end": 137.98,
+            "text": " And second data file is going to be Boston house prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 137.98,
+            "end": 142.29999999999998,
+            "text": " Let me first import Apple stock prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 142.29999999999998,
+            "end": 147.42,
+            "text": " Please don't forget that your Python file and the data file that you are importing Excel"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 147.42,
+            "end": 150.85999999999999,
+            "text": " file I mean, must be in the same folder."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 150.85999999999999,
+            "end": 154.5,
+            "text": " Okay, let's run the code."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 154.5,
+            "end": 157.78,
+            "text": " Now it's working."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 157.78,
+            "end": 161.06,
+            "text": " So most probably you recognize the first part of this code."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 161.06,
+            "end": 163.45999999999998,
+            "text": " This is importing data from Excel."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 163.46,
+            "end": 168.84,
+            "text": " The second part is basically about parsing the date."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 168.84,
+            "end": 173.28,
+            "text": " So date data is mostly confusing from Python's point of view."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 173.28,
+            "end": 176.82,
+            "text": " That's why we need this code to organize date data."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 176.82,
+            "end": 184.60000000000002,
+            "text": " And then I am just asking Python to show me the first five lines of Apple stock prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 184.60000000000002,
+            "end": 190.8,
+            "text": " So this is my first data, I'm going to basically be using this data to draw line charts, line"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 190.8,
+            "end": 192.16,
+            "text": " graphs."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 192.16,
+            "end": 195.0,
+            "text": " And the second data is Boston house prices data."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 195.0,
+            "end": 199.96,
+            "text": " Boston housing data set is from a paper by Harrison and Rubinfeld."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 199.96,
+            "end": 203.6,
+            "text": " The paper is called hedonic prices and demand for clean air."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 203.6,
+            "end": 206.0,
+            "text": " This paper was published in 1978."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 206.0,
+            "end": 208.02,
+            "text": " And the data is still widely used."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 208.02,
+            "end": 210.8,
+            "text": " This data is publicly available here on this page."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 210.8,
+            "end": 213.84,
+            "text": " And all of the variables I will use is explained here."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 213.84,
+            "end": 218.04,
+            "text": " I just copied the data from here and paste it to Excel."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 218.04,
+            "end": 222.0,
+            "text": " Now I will write a code to import it from Excel to Python."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 222.84,
+            "end": 234.28,
+            "text": " Both Excel and Python files are available below the video."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 234.28,
+            "end": 237.88,
+            "text": " This time I asked Python to show me the first 10 rows instead of five."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 237.88,
+            "end": 240.2,
+            "text": " This is just for fun, nothing else."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 240.2,
+            "end": 242.6,
+            "text": " Okay, right now I have two data sets."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 242.6,
+            "end": 245.0,
+            "text": " The first data set is Apple data."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 245.0,
+            "end": 249.08,
+            "text": " And the second data set is house prices data from Boston."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 249.08,
+            "end": 252.12,
+            "text": " So let's start with Apple stock prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 252.12,
+            "end": 257.6,
+            "text": " So this is going to give me Apple stock price line chart if I run this code."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 257.6,
+            "end": 262.84000000000003,
+            "text": " So this is Apple stock prices starting from 2013 to 2023."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 262.84000000000003,
+            "end": 267.48,
+            "text": " Stock prices can play with the color of this chart."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 267.48,
+            "end": 273.68,
+            "text": " You can play with the x axis label y axis label and you can even write a title here."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 273.68,
+            "end": 282.76,
+            "text": " The title command is plt title."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 282.76,
+            "end": 286.16,
+            "text": " Now let's draw the box plot of Apple stock prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 286.16,
+            "end": 290.94,
+            "text": " So box plots are basically showing a couple of statistics visually."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 290.94,
+            "end": 303.56,
+            "text": " Now let's work on drawing a box plot for Apple stock prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 303.56,
+            "end": 311.48,
+            "text": " The top and bottom of the box plot represent 75th and 25th percentile respectively."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 311.48,
+            "end": 316.74,
+            "text": " The line inside the box represents the median 50th percentile."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 316.74,
+            "end": 321.68,
+            "text": " So lines extending above and below the box cover the rest of the data range and outliers"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 321.68,
+            "end": 326.86,
+            "text": " may be depicted as points or circles but right now there is no outlier here."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 326.86,
+            "end": 330.24,
+            "text": " Therefore this box encloses 50% of the data."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 330.24,
+            "end": 338.52,
+            "text": " For example in this box half of the Apple stock prices are between 27 and 118."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 338.52,
+            "end": 346.92,
+            "text": " So I know this because I can write a code to see the 25th and 75th percentile in detail."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 346.92,
+            "end": 352.08,
+            "text": " So as you can see 25th percentile is 27 and 75th percentile is 118."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 352.08,
+            "end": 358.44,
+            "text": " So this box chart is basically showing that visually."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 358.44,
+            "end": 361.42,
+            "text": " Now let's switch to Boston house price data."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 361.42,
+            "end": 367.56,
+            "text": " In that data we are going to draw scatter plot first."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 367.56,
+            "end": 369.6,
+            "text": " Okay scatter plot code is this one."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 369.6,
+            "end": 373.2,
+            "text": " I am going to draw a scatter plot between two variables."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 373.2,
+            "end": 378.6,
+            "text": " The first variable is going to be median house prices and the second variable is going to"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 378.6,
+            "end": 386.65999999999997,
+            "text": " be percentage of lower status of population."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 386.66,
+            "end": 390.18,
+            "text": " So this code just gives the scatter plot."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 390.18,
+            "end": 395.22,
+            "text": " These are title, x label, y label and drawing command."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 395.22,
+            "end": 397.18,
+            "text": " This is the scatter plot between those two variables."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 397.18,
+            "end": 401.88000000000005,
+            "text": " As you can see there is kind of negative relationship between two variables."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 401.88000000000005,
+            "end": 408.86,
+            "text": " The higher the percentage of lower status people in the region the lower the house prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 408.86,
+            "end": 415.06,
+            "text": " The lower the percentage of lower status people the higher the house prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 415.06,
+            "end": 419.78000000000003,
+            "text": " I am going to draw one more scatter plot and that's going to be the scatter plot between"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 419.78000000000003,
+            "end": 423.42,
+            "text": " the crime rates and median house prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 423.42,
+            "end": 429.3,
+            "text": " So this is going to be the code here."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 429.3,
+            "end": 433.66,
+            "text": " Scatter plot code title and showing command."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 433.66,
+            "end": 439.38,
+            "text": " On y axis you see the median house prices again on x axis you see the crime rate."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 439.38,
+            "end": 442.26,
+            "text": " So the higher the crime rate the lower the house prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 442.26,
+            "end": 446.14,
+            "text": " The lower the crime rate the higher the house prices in general."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 446.14,
+            "end": 450.74,
+            "text": " In both of these commands we use the plot scatter function."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 450.74,
+            "end": 453.98,
+            "text": " These functions are mostly coming from the same library."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 453.98,
+            "end": 457.14,
+            "text": " We can also use SNSC born library."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 457.14,
+            "end": 465.18,
+            "text": " In that library the code is as follows."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 465.18,
+            "end": 469.18,
+            "text": " When you run this code it will give you another scatter plot."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 469.18,
+            "end": 473.94,
+            "text": " This scatter plot and this one is basically the same scatter plots."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 473.94,
+            "end": 477.18,
+            "text": " But here you can play with the colors again."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 477.18,
+            "end": 483.5,
+            "text": " So you can change the color right color to red or anything any color you want."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 483.5,
+            "end": 489.7,
+            "text": " So this scatter plot this plot is the same plot basically just using different commands"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 489.7,
+            "end": 493.22,
+            "text": " and different libraries."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 493.22,
+            "end": 495.62,
+            "text": " Now let's switch to bar charts."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 495.62,
+            "end": 499.62,
+            "text": " Bar charts are useful for comparing a single statistic."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 499.62,
+            "end": 504.78000000000003,
+            "text": " For example average count or percentage across groups."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 504.78000000000003,
+            "end": 511.06,
+            "text": " The height of the bar or length in a horizontal display represents the value of the statistic"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 511.06,
+            "end": 513.46,
+            "text": " and different bars correspond to different groups."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 513.46,
+            "end": 515.14,
+            "text": " So let me give an example."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 515.14,
+            "end": 521.7,
+            "text": " In this example we will be comparing a numerical variable which is the median house prices"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 521.7,
+            "end": 522.82,
+            "text": " by groups."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 522.82,
+            "end": 528.2600000000001,
+            "text": " In the graph separate bars are used to denote homes in Boston that are near to Charles River"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 528.2600000000001,
+            "end": 530.0400000000001,
+            "text": " versus that are not."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 530.0400000000001,
+            "end": 548.1400000000001,
+            "text": " Now let's write a code for bar charting."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 548.14,
+            "end": 551.38,
+            "text": " This chart is comparing the two groups of houses here."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 551.38,
+            "end": 555.98,
+            "text": " The first column which says zero here are the houses which are not near the Charles"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 555.98,
+            "end": 560.66,
+            "text": " River and the second column the column to the right is showing the house prices that"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 560.66,
+            "end": 562.34,
+            "text": " are near the Charles River."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 562.34,
+            "end": 567.86,
+            "text": " As you can see the height of the second column is higher which means houses that are near"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 567.86,
+            "end": 574.14,
+            "text": " the Charles River have higher median prices which makes sense."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 574.14,
+            "end": 578.26,
+            "text": " You can play with this code by changing the parameters in the code."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 578.26,
+            "end": 583.3,
+            "text": " For example you can change the figure size or you can change the statistics or even the"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 583.3,
+            "end": 584.3,
+            "text": " variable."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 584.3,
+            "end": 592.02,
+            "text": " For example copy this code and paste it here and change the median value of houses to age"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 592.02,
+            "end": 599.62,
+            "text": " which shows proportion of houses that are built prior to 1940 and change the title y"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 599.62,
+            "end": 603.1,
+            "text": " y-axis title to age and run the code."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 603.1,
+            "end": 606.58,
+            "text": " You would see a similar comparison with respect to age."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 606.58,
+            "end": 612.3000000000001,
+            "text": " This chart is showing us the proportion of houses that are built prior to 1940 are more"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 612.3000000000001,
+            "end": 617.98,
+            "text": " in this group the houses near the Charles River than in that group."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 617.98,
+            "end": 623.5,
+            "text": " Another interesting thing before we switch to histograms is that we can calculate the"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 623.5,
+            "end": 626.14,
+            "text": " statistics between those two groups."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 626.14,
+            "end": 635.1,
+            "text": " For example we can calculate mean by using the following command."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 635.1,
+            "end": 642.3199999999999,
+            "text": " Basically what this command does is to compare the mean of all of these values across these"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 642.3199999999999,
+            "end": 643.3199999999999,
+            "text": " two groups."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 643.3199999999999,
+            "end": 647.14,
+            "text": " So houses that are not near the Charles River and then the houses that are near the Charles"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 647.14,
+            "end": 648.14,
+            "text": " River."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 648.14,
+            "end": 656.1,
+            "text": " So crime rate, nitrogen oxide concentration, number of rooms and median house prices etc."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 657.0600000000001,
+            "end": 662.26,
+            "text": " It's making a comparison of the mean values across all of these variables."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 662.26,
+            "end": 671.9,
+            "text": " Now let's switch to histograms."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 671.9,
+            "end": 687.06,
+            "text": " Now let's prepare a histogram of median house prices in this data set."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 687.06,
+            "end": 691.6999999999999,
+            "text": " This chart is showing us the distribution of median house prices."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 691.6999999999999,
+            "end": 700.22,
+            "text": " As you can see concentration is around 20 which is $20,000 as of 1980s of course and"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 700.22,
+            "end": 701.98,
+            "text": " there's a kind of skewness here."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 701.98,
+            "end": 706.9,
+            "text": " You can use a different code to prepare a more customized version of this histogram"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 706.9,
+            "end": 716.0600000000001,
+            "text": " as follows."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 716.0600000000001,
+            "end": 720.02,
+            "text": " As you can see you can play with the number of bins here you can increase or decrease"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 720.02,
+            "end": 724.4200000000001,
+            "text": " if you decrease it to 10 you would find a similar chart as we had above."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 724.4200000000001,
+            "end": 729.74,
+            "text": " If you increase it you can find more zoom in version of this histogram."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 730.26,
+            "end": 738.0600000000001,
+            "text": " You can also add a color for example."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 738.0600000000001,
+            "end": 743.82,
+            "text": " Basically histograms are showing us how the values are distributed across the range of"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 743.82,
+            "end": 745.86,
+            "text": " the data set."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 745.86,
+            "end": 748.54,
+            "text": " You can also draw box plot for this data."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 748.54,
+            "end": 751.34,
+            "text": " I will draw one with two box plots."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 751.34,
+            "end": 763.98,
+            "text": " Let's take this as an additional material."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 763.98,
+            "end": 768.7800000000001,
+            "text": " Again we group the data into two categories being near the Charles River and being not"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 768.7800000000001,
+            "end": 770.62,
+            "text": " near the Charles River."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 770.62,
+            "end": 772.7800000000001,
+            "text": " So this is the first quartile."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 772.7800000000001,
+            "end": 774.34,
+            "text": " This is the third quartile."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 774.34,
+            "end": 781.26,
+            "text": " The box encloses 50% of the data and the green line is representing the median value."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 781.26,
+            "end": 786.86,
+            "text": " Half of the tracks have median values between 20 and 33 thousand dollars."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 786.86,
+            "end": 791.42,
+            "text": " Now let's take a look at correlation."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 791.42,
+            "end": 793.9,
+            "text": " Let me remind you what correlation is."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 793.9,
+            "end": 799.22,
+            "text": " Correlation is a numerical measure of the linear relationship between two variables."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 799.22,
+            "end": 802.92,
+            "text": " There are different methods to calculate the correlation coefficient but the most commonly"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 802.92,
+            "end": 809.86,
+            "text": " used one belongs to Pearson and it is varying between one which shows the strong positive"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 809.86,
+            "end": 814.9,
+            "text": " correlation and negative one which shows strong negative correlation."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 814.9,
+            "end": 833.22,
+            "text": " Now let's write a code to find the correlations between the variables."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 833.22,
+            "end": 837.54,
+            "text": " Okay this is the correlation matrix as well as a heat map."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 837.54,
+            "end": 843.66,
+            "text": " A heat map is a graphical display of numerical value where color is used to denote the values."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 843.66,
+            "end": 849.3,
+            "text": " So darker shades correspond to stronger or positive correlations and lighter shades correspond"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 849.3,
+            "end": 851.8199999999999,
+            "text": " to negative correlations."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 851.8199999999999,
+            "end": 857.0999999999999,
+            "text": " So any number you see on this chart corresponds to a pairwise correlation between variables."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 857.0999999999999,
+            "end": 862.8199999999999,
+            "text": " For example take a look at the first row which is the crime rates and this value is negative"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 862.82,
+            "end": 870.2600000000001,
+            "text": " 0.4 corresponds to correlation between median house prices and crime rates and then 0.5"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 870.2600000000001,
+            "end": 875.22,
+            "text": " here for example corresponds to correlation between crime rates and percentage of lower"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 875.22,
+            "end": 877.0600000000001,
+            "text": " status people."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 877.0600000000001,
+            "end": 881.4200000000001,
+            "text": " There are different versions of the correlation matrix I will show you one more but it's basically"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 881.4200000000001,
+            "end": 888.5,
+            "text": " the same thing it's just a bigger figure and with more divergent values."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 888.5,
+            "end": 893.86,
+            "text": " So this chart is basically showing the same exact thing with this chart crime rate 0.04"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 893.86,
+            "end": 899.58,
+            "text": " here 0.5 here as I showed you but the colors are different so the colors can be adjusted"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 899.58,
+            "end": 903.54,
+            "text": " but the main idea is still the same."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 903.54,
+            "end": 907.78,
+            "text": " Correlation table heat map shows us pairwise correlations."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 907.78,
+            "end": 913.06,
+            "text": " One last thing before I finish so all the correlations we found here on Python is the"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 913.06,
+            "end": 918.38,
+            "text": " same correlation table that is already presented in the paper that I showed you a moment ago"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 918.46,
+            "end": 922.86,
+            "text": " Please take a look at the correlation between median house prices and the crime rate it"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 922.86,
+            "end": 929.9399999999999,
+            "text": " is negative 0.38 which we rounded to negative 0.4 and else that remember the crime rate"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 929.9399999999999,
+            "end": 934.38,
+            "text": " the correlation between crime rate and the percentage of lower status population was"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 934.38,
+            "end": 942.5,
+            "text": " 0.5 which is again rounded all the numbers we found they are the same as the numbers"
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 942.5,
+            "end": 944.3,
+            "text": " presented in the paper."
+        },
+        {
+            "number": "09",
+            "title": "Data Visualization Matplotlib & Seaborn",
+            "start": 944.3,
+            "end": 947.82,
+            "text": " That's all for this class I hope you enjoyed it and hope to see you in the next video."
+        }
+    ],
+    "text": " Hello everyone, this is Orhan Erdem. In this video, we will be talking about data visualization. The phrase, a picture is worth a thousand words, means that a single image can convey complex ideas, emotions and narratives more effectively than a lengthy verbal or a written description. That's why visualization matters. Data visualization serves as a bridge between the raw, often messy data and the analyst. It provides a way to visually interrogate and understand the data, facilitating both cleaning and subsequent analysis. By turning abstract numbers into visual stories, errors, patterns and insights become much more obvious. Visualization supports data cleaning by finding outliers, spotting missing values, duplicate rows and columns and the like. It also helps us understand the distribution of data and identify clusters. Now let's start our hands-on experience on Python. Now let's start with opening an account on the navigator and then launching Jupyter here. This is going to be the folder where I would like to create my Python code. So I will hit new Python here and this is going to be my code. And then I will first change the name of this folder as 3DataVisualization. Let's start coding by first importing the necessary libraries that we will be using. These libraries are pandas, matplotlib and seaborne. Now let's run the code. So we are done with the libraries. Now we can start coding. In this class, I will basically be using two data files. The first data file is going to be Apple stock prices. And second data file is going to be Boston house prices. Let me first import Apple stock prices. Please don't forget that your Python file and the data file that you are importing Excel file I mean, must be in the same folder. Okay, let's run the code. Now it's working. So most probably you recognize the first part of this code. This is importing data from Excel. The second part is basically about parsing the date. So date data is mostly confusing from Python's point of view. That's why we need this code to organize date data. And then I am just asking Python to show me the first five lines of Apple stock prices. So this is my first data, I'm going to basically be using this data to draw line charts, line graphs. And the second data is Boston house prices data. Boston housing data set is from a paper by Harrison and Rubinfeld. The paper is called hedonic prices and demand for clean air. This paper was published in 1978. And the data is still widely used. This data is publicly available here on this page. And all of the variables I will use is explained here. I just copied the data from here and paste it to Excel. Now I will write a code to import it from Excel to Python. Both Excel and Python files are available below the video. This time I asked Python to show me the first 10 rows instead of five. This is just for fun, nothing else. Okay, right now I have two data sets. The first data set is Apple data. And the second data set is house prices data from Boston. So let's start with Apple stock prices. So this is going to give me Apple stock price line chart if I run this code. So this is Apple stock prices starting from 2013 to 2023. Stock prices can play with the color of this chart. You can play with the x axis label y axis label and you can even write a title here. The title command is plt title. Now let's draw the box plot of Apple stock prices. So box plots are basically showing a couple of statistics visually. Now let's work on drawing a box plot for Apple stock prices. The top and bottom of the box plot represent 75th and 25th percentile respectively. The line inside the box represents the median 50th percentile. So lines extending above and below the box cover the rest of the data range and outliers may be depicted as points or circles but right now there is no outlier here. Therefore this box encloses 50% of the data. For example in this box half of the Apple stock prices are between 27 and 118. So I know this because I can write a code to see the 25th and 75th percentile in detail. So as you can see 25th percentile is 27 and 75th percentile is 118. So this box chart is basically showing that visually. Now let's switch to Boston house price data. In that data we are going to draw scatter plot first. Okay scatter plot code is this one. I am going to draw a scatter plot between two variables. The first variable is going to be median house prices and the second variable is going to be percentage of lower status of population. So this code just gives the scatter plot. These are title, x label, y label and drawing command. This is the scatter plot between those two variables. As you can see there is kind of negative relationship between two variables. The higher the percentage of lower status people in the region the lower the house prices. The lower the percentage of lower status people the higher the house prices. I am going to draw one more scatter plot and that's going to be the scatter plot between the crime rates and median house prices. So this is going to be the code here. Scatter plot code title and showing command. On y axis you see the median house prices again on x axis you see the crime rate. So the higher the crime rate the lower the house prices. The lower the crime rate the higher the house prices in general. In both of these commands we use the plot scatter function. These functions are mostly coming from the same library. We can also use SNSC born library. In that library the code is as follows. When you run this code it will give you another scatter plot. This scatter plot and this one is basically the same scatter plots. But here you can play with the colors again. So you can change the color right color to red or anything any color you want. So this scatter plot this plot is the same plot basically just using different commands and different libraries. Now let's switch to bar charts. Bar charts are useful for comparing a single statistic. For example average count or percentage across groups. The height of the bar or length in a horizontal display represents the value of the statistic and different bars correspond to different groups. So let me give an example. In this example we will be comparing a numerical variable which is the median house prices by groups. In the graph separate bars are used to denote homes in Boston that are near to Charles River versus that are not. Now let's write a code for bar charting. This chart is comparing the two groups of houses here. The first column which says zero here are the houses which are not near the Charles River and the second column the column to the right is showing the house prices that are near the Charles River. As you can see the height of the second column is higher which means houses that are near the Charles River have higher median prices which makes sense. You can play with this code by changing the parameters in the code. For example you can change the figure size or you can change the statistics or even the variable. For example copy this code and paste it here and change the median value of houses to age which shows proportion of houses that are built prior to 1940 and change the title y y-axis title to age and run the code. You would see a similar comparison with respect to age. This chart is showing us the proportion of houses that are built prior to 1940 are more in this group the houses near the Charles River than in that group. Another interesting thing before we switch to histograms is that we can calculate the statistics between those two groups. For example we can calculate mean by using the following command. Basically what this command does is to compare the mean of all of these values across these two groups. So houses that are not near the Charles River and then the houses that are near the Charles River. So crime rate, nitrogen oxide concentration, number of rooms and median house prices etc. It's making a comparison of the mean values across all of these variables. Now let's switch to histograms. Now let's prepare a histogram of median house prices in this data set. This chart is showing us the distribution of median house prices. As you can see concentration is around 20 which is $20,000 as of 1980s of course and there's a kind of skewness here. You can use a different code to prepare a more customized version of this histogram as follows. As you can see you can play with the number of bins here you can increase or decrease if you decrease it to 10 you would find a similar chart as we had above. If you increase it you can find more zoom in version of this histogram. You can also add a color for example. Basically histograms are showing us how the values are distributed across the range of the data set. You can also draw box plot for this data. I will draw one with two box plots. Let's take this as an additional material. Again we group the data into two categories being near the Charles River and being not near the Charles River. So this is the first quartile. This is the third quartile. The box encloses 50% of the data and the green line is representing the median value. Half of the tracks have median values between 20 and 33 thousand dollars. Now let's take a look at correlation. Let me remind you what correlation is. Correlation is a numerical measure of the linear relationship between two variables. There are different methods to calculate the correlation coefficient but the most commonly used one belongs to Pearson and it is varying between one which shows the strong positive correlation and negative one which shows strong negative correlation. Now let's write a code to find the correlations between the variables. Okay this is the correlation matrix as well as a heat map. A heat map is a graphical display of numerical value where color is used to denote the values. So darker shades correspond to stronger or positive correlations and lighter shades correspond to negative correlations. So any number you see on this chart corresponds to a pairwise correlation between variables. For example take a look at the first row which is the crime rates and this value is negative 0.4 corresponds to correlation between median house prices and crime rates and then 0.5 here for example corresponds to correlation between crime rates and percentage of lower status people. There are different versions of the correlation matrix I will show you one more but it's basically the same thing it's just a bigger figure and with more divergent values. So this chart is basically showing the same exact thing with this chart crime rate 0.04 here 0.5 here as I showed you but the colors are different so the colors can be adjusted but the main idea is still the same. Correlation table heat map shows us pairwise correlations. One last thing before I finish so all the correlations we found here on Python is the same correlation table that is already presented in the paper that I showed you a moment ago Please take a look at the correlation between median house prices and the crime rate it is negative 0.38 which we rounded to negative 0.4 and else that remember the crime rate the correlation between crime rate and the percentage of lower status population was 0.5 which is again rounded all the numbers we found they are the same as the numbers presented in the paper. That's all for this class I hope you enjoyed it and hope to see you in the next video."
+}

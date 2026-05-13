@@ -1,0 +1,873 @@
+{
+    "chunks": [
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 0.0,
+            "end": 7.12,
+            "text": " Hello everyone, welcome to the deep learning workshop. In this video I will"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 7.12,
+            "end": 14.96,
+            "text": " provide a tutorial on introduction to NumPy. NumPy is a core library for"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 14.96,
+            "end": 21.72,
+            "text": " scientific computing in Python. It is used in machine learning and it's"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 21.72,
+            "end": 28.72,
+            "text": " also used for numerical analysis and so on. NumPy provides a high-performance"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 28.72,
+            "end": 33.92,
+            "text": " multi-dimensional array object with which you can create one-dimensional"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 33.92,
+            "end": 40.16,
+            "text": " array, two-dimensional array and so on. NumPy also provides functions to"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 40.16,
+            "end": 44.6,
+            "text": " work with these arrays. You can do operations such as multiplications,"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 44.6,
+            "end": 56.379999999999995,
+            "text": " addition, max, min and many other operations. So let's start with NumPy"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 56.38,
+            "end": 63.42,
+            "text": " array. NumPy array is basically a grid of values. Typically all the values"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 63.42,
+            "end": 71.66,
+            "text": " are of same type, integers, floats or Boolean. This array, like a"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 71.66,
+            "end": 80.38,
+            "text": " Python list, can be indexed by providing a tuple of non-negative integers. It"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 80.38,
+            "end": 86.38,
+            "text": " could be the position in the array that you want to access or it could also"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 86.38,
+            "end": 95.46,
+            "text": " be other complicated things as we'll see later. The number of dimensions in an"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 95.46,
+            "end": 103.62,
+            "text": " array is usually referred as the rank of the array and it can be obtained by"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 103.62,
+            "end": 109.3,
+            "text": " calling the shape function with an array. You can basically get a list of"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 109.34,
+            "end": 118.25999999999999,
+            "text": " integers which gives the size of the array along each dimension. So this is a"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 118.25999999999999,
+            "end": 125.58,
+            "text": " one-dimensional NumPy array. It contains three values 1, 2 and 3 and basically this"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 125.58,
+            "end": 133.94,
+            "text": " command takes a list of values. NumPy.array takes a list of values. It's a"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 133.94,
+            "end": 140.42,
+            "text": " Python list of values and uses that to create a NumPy array. So you would get a NumPy"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 140.42,
+            "end": 148.34,
+            "text": " array. It's a one-dimensional array with three values 1, 2 and 3."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 148.34,
+            "end": 160.42,
+            "text": " And you can call the shape function associated with the array object and you"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 160.42,
+            "end": 165.57999999999998,
+            "text": " would get the shape of the array. In this case it's a one-dimensional array"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 165.57999999999998,
+            "end": 173.7,
+            "text": " of size 3. So you get 3. You can also access elements within the array by"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 173.7,
+            "end": 180.5,
+            "text": " providing the corresponding integers. This is very much like accessing a Python"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 180.5,
+            "end": 189.06,
+            "text": " list and you can also create two-dimensional array. In this"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 189.06,
+            "end": 195.54,
+            "text": " case I'm creating a 2 x 3 array. As you can see the first row contains 1, 2 and 3."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 195.54,
+            "end": 203.02,
+            "text": " The second row contains 4, 5 and 6. You can call the shape function again and you"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 203.02,
+            "end": 208.58,
+            "text": " would get the shape. So this time you have a tuple of two numbers because we"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 208.58,
+            "end": 213.62,
+            "text": " have two dimensions in the array. The first is the number of rows. So we have"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 213.62,
+            "end": 222.78,
+            "text": " two rows. First row and then the second row and then the second dimension is the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 222.78,
+            "end": 226.86,
+            "text": " number of columns. We have three columns basically. The first column contains 1"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 226.86,
+            "end": 233.06,
+            "text": " and 4. Second column contains 2 and 5. Third column contains 3 and 6."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 233.06,
+            "end": 238.3,
+            "text": " And then again we can access elements in the two-dimensional array by"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 238.3,
+            "end": 243.82000000000002,
+            "text": " providing both the row and the column integers. So for example I want to access"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 243.82000000000002,
+            "end": 248.58,
+            "text": " the first row first column I would provide 0, 0. Remember that the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 248.58,
+            "end": 256.02,
+            "text": " indexing in Python starts from 0 not from 1. NumPy as I said before also"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 256.02,
+            "end": 261.06,
+            "text": " provides a lot of functionalities to work with these arrays to perform some"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 261.06,
+            "end": 267.06,
+            "text": " operations on these arrays and so on. It also provides functionalities to"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 267.06,
+            "end": 273.5,
+            "text": " create arrays, create special arrays. So one kind of a special array is an"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 273.5,
+            "end": 283.22,
+            "text": " array which contains full of 1s. So here you can use the ones"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 283.22,
+            "end": 293.14,
+            "text": " function and create a 1d array of size 3 with all the values initialized to 1s."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 293.14,
+            "end": 298.06,
+            "text": " And similarly 0s you can do. You can call 0s function or you want to"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 298.06,
+            "end": 304.14,
+            "text": " initialize values randomly from a normal distribution. You can use"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 304.14,
+            "end": 310.3,
+            "text": " the random.random function and so on."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 312.94,
+            "end": 319.34,
+            "text": " Now we can look into indexing an array. We have an array. We want to access some"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 319.38,
+            "end": 323.9,
+            "text": " elements in the array and we'll see different ways to access that. So we have"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 323.9,
+            "end": 331.02,
+            "text": " already seen we can directly specify the integers corresponding to the dimensions."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 331.02,
+            "end": 337.78,
+            "text": " For example if it is a one-dimensional array you can provide the index like a"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 337.78,
+            "end": 342.62,
+            "text": " Python list. You can provide index. You can even provide slicing. You can slice"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 342.62,
+            "end": 351.26,
+            "text": " and get a select a set of values from the array. In this case if you want"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 351.26,
+            "end": 357.86,
+            "text": " the first two elements in the array you would specify 0 colon 2 basically. So you"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 357.86,
+            "end": 364.38,
+            "text": " would get the 0 and the first index values. Values corresponding to the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 364.38,
+            "end": 370.1,
+            "text": " first and the second index. And similarly you can do the same operations on a"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 370.14000000000004,
+            "end": 377.06,
+            "text": " two-dimensional array as well. Here I want the first row second column so I"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 377.06,
+            "end": 382.70000000000005,
+            "text": " would specify 0 comma 1. Or let's say I want the last two rows of the array. So I"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 382.70000000000005,
+            "end": 388.94,
+            "text": " would specify 1 colon 3. Or let's say I want to specify on the first two rows and"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 388.94,
+            "end": 395.54,
+            "text": " first column only. So I would specify the column index would just be 0 while the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 395.62,
+            "end": 401.42,
+            "text": " row index I would be slicing operation so I would do 0 colon 2 which specifies"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 401.42,
+            "end": 406.1,
+            "text": " that I want the first two rows basically."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 412.22,
+            "end": 420.66,
+            "text": " We can also do integer array based indexing where you provide a list of row"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 420.70000000000005,
+            "end": 426.82000000000005,
+            "text": " indices and list of column indices separately. In this case for this 3 cross"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 426.82000000000005,
+            "end": 434.5,
+            "text": " 2 numpy array you can provide the row indices in a nice list form 0 comma 1"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 434.5,
+            "end": 439.98,
+            "text": " comma 2 and then the column indices in a nice list form 0 comma 1 comma 0. And you"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 439.98,
+            "end": 448.86,
+            "text": " would get elements which are 0 through 0th column so which is 1 and first row"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 448.86,
+            "end": 457.86,
+            "text": " I mean the second row and the second column which is 4. And similarly the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 457.86,
+            "end": 464.62,
+            "text": " third row and then the first column that would be 5. So you can basically just"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 464.62,
+            "end": 473.62,
+            "text": " separately provide the list of row indices and the list of column indices."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 478.86,
+            "end": 488.34000000000003,
+            "text": " And there are some special tricks which we can use with indexing. If you want to"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 488.34000000000003,
+            "end": 498.22,
+            "text": " mutate or make changes in some parts of the array you can you know do as follows."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 498.22,
+            "end": 504.78000000000003,
+            "text": " Let's say you have an array which is 3 cross 3 or 4 cross 3 in this case and"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 504.78,
+            "end": 512.62,
+            "text": " you want to update few values in the array. Let's say add 10 to few values in the array."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 512.62,
+            "end": 520.02,
+            "text": " So one value from each row in the array. So you can provide the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 520.02,
+            "end": 530.3399999999999,
+            "text": " column indices separately 0 2 0 1 and then you can"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 530.34,
+            "end": 535.62,
+            "text": " basically use the arange function which is going to give a list of numbers"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 535.62,
+            "end": 542.1,
+            "text": " starting with 0 to n. So in this case n is 4. We will get number 0 1 2 or 3. So those are"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 542.1,
+            "end": 547.74,
+            "text": " the row indices and B is the column indices 0 2 0 1 and I would make changes"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 547.74,
+            "end": 558.0600000000001,
+            "text": " in specific values in the matrix one value per each row. So 0 comma 0 I add a"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 558.06,
+            "end": 566.06,
+            "text": " 10 so it will become 11 and similarly 2 so the first second row and then the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 566.06,
+            "end": 573.06,
+            "text": " third column which is 6 and add 10 to it and then in this case the third row and"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 573.06,
+            "end": 578.06,
+            "text": " then the first column I'll add 10 to it and then the fourth row and then the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 578.06,
+            "end": 586.5,
+            "text": " second column I'll add 10 to it. So it becomes 21. We can also do Boolean array based"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 586.5,
+            "end": 596.5,
+            "text": " indexing. So if you say a greater than 2 only those indices whose values are"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 596.5,
+            "end": 602.06,
+            "text": " greater than 2 it would be true otherwise it would be false. If we print this"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 602.06,
+            "end": 608.5,
+            "text": " Boolean matrix you would get false false because and the first row none of the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 608.5,
+            "end": 615.22,
+            "text": " values in the first row contains number which is greater than 2 so that's false"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 615.22,
+            "end": 621.62,
+            "text": " while all the other rows the second and the third rows contain values which are"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 621.62,
+            "end": 627.98,
+            "text": " greater than 2. So you are true everywhere. And you can use this indexing to select"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 627.98,
+            "end": 631.78,
+            "text": " elements. So basically I want those indices which are greater than 2. All I"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 631.78,
+            "end": 638.94,
+            "text": " need to do is a and a greater than 2. This is going to give me the Boolean index and"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 638.94,
+            "end": 645.7,
+            "text": " with applying that on a matrix I'm going to be able to select those values"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 645.7,
+            "end": 651.9000000000001,
+            "text": " which are greater than 2. So it is 3, 4, 5 and 6."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 655.86,
+            "end": 663.6600000000001,
+            "text": " And regarding the data types of values as I said before typically the all the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 663.66,
+            "end": 670.18,
+            "text": " values in a NumPy array are of same data type and the data type could be integer"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 670.18,
+            "end": 677.4599999999999,
+            "text": " or it could be float or it could be even be Boolean right and while instantiating"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 677.4599999999999,
+            "end": 685.78,
+            "text": " the array you can specify the type of value that you want specifically. In this"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 685.8199999999999,
+            "end": 694.6999999999999,
+            "text": " case I am specifying I am creating an array 1, 2 with each value being an"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 694.6999999999999,
+            "end": 704.26,
+            "text": " integer. It's always a good practice to explicitly pass the type."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 704.26,
+            "end": 716.42,
+            "text": " Yeah. NumPy also provides easy to use functionalities to perform operations"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 716.42,
+            "end": 723.54,
+            "text": " with arrays. Right if you have two arrays you can add them element wise."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 723.54,
+            "end": 732.8199999999999,
+            "text": " Yeah even it can work for 1D, 2D or 3D or MD for example those additions. Not just"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 732.82,
+            "end": 738.0600000000001,
+            "text": " addition you can do subtraction, multiplication, division and you can just"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 738.0600000000001,
+            "end": 747.38,
+            "text": " take element wise even square root as well. These are some of the operations of"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 747.38,
+            "end": 753.1400000000001,
+            "text": " course you might need to look into the documentation for exhaustive list of"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 753.1400000000001,
+            "end": 760.86,
+            "text": " operations supported by NumPy. You can do dot product and NumPy also has lot of"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 760.94,
+            "end": 766.66,
+            "text": " cool functionalities like finding a maximum number in a list or minimum"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 766.66,
+            "end": 770.86,
+            "text": " number in a list or sum of all the numbers in list. So it has built-in"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 770.86,
+            "end": 777.02,
+            "text": " functionalities which you can readily use. You can even take transpose of a"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 777.02,
+            "end": 781.38,
+            "text": " matrix all you need to do is specify dot T and it gives you the transpose"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 781.38,
+            "end": 787.5,
+            "text": " immediately. The last thing we would see in this tutorial is broadcasting. It's a"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 787.5,
+            "end": 799.26,
+            "text": " very handy operation performed by NumPy to make use of small arrays to"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 799.26,
+            "end": 804.22,
+            "text": " manipulate larger arrays. So imagine the large array is the data array and you"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 804.22,
+            "end": 810.58,
+            "text": " have a small array and basically you want to add each row with the small"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 810.58,
+            "end": 819.9000000000001,
+            "text": " array. Instead of duplicating the small array multiple times and then adding it"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 819.9000000000001,
+            "end": 827.38,
+            "text": " all you need to do is you can readily do data plus ones row and although these"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 827.38,
+            "end": 833.4200000000001,
+            "text": " data and ones underscore row is of different dimension due to the implicit"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 833.4200000000001,
+            "end": 839.98,
+            "text": " broadcasting the resulting operation is actually equivalent to addition of"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 840.02,
+            "end": 846.54,
+            "text": " the small array with each row in the data array. Right, this is really cool"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 846.54,
+            "end": 852.4200000000001,
+            "text": " functionality which Python NumPy does implicitly. We have to be very"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 852.4200000000001,
+            "end": 857.94,
+            "text": " careful also if you are not sure like what's going on you have to sometimes"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 857.94,
+            "end": 862.94,
+            "text": " pass some inputs and see how the output changes whether to see if the"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 862.94,
+            "end": 872.3000000000001,
+            "text": " broadcasting is applied or not. I think we'll stop with that for this tutorial."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 872.3000000000001,
+            "end": 879.58,
+            "text": " So rest of the materials are mostly self-explanatory and we welcome you to"
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 879.58,
+            "end": 886.4200000000001,
+            "text": " try it out and let us know if you have any comments or any clarifications."
+        },
+        {
+            "number": "08",
+            "title": "Python NumPy library",
+            "start": 886.4200000000001,
+            "end": 889.9000000000001,
+            "text": " Thanks for watching!"
+        }
+    ],
+    "text": " Hello everyone, welcome to the deep learning workshop. In this video I will provide a tutorial on introduction to NumPy. NumPy is a core library for scientific computing in Python. It is used in machine learning and it's also used for numerical analysis and so on. NumPy provides a high-performance multi-dimensional array object with which you can create one-dimensional array, two-dimensional array and so on. NumPy also provides functions to work with these arrays. You can do operations such as multiplications, addition, max, min and many other operations. So let's start with NumPy array. NumPy array is basically a grid of values. Typically all the values are of same type, integers, floats or Boolean. This array, like a Python list, can be indexed by providing a tuple of non-negative integers. It could be the position in the array that you want to access or it could also be other complicated things as we'll see later. The number of dimensions in an array is usually referred as the rank of the array and it can be obtained by calling the shape function with an array. You can basically get a list of integers which gives the size of the array along each dimension. So this is a one-dimensional NumPy array. It contains three values 1, 2 and 3 and basically this command takes a list of values. NumPy.array takes a list of values. It's a Python list of values and uses that to create a NumPy array. So you would get a NumPy array. It's a one-dimensional array with three values 1, 2 and 3. And you can call the shape function associated with the array object and you would get the shape of the array. In this case it's a one-dimensional array of size 3. So you get 3. You can also access elements within the array by providing the corresponding integers. This is very much like accessing a Python list and you can also create two-dimensional array. In this case I'm creating a 2 x 3 array. As you can see the first row contains 1, 2 and 3. The second row contains 4, 5 and 6. You can call the shape function again and you would get the shape. So this time you have a tuple of two numbers because we have two dimensions in the array. The first is the number of rows. So we have two rows. First row and then the second row and then the second dimension is the number of columns. We have three columns basically. The first column contains 1 and 4. Second column contains 2 and 5. Third column contains 3 and 6. And then again we can access elements in the two-dimensional array by providing both the row and the column integers. So for example I want to access the first row first column I would provide 0, 0. Remember that the indexing in Python starts from 0 not from 1. NumPy as I said before also provides a lot of functionalities to work with these arrays to perform some operations on these arrays and so on. It also provides functionalities to create arrays, create special arrays. So one kind of a special array is an array which contains full of 1s. So here you can use the ones function and create a 1d array of size 3 with all the values initialized to 1s. And similarly 0s you can do. You can call 0s function or you want to initialize values randomly from a normal distribution. You can use the random.random function and so on. Now we can look into indexing an array. We have an array. We want to access some elements in the array and we'll see different ways to access that. So we have already seen we can directly specify the integers corresponding to the dimensions. For example if it is a one-dimensional array you can provide the index like a Python list. You can provide index. You can even provide slicing. You can slice and get a select a set of values from the array. In this case if you want the first two elements in the array you would specify 0 colon 2 basically. So you would get the 0 and the first index values. Values corresponding to the first and the second index. And similarly you can do the same operations on a two-dimensional array as well. Here I want the first row second column so I would specify 0 comma 1. Or let's say I want the last two rows of the array. So I would specify 1 colon 3. Or let's say I want to specify on the first two rows and first column only. So I would specify the column index would just be 0 while the row index I would be slicing operation so I would do 0 colon 2 which specifies that I want the first two rows basically. We can also do integer array based indexing where you provide a list of row indices and list of column indices separately. In this case for this 3 cross 2 numpy array you can provide the row indices in a nice list form 0 comma 1 comma 2 and then the column indices in a nice list form 0 comma 1 comma 0. And you would get elements which are 0 through 0th column so which is 1 and first row I mean the second row and the second column which is 4. And similarly the third row and then the first column that would be 5. So you can basically just separately provide the list of row indices and the list of column indices. And there are some special tricks which we can use with indexing. If you want to mutate or make changes in some parts of the array you can you know do as follows. Let's say you have an array which is 3 cross 3 or 4 cross 3 in this case and you want to update few values in the array. Let's say add 10 to few values in the array. So one value from each row in the array. So you can provide the column indices separately 0 2 0 1 and then you can basically use the arange function which is going to give a list of numbers starting with 0 to n. So in this case n is 4. We will get number 0 1 2 or 3. So those are the row indices and B is the column indices 0 2 0 1 and I would make changes in specific values in the matrix one value per each row. So 0 comma 0 I add a 10 so it will become 11 and similarly 2 so the first second row and then the third column which is 6 and add 10 to it and then in this case the third row and then the first column I'll add 10 to it and then the fourth row and then the second column I'll add 10 to it. So it becomes 21. We can also do Boolean array based indexing. So if you say a greater than 2 only those indices whose values are greater than 2 it would be true otherwise it would be false. If we print this Boolean matrix you would get false false because and the first row none of the values in the first row contains number which is greater than 2 so that's false while all the other rows the second and the third rows contain values which are greater than 2. So you are true everywhere. And you can use this indexing to select elements. So basically I want those indices which are greater than 2. All I need to do is a and a greater than 2. This is going to give me the Boolean index and with applying that on a matrix I'm going to be able to select those values which are greater than 2. So it is 3, 4, 5 and 6. And regarding the data types of values as I said before typically the all the values in a NumPy array are of same data type and the data type could be integer or it could be float or it could be even be Boolean right and while instantiating the array you can specify the type of value that you want specifically. In this case I am specifying I am creating an array 1, 2 with each value being an integer. It's always a good practice to explicitly pass the type. Yeah. NumPy also provides easy to use functionalities to perform operations with arrays. Right if you have two arrays you can add them element wise. Yeah even it can work for 1D, 2D or 3D or MD for example those additions. Not just addition you can do subtraction, multiplication, division and you can just take element wise even square root as well. These are some of the operations of course you might need to look into the documentation for exhaustive list of operations supported by NumPy. You can do dot product and NumPy also has lot of cool functionalities like finding a maximum number in a list or minimum number in a list or sum of all the numbers in list. So it has built-in functionalities which you can readily use. You can even take transpose of a matrix all you need to do is specify dot T and it gives you the transpose immediately. The last thing we would see in this tutorial is broadcasting. It's a very handy operation performed by NumPy to make use of small arrays to manipulate larger arrays. So imagine the large array is the data array and you have a small array and basically you want to add each row with the small array. Instead of duplicating the small array multiple times and then adding it all you need to do is you can readily do data plus ones row and although these data and ones underscore row is of different dimension due to the implicit broadcasting the resulting operation is actually equivalent to addition of the small array with each row in the data array. Right, this is really cool functionality which Python NumPy does implicitly. We have to be very careful also if you are not sure like what's going on you have to sometimes pass some inputs and see how the output changes whether to see if the broadcasting is applied or not. I think we'll stop with that for this tutorial. So rest of the materials are mostly self-explanatory and we welcome you to try it out and let us know if you have any comments or any clarifications. Thanks for watching!"
+}

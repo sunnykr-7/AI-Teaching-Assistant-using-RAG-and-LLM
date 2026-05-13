@@ -1,0 +1,677 @@
+{
+    "chunks": [
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 0.0,
+            "end": 6.0600000000000005,
+            "text": " Hello everyone, welcome to my channel."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 6.0600000000000005,
+            "end": 11.040000000000001,
+            "text": " In this video I am discussing about what is machine learning and why it matters, types"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 11.040000000000001,
+            "end": 13.08,
+            "text": " of machine learning and so on."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 13.08,
+            "end": 16.080000000000002,
+            "text": " So without a further ado, let's get this started."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 16.080000000000002,
+            "end": 18.14,
+            "text": " So what is machine learning?"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 18.14,
+            "end": 23.28,
+            "text": " Machine learning often called as ML is a branch of an artificial intelligence that enables"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 23.28,
+            "end": 29.36,
+            "text": " a system to learn autonomously from data and make decisions without being explicitly programmed"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 30.36,
+            "end": 36.12,
+            "text": " The performance of ML model can be improved by providing large datasets and let the model"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 36.12,
+            "end": 39.16,
+            "text": " figure out the patterns."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 39.16,
+            "end": 43.0,
+            "text": " Let's imagine how we teach a child to recognize a dog."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 43.0,
+            "end": 46.519999999999996,
+            "text": " We don't tell them proper rules to recognize a dog."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 46.519999999999996,
+            "end": 50.28,
+            "text": " But we show them many dogs and say this is a dog."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 50.28,
+            "end": 53.9,
+            "text": " Therefore over time they learn how a dog looks like."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 53.9,
+            "end": 56.32,
+            "text": " So machine learning works the same way."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 56.32,
+            "end": 61.74,
+            "text": " We train the machine by showing it with lots of examples and it learns how to make decisions"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 61.74,
+            "end": 64.58,
+            "text": " based on that."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 64.58,
+            "end": 66.74,
+            "text": " Traditional Programming vs Machine Learning"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 66.74,
+            "end": 72.34,
+            "text": " Now let's compare machine learning with traditional programming."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 72.34,
+            "end": 77.32,
+            "text": " In traditional programming we write a set of predefined instructions and the computer"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 77.32,
+            "end": 82.5,
+            "text": " follows those instructions in order to perform the task."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 82.5,
+            "end": 87.68,
+            "text": " Whereas in machine learning we give set of examples that is huge amount of data plus"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 87.68,
+            "end": 93.28,
+            "text": " our expected outputs and in machine learning the computer learns the rule automatically"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 93.28,
+            "end": 96.28,
+            "text": " and figure out how to accomplish the task."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 96.28,
+            "end": 101.32,
+            "text": " Therefore machine learning is very versatile and powerful as it learns from the data and"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 101.32,
+            "end": 105.32,
+            "text": " improve its performance continuously."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 105.32,
+            "end": 109.4,
+            "text": " So why machine learning matters?"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 109.42,
+            "end": 114.42,
+            "text": " As we know there are lots of data these days and machine learning can handle this large"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 114.42,
+            "end": 119.5,
+            "text": " set of data, analyze it and find a proper value as an output."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 119.5,
+            "end": 122.80000000000001,
+            "text": " Machine learning is also leading to the exciting innovations."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 122.80000000000001,
+            "end": 129.8,
+            "text": " It is the heart of many technologies we use today such as drones, VRs, robots and many more."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 129.8,
+            "end": 135.66,
+            "text": " It can contribute to business, finance, by fraud detection, detecting security threats,"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 135.66,
+            "end": 138.3,
+            "text": " disease diagnosis and so on."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 138.3,
+            "end": 142.82000000000002,
+            "text": " Therefore machine learning is at the heart of many technologies we use today."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 142.82000000000002,
+            "end": 148.9,
+            "text": " It helps machine to read like spam detection and machines to see such as object detection,"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 148.9,
+            "end": 150.46,
+            "text": " face recognition."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 150.46,
+            "end": 156.10000000000002,
+            "text": " Similarly it helps machine to decide on fraud detection, choosing recommendations and it"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 156.10000000000002,
+            "end": 161.56,
+            "text": " also helps to hear by choosing voice assistants such as Alexa or Siri."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 161.56,
+            "end": 166.94,
+            "text": " It helps machine to create by generating images, text, videos and so many things."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 166.94,
+            "end": 171.66,
+            "text": " Therefore machine learning is very important as it is transforming various industries in"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 171.66,
+            "end": 172.66,
+            "text": " near future."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 172.66,
+            "end": 176.7,
+            "text": " Now let's understand the basic flow of machine learning process."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 176.7,
+            "end": 179.42,
+            "text": " The step 1 is problem statement."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 179.42,
+            "end": 184.3,
+            "text": " In order to decide which category of machine learning models we use, at first we should"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 184.3,
+            "end": 186.94,
+            "text": " have a deep understanding of our problems."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 186.94,
+            "end": 191.94,
+            "text": " The next step is data collection where we collect all the data like emails, numbers,"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 191.94,
+            "end": 195.38,
+            "text": " photos and so on that is required for our models."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 195.38,
+            "end": 197.85999999999999,
+            "text": " And the next step is data processing."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 197.85999999999999,
+            "end": 201.18,
+            "text": " This step is very important part in machine learning."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 201.18,
+            "end": 206.42,
+            "text": " It is like clearing the data by correcting errors, scaling and removing duplicates and"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 206.42,
+            "end": 207.42,
+            "text": " so on."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 207.42,
+            "end": 209.68,
+            "text": " The fourth step is to choose the right model."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 209.68,
+            "end": 213.62,
+            "text": " We should choose proper machine learning model for our clean data."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 213.62,
+            "end": 215.5,
+            "text": " Step 5 is to train the model."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 215.5,
+            "end": 219.85999999999999,
+            "text": " Once we decide machine learning model, the next step is to train the model."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 219.85999999999999,
+            "end": 223.42,
+            "text": " Training process is feeding the data to a learning algorithm."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 223.45999999999998,
+            "end": 228.66,
+            "text": " Once we train the model, the next step is to test the model and see how well it predicts"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 228.66,
+            "end": 230.45999999999998,
+            "text": " new and unseen data."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 230.45999999999998,
+            "end": 235.92,
+            "text": " The next step is to tune and optimize the model by using more data or better methods."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 235.92,
+            "end": 241.38,
+            "text": " The last step is deployment where machine learning model is tested in production environment."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 243.85999999999999,
+            "end": 245.38,
+            "text": " Types of Machine Learning"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 245.38,
+            "end": 251.26,
+            "text": " Machine learning is divided into supervised learning, unsupervised learning and reinforcement"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 251.26,
+            "end": 252.26,
+            "text": " learning."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 253.26,
+            "end": 254.26,
+            "text": " Supervised learning"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 254.26,
+            "end": 259.46,
+            "text": " Supervised learning models learn from the labeled data that means we provide input plus"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 259.46,
+            "end": 260.9,
+            "text": " correct output."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 260.9,
+            "end": 264.18,
+            "text": " The goal here is to predict future output."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 264.18,
+            "end": 269.78,
+            "text": " Examples are object detection, spam detection, forecasting and so on."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 269.78,
+            "end": 272.98,
+            "text": " Next we have is supervised learning algorithms."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 272.98,
+            "end": 278.06,
+            "text": " There are different algorithms in supervised learning like linear regression, logistic"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 278.06,
+            "end": 285.5,
+            "text": " regression, decision trees, support vector machines or SVM, k-nearest neighbors, KNN,"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 285.5,
+            "end": 288.54,
+            "text": " random forest, Naive-Weir algorithm."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 288.54,
+            "end": 292.7,
+            "text": " So we will discuss about supervised learning in our upcoming videos."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 292.7,
+            "end": 294.9,
+            "text": " Now let's move to the unsupervised learning."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 298.9,
+            "end": 299.9,
+            "text": " Unsupervised learning"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 299.9,
+            "end": 306.18,
+            "text": " Unsupervised learning models learn from unlabeled data that means we only provide lots of input"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 306.3,
+            "end": 309.90000000000003,
+            "text": " data and we do not give known output to the model."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 309.90000000000003,
+            "end": 315.58,
+            "text": " The goal here is to find structure in data and provide us the proper output."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 315.58,
+            "end": 323.42,
+            "text": " The examples are recommendation engines, anomaly detections, medical imaging and so on."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 323.42,
+            "end": 325.74,
+            "text": " Next is unsupervised learning algorithms."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 325.74,
+            "end": 334.38,
+            "text": " We have hierarchical clustering, fuzzy means, k-means clustering and so on."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 334.38,
+            "end": 335.38,
+            "text": " Reinforcement learning"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 335.58,
+            "end": 342.65999999999997,
+            "text": " In reinforcement learning, the model learns by doing and through various trials and errors."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 342.65999999999997,
+            "end": 349.1,
+            "text": " The examples are game AI like chess, robotics, self-driving cars and so on."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 349.1,
+            "end": 354.18,
+            "text": " Now reinforcement learning is rapidly growing with huge potential and we will experience"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 354.18,
+            "end": 358.7,
+            "text": " more groundbreaking innovations in near future."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 358.7,
+            "end": 360.06,
+            "text": " Applications of machine learning"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 360.74,
+            "end": 366.54,
+            "text": " Machine learning is almost everywhere now like in self-driving cars, security, recommendation"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 366.54,
+            "end": 374.26,
+            "text": " systems, customer service, voice assistance, fraud detection, digital marketing, search"
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 374.26,
+            "end": 377.74,
+            "text": " engines and face recognition."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 377.74,
+            "end": 379.06,
+            "text": " So that's all for today."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 379.06,
+            "end": 383.14,
+            "text": " We have learnt what is machine learning, why it is such a big deal."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 383.14,
+            "end": 386.58,
+            "text": " In the next video, we will talk about the types of machine learning."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 386.58,
+            "end": 390.46,
+            "text": " Make sure to like and turn on the notification so you don't miss it."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 390.46,
+            "end": 394.3,
+            "text": " If this video is helpful to you, give it a thumbs up and leave a comment below."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 394.3,
+            "end": 399.46,
+            "text": " It would be great to hear what topics you are excited to learn about in machine learning."
+        },
+        {
+            "number": "02",
+            "title": "What Is Machine Learning",
+            "start": 399.46,
+            "end": 400.3,
+            "text": " Thank you for watching."
+        }
+    ],
+    "text": " Hello everyone, welcome to my channel. In this video I am discussing about what is machine learning and why it matters, types of machine learning and so on. So without a further ado, let's get this started. So what is machine learning? Machine learning often called as ML is a branch of an artificial intelligence that enables a system to learn autonomously from data and make decisions without being explicitly programmed The performance of ML model can be improved by providing large datasets and let the model figure out the patterns. Let's imagine how we teach a child to recognize a dog. We don't tell them proper rules to recognize a dog. But we show them many dogs and say this is a dog. Therefore over time they learn how a dog looks like. So machine learning works the same way. We train the machine by showing it with lots of examples and it learns how to make decisions based on that. Traditional Programming vs Machine Learning Now let's compare machine learning with traditional programming. In traditional programming we write a set of predefined instructions and the computer follows those instructions in order to perform the task. Whereas in machine learning we give set of examples that is huge amount of data plus our expected outputs and in machine learning the computer learns the rule automatically and figure out how to accomplish the task. Therefore machine learning is very versatile and powerful as it learns from the data and improve its performance continuously. So why machine learning matters? As we know there are lots of data these days and machine learning can handle this large set of data, analyze it and find a proper value as an output. Machine learning is also leading to the exciting innovations. It is the heart of many technologies we use today such as drones, VRs, robots and many more. It can contribute to business, finance, by fraud detection, detecting security threats, disease diagnosis and so on. Therefore machine learning is at the heart of many technologies we use today. It helps machine to read like spam detection and machines to see such as object detection, face recognition. Similarly it helps machine to decide on fraud detection, choosing recommendations and it also helps to hear by choosing voice assistants such as Alexa or Siri. It helps machine to create by generating images, text, videos and so many things. Therefore machine learning is very important as it is transforming various industries in near future. Now let's understand the basic flow of machine learning process. The step 1 is problem statement. In order to decide which category of machine learning models we use, at first we should have a deep understanding of our problems. The next step is data collection where we collect all the data like emails, numbers, photos and so on that is required for our models. And the next step is data processing. This step is very important part in machine learning. It is like clearing the data by correcting errors, scaling and removing duplicates and so on. The fourth step is to choose the right model. We should choose proper machine learning model for our clean data. Step 5 is to train the model. Once we decide machine learning model, the next step is to train the model. Training process is feeding the data to a learning algorithm. Once we train the model, the next step is to test the model and see how well it predicts new and unseen data. The next step is to tune and optimize the model by using more data or better methods. The last step is deployment where machine learning model is tested in production environment. Types of Machine Learning Machine learning is divided into supervised learning, unsupervised learning and reinforcement learning. Supervised learning Supervised learning models learn from the labeled data that means we provide input plus correct output. The goal here is to predict future output. Examples are object detection, spam detection, forecasting and so on. Next we have is supervised learning algorithms. There are different algorithms in supervised learning like linear regression, logistic regression, decision trees, support vector machines or SVM, k-nearest neighbors, KNN, random forest, Naive-Weir algorithm. So we will discuss about supervised learning in our upcoming videos. Now let's move to the unsupervised learning. Unsupervised learning Unsupervised learning models learn from unlabeled data that means we only provide lots of input data and we do not give known output to the model. The goal here is to find structure in data and provide us the proper output. The examples are recommendation engines, anomaly detections, medical imaging and so on. Next is unsupervised learning algorithms. We have hierarchical clustering, fuzzy means, k-means clustering and so on. Reinforcement learning In reinforcement learning, the model learns by doing and through various trials and errors. The examples are game AI like chess, robotics, self-driving cars and so on. Now reinforcement learning is rapidly growing with huge potential and we will experience more groundbreaking innovations in near future. Applications of machine learning Machine learning is almost everywhere now like in self-driving cars, security, recommendation systems, customer service, voice assistance, fraud detection, digital marketing, search engines and face recognition. So that's all for today. We have learnt what is machine learning, why it is such a big deal. In the next video, we will talk about the types of machine learning. Make sure to like and turn on the notification so you don't miss it. If this video is helpful to you, give it a thumbs up and leave a comment below. It would be great to hear what topics you are excited to learn about in machine learning. Thank you for watching."
+}

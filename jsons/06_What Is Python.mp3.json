@@ -1,0 +1,1055 @@
+{
+    "chunks": [
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 0.0,
+            "end": 7.88,
+            "text": " Hello everyone, welcome to this video."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 7.88,
+            "end": 15.280000000000001,
+            "text": " In this tutorial, you are going to learn everything you need to get started programming in Python."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 15.280000000000001,
+            "end": 20.96,
+            "text": " Python is the most popular programming language in the world because of its simple and beginner"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 20.96,
+            "end": 24.92,
+            "text": " friendly syntax."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 24.92,
+            "end": 30.64,
+            "text": " If you are learning Python to work in data science, machine learning, robotics or artificial"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 30.64,
+            "end": 36.52,
+            "text": " intelligence or you like to do cool things like automate your day to day work or develop"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 36.52,
+            "end": 42.120000000000005,
+            "text": " applications and websites like YouTube and Instagram, then you are in the right place"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 42.120000000000005,
+            "end": 44.08,
+            "text": " to start with."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 44.08,
+            "end": 47.6,
+            "text": " You do not need to have any prior knowledge of programming."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 47.6,
+            "end": 50.36,
+            "text": " I will teach you everything from scratch."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 50.68,
+            "end": 56.32,
+            "text": " First, we will talk about the core concepts of Python in the subsequent videos in this"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 56.32,
+            "end": 57.84,
+            "text": " channel 10."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 57.84,
+            "end": 66.32,
+            "text": " Then we will learn some popular Python packages like NumPy, Pandas, Matplotlib and a popular"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 66.32,
+            "end": 69.16,
+            "text": " web framework called Flask."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 69.16,
+            "end": 73.22,
+            "text": " These packages are heavily used in data science and machine learning."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 73.22,
+            "end": 78.32,
+            "text": " We are going to build four real-life Python projects together."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 78.32,
+            "end": 81.91999999999999,
+            "text": " That will build your confidence as a Python developer."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 81.91999999999999,
+            "end": 90.72,
+            "text": " To learn different programming languages, frameworks, DSA, machine learning, AI, data"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 90.72,
+            "end": 95.28,
+            "text": " science and a lot more, please subscribe to this channel."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 95.28,
+            "end": 100.52,
+            "text": " If you are new to this channel and not subscribed yet, then please hit the subscribe button"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 100.52,
+            "end": 104.08,
+            "text": " as I upload new content twice a week."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 104.08,
+            "end": 106.56,
+            "text": " Let's get started."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 106.56,
+            "end": 113.16,
+            "text": " Before we look into core concepts, let us see the three most common questions."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 113.16,
+            "end": 115.60000000000001,
+            "text": " What is Python?"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 115.60000000000001,
+            "end": 118.72,
+            "text": " What can you do with Python?"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 118.72,
+            "end": 122.6,
+            "text": " And why is it so popular?"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 122.6,
+            "end": 129.08,
+            "text": " Python is the world's most popular programming language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 129.08,
+            "end": 134.0,
+            "text": " As per definition, Python is a high-level interpreted language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 134.0,
+            "end": 140.08,
+            "text": " Let's understand briefly these two keywords, high-level and interpreted."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 140.08,
+            "end": 142.64,
+            "text": " Let's see high-level language first."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 142.64,
+            "end": 149.32,
+            "text": " A computer is a machine that can perform any computational task based on the instruction"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 149.32,
+            "end": 150.32,
+            "text": " we give it."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 150.32,
+            "end": 154.8,
+            "text": " This set of instructions is called a program."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 154.8,
+            "end": 159.64,
+            "text": " But computers only understand binary languages like zeros and ones."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 159.64,
+            "end": 167.48,
+            "text": " We generally write some programs in different languages like Python, C++, Java, etc."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 167.48,
+            "end": 173.67999999999998,
+            "text": " These programs convert into machine binary languages like zeros and ones by Python interpreter"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 173.67999999999998,
+            "end": 181.44,
+            "text": " or Java compiler to understand by computer or CPU to perform any task."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 181.44,
+            "end": 184.95999999999998,
+            "text": " These popular languages are called high-level languages."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 185.44,
+            "end": 191.88,
+            "text": " High-level languages are portable and can run on any platform."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 191.88,
+            "end": 196.76000000000002,
+            "text": " These languages have English-like syntax and can be easily understood or written by humans"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 196.76000000000002,
+            "end": 201.84,
+            "text": " that is languages like Python, Java, etc."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 201.84,
+            "end": 208.8,
+            "text": " Conversely, the syntax of low-level language is binary machine language like zeros, ones"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 208.88000000000002,
+            "end": 216.28,
+            "text": " or assembly language like x86 used in Intel or AMD processor use mnemonic instruction"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 216.28,
+            "end": 222.96,
+            "text": " like MOV for a move or ADD for addition."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 222.96,
+            "end": 226.68,
+            "text": " Low-level languages are dependent on hardware and machine architecture."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 226.68,
+            "end": 235.16000000000003,
+            "text": " They are way hard to understand by humans and not commonly used nowadays."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 235.16,
+            "end": 240.16,
+            "text": " If you like to know more detailed properties of low-level and high-level languages, please"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 240.16,
+            "end": 247.32,
+            "text": " let me know in the comment box and I will create a detailed video on this topic."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 247.32,
+            "end": 252.6,
+            "text": " Let's discuss briefly the keyword interpreter."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 252.6,
+            "end": 260.8,
+            "text": " So when you execute a Python code, what happens here is that it starts the interpreter as"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 260.8,
+            "end": 269.84000000000003,
+            "text": " it shown in this image and the compiler grabs the source code and converts it into bytecode."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 269.84000000000003,
+            "end": 276.44,
+            "text": " In the second step, Python virtual machine takes the bytecode and interprets into machine"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 276.44,
+            "end": 279.6,
+            "text": " code to execute the program."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 279.6,
+            "end": 284.96000000000004,
+            "text": " Now let me tell you although the definition says it's an interpreter language, the truth"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 284.96000000000004,
+            "end": 290.28000000000003,
+            "text": " is it's an interpreter and compile language that is a hybrid language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 290.28,
+            "end": 297.15999999999997,
+            "text": " We will learn how the Python interpreter works under the hood in detail in the third"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 297.15999999999997,
+            "end": 299.84,
+            "text": " lecture of this tutorial."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 299.84,
+            "end": 305.67999999999995,
+            "text": " So we now understand what is Python and its definition."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 305.67999999999995,
+            "end": 310.15999999999997,
+            "text": " Now let's see what you can do with Python."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 310.15999999999997,
+            "end": 312.91999999999996,
+            "text": " Python is a general purpose language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 312.91999999999996,
+            "end": 317.4,
+            "text": " It's so general that you can do pretty much anything you can imagine."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 317.79999999999995,
+            "end": 325.52,
+            "text": " So if you learn Python, you can work on machine learning, data science, and artificial intelligence."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 325.52,
+            "end": 332.47999999999996,
+            "text": " In fact, it's the number one language for data science and machine learning projects."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 332.47999999999996,
+            "end": 336.64,
+            "text": " You can make a game, a backend server, or API."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 336.64,
+            "end": 337.64,
+            "text": " You can work with databases."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 337.64,
+            "end": 339.67999999999995,
+            "text": " You can do a lot."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 339.67999999999995,
+            "end": 346.52,
+            "text": " You can use it for application and software development or automate your day-to-day work."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 346.64,
+            "end": 347.64,
+            "text": " Anything."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 347.64,
+            "end": 352.64,
+            "text": " It's a prevalent language for web development too."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 352.64,
+            "end": 357.15999999999997,
+            "text": " It has two great frameworks, Django and Plus."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 357.15999999999997,
+            "end": 364.64,
+            "text": " There are many amazing websites like YouTube, Instagram, Spotify, and Dropbox built using"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 364.64,
+            "end": 366.56,
+            "text": " Python and its framework."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 366.56,
+            "end": 371.08,
+            "text": " So you can do pretty much anything with this."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 371.12,
+            "end": 377.76,
+            "text": " So as a first language, it's very good as it gives you multiple avenues to work with"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 377.76,
+            "end": 381.2,
+            "text": " and you can explore different paths with Python."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 381.2,
+            "end": 388.84,
+            "text": " Later, you can pick up specific languages like Go, JavaScript, Rust, Java, etc. for"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 388.84,
+            "end": 390.36,
+            "text": " specific tasks."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 390.36,
+            "end": 395.03999999999996,
+            "text": " In the future, I am going to teach those also in this channel."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 395.04,
+            "end": 402.88,
+            "text": " But with the explosion of machine learning and AI, Python has a huge job market worldwide."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 402.88,
+            "end": 412.48,
+            "text": " An experienced Python developer can earn up to an average of $130,000 per annum, which"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 412.48,
+            "end": 415.28000000000003,
+            "text": " is pretty cool, right?"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 415.28000000000003,
+            "end": 419.56,
+            "text": " Let me know in the comment box why you want to learn Python."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 419.56,
+            "end": 427.24,
+            "text": " As per TOB and PYPL index, Python is the top programming language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 427.24,
+            "end": 428.72,
+            "text": " Let us see these two graphs."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 428.72,
+            "end": 434.16,
+            "text": " This should give us a clear picture of how popular Python is."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 434.16,
+            "end": 440.64,
+            "text": " By the way, I borrowed these graphs and data from pypl.github.io website."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 440.64,
+            "end": 446.04,
+            "text": " PYPL is the famous index for popularity of programming language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 446.04,
+            "end": 452.16,
+            "text": " It's created by analyzing how often a language tutorial is searched in Google."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 452.16,
+            "end": 456.88,
+            "text": " It is a worldwide leading indicator of the popularity of a programming language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 456.88,
+            "end": 458.44,
+            "text": " Now see the top graph."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 458.44,
+            "end": 465.56,
+            "text": " The blue line indicates Python, which is steadily rising from 90s and in 2024 it holds the top"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 465.56,
+            "end": 466.56,
+            "text": " position."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 466.56,
+            "end": 472.92,
+            "text": " Its popularity skyrocketed with the advent of machine learning and AI in 2016 and became"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 472.92,
+            "end": 478.24,
+            "text": " number one by suppressing Java in 2018."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 478.24,
+            "end": 481.8,
+            "text": " Now here Java is shown in red line."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 481.8,
+            "end": 489.32,
+            "text": " As per the data, Java lost its ground the most, I mean minus 4% in the last five years,"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 489.32,
+            "end": 495.20000000000005,
+            "text": " whereas Rust grew the most, approx 2%."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 495.20000000000005,
+            "end": 502.84000000000003,
+            "text": " And in the bottom graph shows the market share of the 12 languages for popularity in 2024"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 502.96,
+            "end": 511.4,
+            "text": " Here Python covers a major market with a staggering 28.43% market share, whereas the next popular"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 511.4,
+            "end": 517.88,
+            "text": " language Java falls behind a lot with 16.04% market share."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 517.88,
+            "end": 523.72,
+            "text": " So from the leading indicators also we can see that Python is way ahead compared to its"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 523.72,
+            "end": 526.04,
+            "text": " peers in popularity."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 526.04,
+            "end": 533.0,
+            "text": " We have already seen that Python is extremely popular and used by tens of millions of people"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 533.0,
+            "end": 537.64,
+            "text": " and ranks number one as the most popular programming language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 537.64,
+            "end": 541.04,
+            "text": " There are tons of different jobs."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 541.04,
+            "end": 545.36,
+            "text": " We already discussed that it's a general purpose programming language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 545.36,
+            "end": 553.24,
+            "text": " So if you learn Python, then you can write almost anything using Python."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 553.24,
+            "end": 560.12,
+            "text": " We have already discussed multiple points regarding why Python is so popular here."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 560.12,
+            "end": 564.36,
+            "text": " We'll discuss an additional four points."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 564.36,
+            "end": 567.72,
+            "text": " It's a very beginner-friendly language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 567.72,
+            "end": 574.2,
+            "text": " It has an English-like syntax that is very easy to learn and you can pick it up in a"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 574.2,
+            "end": 576.6800000000001,
+            "text": " few weeks or even a month."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 576.6800000000001,
+            "end": 579.52,
+            "text": " It's easy to read and fast to code."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 579.52,
+            "end": 586.12,
+            "text": " If you are a software engineer or data science and machine learning enthusiast or someone"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 586.12,
+            "end": 593.84,
+            "text": " who likes to learn programming as a hobby or as a side activity, then also I will recommend"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 593.84,
+            "end": 599.96,
+            "text": " you to start learning Python and this course will help you in your learning journey."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 599.96,
+            "end": 608.48,
+            "text": " Second point is it's open source, which means you can download the source code, modify or"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 608.48,
+            "end": 613.0,
+            "text": " use it to develop new tools and applications however you want."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 613.0,
+            "end": 615.52,
+            "text": " You do not need to pay for it."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 615.52,
+            "end": 623.2,
+            "text": " And it has a broad standard library and it's available for everyone, which means you don't"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 623.2,
+            "end": 627.0,
+            "text": " have to write code for every single function."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 627.0,
+            "end": 631.84,
+            "text": " You can use the built-in modules for your everyday programming."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 631.84,
+            "end": 638.88,
+            "text": " And not only the standard library, you can always access a vast ecosystem of resources,"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 638.88,
+            "end": 640.44,
+            "text": " packages and libraries."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 640.44,
+            "end": 646.2,
+            "text": " There are thousands of useful libraries to make your coding journey smoother and easier."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 646.2,
+            "end": 654.4,
+            "text": " Just to give an idea, there are approximately 147,000 libraries available for your use in"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 654.4,
+            "end": 657.2,
+            "text": " the UIPL repository."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 657.2,
+            "end": 662.6,
+            "text": " I will cover several useful libraries in this channel, which you will need in your"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 662.6,
+            "end": 665.2,
+            "text": " machine learning and data science journey."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 665.2,
+            "end": 674.32,
+            "text": " A few examples are like NumPy, Pandas, Matplotlib, BeautifulSoup, Django, Flask, etc."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 674.32,
+            "end": 682.24,
+            "text": " And last but not the least, it has a matured vast community for your help."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 682.28,
+            "end": 689.52,
+            "text": " There are 8.2 million Python developers in the world, which is more than any other language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 689.52,
+            "end": 693.36,
+            "text": " That means you are not alone in this Python coding journey."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 693.36,
+            "end": 698.2,
+            "text": " There is a robust community at your back to support you throughout."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 698.2,
+            "end": 705.64,
+            "text": " So now you realize why Python is the most popular language in today's time."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 705.64,
+            "end": 710.16,
+            "text": " So let's see a quick summary before we end this lecture."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 710.16,
+            "end": 713.28,
+            "text": " We discussed four points in this lecture."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 713.28,
+            "end": 719.1999999999999,
+            "text": " We discussed Python definition and two concepts, high level and interpreted language."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 719.1999999999999,
+            "end": 725.4399999999999,
+            "text": " Then we talked about Python as a general purpose programming language like Swiss Army Knife"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 725.4399999999999,
+            "end": 727.52,
+            "text": " in your digital world."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 727.52,
+            "end": 731.0799999999999,
+            "text": " You can use this language to code in multiple areas."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 731.0799999999999,
+            "end": 737.3199999999999,
+            "text": " We have seen two graphs and data from the UIPL index which shows that it's a number"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 737.48,
+            "end": 741.1600000000001,
+            "text": " one programming language and hugely popular in today's world."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 741.1600000000001,
+            "end": 749.1600000000001,
+            "text": " We also discussed four points regarding why Python is so popular, ease of user learning,"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 749.1600000000001,
+            "end": 755.8000000000001,
+            "text": " it is open source, it has a robust library and a vast mature community."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 757.08,
+            "end": 761.8000000000001,
+            "text": " If you like this video, please hit the like button and share it with others."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 762.52,
+            "end": 767.8,
+            "text": " If you are new to this channel and not subscribed yet, then please hit the subscribe button"
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 768.68,
+            "end": 772.8399999999999,
+            "text": " so that you will get notified when I upload new content."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 774.4399999999999,
+            "end": 775.7199999999999,
+            "text": " See you in the next video."
+        },
+        {
+            "number": "06",
+            "title": "What Is Python",
+            "start": 775.7199999999999,
+            "end": 779.0,
+            "text": " Till then keep learning and happy coding."
+        }
+    ],
+    "text": " Hello everyone, welcome to this video. In this tutorial, you are going to learn everything you need to get started programming in Python. Python is the most popular programming language in the world because of its simple and beginner friendly syntax. If you are learning Python to work in data science, machine learning, robotics or artificial intelligence or you like to do cool things like automate your day to day work or develop applications and websites like YouTube and Instagram, then you are in the right place to start with. You do not need to have any prior knowledge of programming. I will teach you everything from scratch. First, we will talk about the core concepts of Python in the subsequent videos in this channel 10. Then we will learn some popular Python packages like NumPy, Pandas, Matplotlib and a popular web framework called Flask. These packages are heavily used in data science and machine learning. We are going to build four real-life Python projects together. That will build your confidence as a Python developer. To learn different programming languages, frameworks, DSA, machine learning, AI, data science and a lot more, please subscribe to this channel. If you are new to this channel and not subscribed yet, then please hit the subscribe button as I upload new content twice a week. Let's get started. Before we look into core concepts, let us see the three most common questions. What is Python? What can you do with Python? And why is it so popular? Python is the world's most popular programming language. As per definition, Python is a high-level interpreted language. Let's understand briefly these two keywords, high-level and interpreted. Let's see high-level language first. A computer is a machine that can perform any computational task based on the instruction we give it. This set of instructions is called a program. But computers only understand binary languages like zeros and ones. We generally write some programs in different languages like Python, C++, Java, etc. These programs convert into machine binary languages like zeros and ones by Python interpreter or Java compiler to understand by computer or CPU to perform any task. These popular languages are called high-level languages. High-level languages are portable and can run on any platform. These languages have English-like syntax and can be easily understood or written by humans that is languages like Python, Java, etc. Conversely, the syntax of low-level language is binary machine language like zeros, ones or assembly language like x86 used in Intel or AMD processor use mnemonic instruction like MOV for a move or ADD for addition. Low-level languages are dependent on hardware and machine architecture. They are way hard to understand by humans and not commonly used nowadays. If you like to know more detailed properties of low-level and high-level languages, please let me know in the comment box and I will create a detailed video on this topic. Let's discuss briefly the keyword interpreter. So when you execute a Python code, what happens here is that it starts the interpreter as it shown in this image and the compiler grabs the source code and converts it into bytecode. In the second step, Python virtual machine takes the bytecode and interprets into machine code to execute the program. Now let me tell you although the definition says it's an interpreter language, the truth is it's an interpreter and compile language that is a hybrid language. We will learn how the Python interpreter works under the hood in detail in the third lecture of this tutorial. So we now understand what is Python and its definition. Now let's see what you can do with Python. Python is a general purpose language. It's so general that you can do pretty much anything you can imagine. So if you learn Python, you can work on machine learning, data science, and artificial intelligence. In fact, it's the number one language for data science and machine learning projects. You can make a game, a backend server, or API. You can work with databases. You can do a lot. You can use it for application and software development or automate your day-to-day work. Anything. It's a prevalent language for web development too. It has two great frameworks, Django and Plus. There are many amazing websites like YouTube, Instagram, Spotify, and Dropbox built using Python and its framework. So you can do pretty much anything with this. So as a first language, it's very good as it gives you multiple avenues to work with and you can explore different paths with Python. Later, you can pick up specific languages like Go, JavaScript, Rust, Java, etc. for specific tasks. In the future, I am going to teach those also in this channel. But with the explosion of machine learning and AI, Python has a huge job market worldwide. An experienced Python developer can earn up to an average of $130,000 per annum, which is pretty cool, right? Let me know in the comment box why you want to learn Python. As per TOB and PYPL index, Python is the top programming language. Let us see these two graphs. This should give us a clear picture of how popular Python is. By the way, I borrowed these graphs and data from pypl.github.io website. PYPL is the famous index for popularity of programming language. It's created by analyzing how often a language tutorial is searched in Google. It is a worldwide leading indicator of the popularity of a programming language. Now see the top graph. The blue line indicates Python, which is steadily rising from 90s and in 2024 it holds the top position. Its popularity skyrocketed with the advent of machine learning and AI in 2016 and became number one by suppressing Java in 2018. Now here Java is shown in red line. As per the data, Java lost its ground the most, I mean minus 4% in the last five years, whereas Rust grew the most, approx 2%. And in the bottom graph shows the market share of the 12 languages for popularity in 2024 Here Python covers a major market with a staggering 28.43% market share, whereas the next popular language Java falls behind a lot with 16.04% market share. So from the leading indicators also we can see that Python is way ahead compared to its peers in popularity. We have already seen that Python is extremely popular and used by tens of millions of people and ranks number one as the most popular programming language. There are tons of different jobs. We already discussed that it's a general purpose programming language. So if you learn Python, then you can write almost anything using Python. We have already discussed multiple points regarding why Python is so popular here. We'll discuss an additional four points. It's a very beginner-friendly language. It has an English-like syntax that is very easy to learn and you can pick it up in a few weeks or even a month. It's easy to read and fast to code. If you are a software engineer or data science and machine learning enthusiast or someone who likes to learn programming as a hobby or as a side activity, then also I will recommend you to start learning Python and this course will help you in your learning journey. Second point is it's open source, which means you can download the source code, modify or use it to develop new tools and applications however you want. You do not need to pay for it. And it has a broad standard library and it's available for everyone, which means you don't have to write code for every single function. You can use the built-in modules for your everyday programming. And not only the standard library, you can always access a vast ecosystem of resources, packages and libraries. There are thousands of useful libraries to make your coding journey smoother and easier. Just to give an idea, there are approximately 147,000 libraries available for your use in the UIPL repository. I will cover several useful libraries in this channel, which you will need in your machine learning and data science journey. A few examples are like NumPy, Pandas, Matplotlib, BeautifulSoup, Django, Flask, etc. And last but not the least, it has a matured vast community for your help. There are 8.2 million Python developers in the world, which is more than any other language. That means you are not alone in this Python coding journey. There is a robust community at your back to support you throughout. So now you realize why Python is the most popular language in today's time. So let's see a quick summary before we end this lecture. We discussed four points in this lecture. We discussed Python definition and two concepts, high level and interpreted language. Then we talked about Python as a general purpose programming language like Swiss Army Knife in your digital world. You can use this language to code in multiple areas. We have seen two graphs and data from the UIPL index which shows that it's a number one programming language and hugely popular in today's world. We also discussed four points regarding why Python is so popular, ease of user learning, it is open source, it has a robust library and a vast mature community. If you like this video, please hit the like button and share it with others. If you are new to this channel and not subscribed yet, then please hit the subscribe button so that you will get notified when I upload new content. See you in the next video. Till then keep learning and happy coding."
+}

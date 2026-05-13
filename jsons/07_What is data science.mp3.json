@@ -1,0 +1,334 @@
+{
+    "chunks": [
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 0.0,
+            "end": 3.0,
+            "text": " Hi, this is Preeti from Analytics India Magazine"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 3.0,
+            "end": 7.0,
+            "text": " and this is the first video out of many on data science as a career."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 7.0,
+            "end": 9.0,
+            "text": " And let's start right at the beginning."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 9.0,
+            "end": 11.0,
+            "text": " What is data science?"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 11.0,
+            "end": 14.0,
+            "text": " What do data scientists and analysts actually do?"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 14.0,
+            "end": 16.0,
+            "text": " And why should you opt for this field?"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 16.0,
+            "end": 22.0,
+            "text": " In simple words, data science uses data to solve real company problems"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 22.0,
+            "end": 25.0,
+            "text": " by collecting, analyzing and modeling the data."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 25.0,
+            "end": 27.0,
+            "text": " But is it really this simple?"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 27.0,
+            "end": 31.0,
+            "text": " Let's take an example to find out what does the job actually entail."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 31.0,
+            "end": 33.0,
+            "text": " We have all experienced this."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 33.0,
+            "end": 38.0,
+            "text": " While catching a flight to the airport, cab drivers usually cancel their rides"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 38.0,
+            "end": 44.0,
+            "text": " and sometimes it takes up to 4-5 attempts to actually get a cab driver to come pick you up."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 44.0,
+            "end": 48.0,
+            "text": " And for a large company like Uber, this becomes a business problem."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 48.0,
+            "end": 53.0,
+            "text": " Now your job as a data analyst is to figure out why this is happening."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 53.0,
+            "end": 56.0,
+            "text": " In order to do that, you have to collect data."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 56.0,
+            "end": 59.0,
+            "text": " Ask the right questions, look at the right places."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 59.0,
+            "end": 62.0,
+            "text": " For example, you can get the data from customer complaints"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 62.0,
+            "end": 64.0,
+            "text": " which would serve as unstructured data."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 64.0,
+            "end": 68.0,
+            "text": " And go look for data in the data warehouse which would be a structured data."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 68.0,
+            "end": 73.0,
+            "text": " And look for information like number of requests made for a ride to the airport"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 73.0,
+            "end": 75.0,
+            "text": " in the last 3 months or so."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 75.0,
+            "end": 77.0,
+            "text": " How many of those rides were completed?"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 77.0,
+            "end": 82.0,
+            "text": " Trip information, flight schedules, number of drivers appointed to the route"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 82.0,
+            "end": 83.0,
+            "text": " and many other questions."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 83.0,
+            "end": 85.0,
+            "text": " Then you start to analyse the data."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 85.0,
+            "end": 89.0,
+            "text": " Compare the ratio of the trips requested to the completion rate"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 89.0,
+            "end": 92.0,
+            "text": " to find if there is a disparity between the supply and demand."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 92.0,
+            "end": 98.0,
+            "text": " Check if the cab drivers are actually cancelling the cab during specific times in the night"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 98.0,
+            "end": 104.0,
+            "text": " to avoid the ideal time they have to wait at the airport to get a passenger back to the city."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 104.0,
+            "end": 110.0,
+            "text": " Since it's not economical for the cab driver to wait for a couple of hours at the airport for a ride back."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 111.0,
+            "end": 112.0,
+            "text": " Check the flight schedules."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 112.0,
+            "end": 116.0,
+            "text": " Are there more number of flights arriving than the flights departing?"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 116.0,
+            "end": 119.0,
+            "text": " This can also have an effect on the demand and supply."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 119.0,
+            "end": 122.0,
+            "text": " Once you have collected and analysed this data,"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 122.0,
+            "end": 126.0,
+            "text": " you start by compiling it using statistics in the form of graphs and charts"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 126.0,
+            "end": 128.0,
+            "text": " to be presented to the stakeholders."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 128.0,
+            "end": 133.0,
+            "text": " Even now you have only figured out what the problem is and not the solution yet."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 133.0,
+            "end": 138.0,
+            "text": " But we hope this simple example gives you a picture of what data science is all about."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 138.0,
+            "end": 142.0,
+            "text": " Data science has application in almost every field."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 142.0,
+            "end": 147.0,
+            "text": " From healthcare to retail to finance as well as the entertainment industry."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 147.0,
+            "end": 150.0,
+            "text": " And its perks also include high salaries."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 150.0,
+            "end": 153.0,
+            "text": " No wonder it is the most sought after job of this decade."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 153.0,
+            "end": 156.0,
+            "text": " If data science is the field that you want to opt for,"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 156.0,
+            "end": 160.0,
+            "text": " then don't forget to subscribe to our channel, Analytics India Magazine"
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 160.0,
+            "end": 164.0,
+            "text": " and follow this segment for everything in the world of data science."
+        },
+        {
+            "number": "07",
+            "title": "What is data science",
+            "start": 164.0,
+            "end": 166.0,
+            "text": " Stay smart. Bye."
+        }
+    ],
+    "text": " Hi, this is Preeti from Analytics India Magazine and this is the first video out of many on data science as a career. And let's start right at the beginning. What is data science? What do data scientists and analysts actually do? And why should you opt for this field? In simple words, data science uses data to solve real company problems by collecting, analyzing and modeling the data. But is it really this simple? Let's take an example to find out what does the job actually entail. We have all experienced this. While catching a flight to the airport, cab drivers usually cancel their rides and sometimes it takes up to 4-5 attempts to actually get a cab driver to come pick you up. And for a large company like Uber, this becomes a business problem. Now your job as a data analyst is to figure out why this is happening. In order to do that, you have to collect data. Ask the right questions, look at the right places. For example, you can get the data from customer complaints which would serve as unstructured data. And go look for data in the data warehouse which would be a structured data. And look for information like number of requests made for a ride to the airport in the last 3 months or so. How many of those rides were completed? Trip information, flight schedules, number of drivers appointed to the route and many other questions. Then you start to analyse the data. Compare the ratio of the trips requested to the completion rate to find if there is a disparity between the supply and demand. Check if the cab drivers are actually cancelling the cab during specific times in the night to avoid the ideal time they have to wait at the airport to get a passenger back to the city. Since it's not economical for the cab driver to wait for a couple of hours at the airport for a ride back. Check the flight schedules. Are there more number of flights arriving than the flights departing? This can also have an effect on the demand and supply. Once you have collected and analysed this data, you start by compiling it using statistics in the form of graphs and charts to be presented to the stakeholders. Even now you have only figured out what the problem is and not the solution yet. But we hope this simple example gives you a picture of what data science is all about. Data science has application in almost every field. From healthcare to retail to finance as well as the entertainment industry. And its perks also include high salaries. No wonder it is the most sought after job of this decade. If data science is the field that you want to opt for, then don't forget to subscribe to our channel, Analytics India Magazine and follow this segment for everything in the world of data science. Stay smart. Bye."
+}

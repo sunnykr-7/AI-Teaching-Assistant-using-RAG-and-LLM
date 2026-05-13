@@ -1,0 +1,376 @@
+{
+    "chunks": [
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 0.0,
+            "end": 6.0,
+            "text": " In the series of customizing AI models in business, we talk about the Retrieval Augmented Generations, RAGs."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 9.0,
+            "end": 13.0,
+            "text": " What is Retrieval Augmented Generation, RAG, in AI?"
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 13.0,
+            "end": 23.0,
+            "text": " Well, Retrieval Augmented Generation, or RAG, combines the strengths of retrieval-based methods and generative models to produce more accurate and contextually relevant responses."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 23.0,
+            "end": 29.0,
+            "text": " The RAG architecture typically involves two main components, a retriever and a generator."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 31.0,
+            "end": 34.0,
+            "text": " Let's delve into the components of RAG."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 34.0,
+            "end": 43.0,
+            "text": " The first component, the retriever, searches a large corpus of documents or data to find the most relevant pieces of information based on a given query."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 43.0,
+            "end": 52.0,
+            "text": " The second component, the generator, uses the information retrieved by the retriever to generate a coherent and contextually appropriate response."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 55.0,
+            "end": 58.0,
+            "text": " Now let's walk through the step-by-step process of RAG."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 58.0,
+            "end": 65.0,
+            "text": " Step 1. Query Input. A user submits a query. For example, what are the company's health benefits?"
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 65.0,
+            "end": 71.0,
+            "text": " Step 2. Retrieval. The retriever searches the knowledge base to find relevant documents or passages."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 71.0,
+            "end": 79.0,
+            "text": " This knowledge base can include a wide range of data sources such as internal documents, FAQs, policy manuals, and other relevant information."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 80.0,
+            "end": 86.0,
+            "text": " Step 3. Relevant Documents. The retriever returns the top-end relevant documents or passages."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 86.0,
+            "end": 92.0,
+            "text": " For example, it might find the company health benefits document and relevant sections from the employee handbook."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 92.0,
+            "end": 100.0,
+            "text": " Step 4. Generation. The generator takes the query and the retrieved documents as input and generates a detailed and contextually relevant response."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 100.0,
+            "end": 105.0,
+            "text": " It synthesizes information from the retrieved documents to create a comprehensive answer."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 105.0,
+            "end": 110.0,
+            "text": " Step 5. Response Output. The generated response is presented to the user."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 110.0,
+            "end": 117.0,
+            "text": " For example, our company offers comprehensive health benefits including medical, dental, and vision insurance."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 117.0,
+            "end": 121.0,
+            "text": " Employees are eligible for these benefits from their first day of employment."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 121.0,
+            "end": 127.0,
+            "text": " For more details, please refer to the health benefits section in the employee handbook or visit the HR portal."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 130.0,
+            "end": 132.0,
+            "text": " How does RAG enhance performance?"
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 133.0,
+            "end": 135.0,
+            "text": " Improved Accuracy."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 136.0,
+            "end": 144.0,
+            "text": " By retrieving relevant documents first, the system ensures that the generative model has access to the most pertinent information, leading to more accurate responses."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 144.0,
+            "end": 154.0,
+            "text": " Contextual Relevance. The generative model can create responses that are not only accurate but also contextually appropriate, incorporating specific details from the retrieved documents."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 155.0,
+            "end": 164.0,
+            "text": " Scalability RAG systems can handle large volumes of queries and retrieve information from extensive datasets, making them suitable for enterprise applications."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 165.0,
+            "end": 171.0,
+            "text": " Consistency responses generated using RAG are consistent and based on up-to-date information from the knowledge base."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 171.0,
+            "end": 175.0,
+            "text": " Next come the practical implementation and real-world examples."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 176.0,
+            "end": 184.0,
+            "text": " Before we move to practical implementation part, please watch our other video on this series for complete knowledge on customizing AI models in business."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 184.0,
+            "end": 190.0,
+            "text": " Also, please subscribe to our channel and watch till the end, and comment us for providing more content like this."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 190.0,
+            "end": 201.0,
+            "text": " In practical implementation, we start with data collection, where we gather and organize documents, FAQs, and other relevant data into a searchable repository."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 202.0,
+            "end": 210.0,
+            "text": " Next is model training, where we train the retriever to efficiently search the repository and the generative model to synthesize responses from the retrieved documents."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 211.0,
+            "end": 221.0,
+            "text": " Then, there's system integration, where we integrate the RAG system with the enterprise's existing tools and platforms, such as HR portals or customer support systems."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 221.0,
+            "end": 229.0,
+            "text": " Finally, we focus on continuous improvement by regularly updating the knowledge base and refining the retriever and generator models based on feedback and new information."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 233.0,
+            "end": 236.0,
+            "text": " Let's look at a real-world example of HR support."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 236.0,
+            "end": 239.0,
+            "text": " An employee asks, how can I apply for parental leave?"
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 239.0,
+            "end": 246.0,
+            "text": " The system then retrieves relevant sections from the employee handbook, company policy documents, and previous related inquiries."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 246.0,
+            "end": 248.0,
+            "text": " The system generates a response."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 248.0,
+            "end": 255.0,
+            "text": " To apply for parental leave, submit a leave application form through the HR portal, attach necessary documents, and notify your supervisor."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 256.0,
+            "end": 260.0,
+            "text": " For detailed steps, refer to the parental leave policy in the employee handbook."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 261.0,
+            "end": 264.0,
+            "text": " The response is provided to the employee through the HR portal."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 264.0,
+            "end": 275.0,
+            "text": " By integrating retrieval and generation, RAG systems provide powerful solutions for enterprises, enhancing the accuracy and relevance of automated responses across various applications."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 278.0,
+            "end": 281.0,
+            "text": " How is it different from previous enterprise applications?"
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 282.0,
+            "end": 284.0,
+            "text": " Let's consider the HR support use case."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 285.0,
+            "end": 294.0,
+            "text": " Previously, employees would manually search an HR portal for documents related to parental leave, often having to read through several documents to piece together the required information."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 295.0,
+            "end": 299.0,
+            "text": " Chatbots might provide generic answers based on outdated or incomplete information."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 300.0,
+            "end": 306.0,
+            "text": " With the RAG approach, the system efficiently retrieves the most relevant sections from updated HR documents and policies."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 306.0,
+            "end": 309.0,
+            "text": " It generates a detailed and specific answer, such as,"
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 310.0,
+            "end": 312.0,
+            "text": " To apply for parental leave, please follow these steps."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 313.0,
+            "end": 316.0,
+            "text": " 1. Submit a leave application form through the HR portal."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 317.0,
+            "end": 321.0,
+            "text": " 2. Attach necessary documents, such as medical certificates or adoption papers."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 322.0,
+            "end": 323.0,
+            "text": " 3. Notify your supervisor."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 324.0,
+            "end": 328.0,
+            "text": " For detailed instructions, refer to the parental leave policy in the employee handbook."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 329.0,
+            "end": 345.0,
+            "text": " In summary, RAG systems offer a more sophisticated, accurate, and user-friendly approach compared to previous enterprise applications, leveraging the combined power of retrieval and generation to provide high-quality, contextually relevant responses."
+        },
+        {
+            "number": "13",
+            "title": "RAG Explained in 5 minutes",
+            "start": 346.0,
+            "end": 353.0,
+            "text": " Subscribe to our channel and don't forget to hit the like button if you enjoyed this video. Your support helps us create more content just like this."
+        }
+    ],
+    "text": " In the series of customizing AI models in business, we talk about the Retrieval Augmented Generations, RAGs. What is Retrieval Augmented Generation, RAG, in AI? Well, Retrieval Augmented Generation, or RAG, combines the strengths of retrieval-based methods and generative models to produce more accurate and contextually relevant responses. The RAG architecture typically involves two main components, a retriever and a generator. Let's delve into the components of RAG. The first component, the retriever, searches a large corpus of documents or data to find the most relevant pieces of information based on a given query. The second component, the generator, uses the information retrieved by the retriever to generate a coherent and contextually appropriate response. Now let's walk through the step-by-step process of RAG. Step 1. Query Input. A user submits a query. For example, what are the company's health benefits? Step 2. Retrieval. The retriever searches the knowledge base to find relevant documents or passages. This knowledge base can include a wide range of data sources such as internal documents, FAQs, policy manuals, and other relevant information. Step 3. Relevant Documents. The retriever returns the top-end relevant documents or passages. For example, it might find the company health benefits document and relevant sections from the employee handbook. Step 4. Generation. The generator takes the query and the retrieved documents as input and generates a detailed and contextually relevant response. It synthesizes information from the retrieved documents to create a comprehensive answer. Step 5. Response Output. The generated response is presented to the user. For example, our company offers comprehensive health benefits including medical, dental, and vision insurance. Employees are eligible for these benefits from their first day of employment. For more details, please refer to the health benefits section in the employee handbook or visit the HR portal. How does RAG enhance performance? Improved Accuracy. By retrieving relevant documents first, the system ensures that the generative model has access to the most pertinent information, leading to more accurate responses. Contextual Relevance. The generative model can create responses that are not only accurate but also contextually appropriate, incorporating specific details from the retrieved documents. Scalability RAG systems can handle large volumes of queries and retrieve information from extensive datasets, making them suitable for enterprise applications. Consistency responses generated using RAG are consistent and based on up-to-date information from the knowledge base. Next come the practical implementation and real-world examples. Before we move to practical implementation part, please watch our other video on this series for complete knowledge on customizing AI models in business. Also, please subscribe to our channel and watch till the end, and comment us for providing more content like this. In practical implementation, we start with data collection, where we gather and organize documents, FAQs, and other relevant data into a searchable repository. Next is model training, where we train the retriever to efficiently search the repository and the generative model to synthesize responses from the retrieved documents. Then, there's system integration, where we integrate the RAG system with the enterprise's existing tools and platforms, such as HR portals or customer support systems. Finally, we focus on continuous improvement by regularly updating the knowledge base and refining the retriever and generator models based on feedback and new information. Let's look at a real-world example of HR support. An employee asks, how can I apply for parental leave? The system then retrieves relevant sections from the employee handbook, company policy documents, and previous related inquiries. The system generates a response. To apply for parental leave, submit a leave application form through the HR portal, attach necessary documents, and notify your supervisor. For detailed steps, refer to the parental leave policy in the employee handbook. The response is provided to the employee through the HR portal. By integrating retrieval and generation, RAG systems provide powerful solutions for enterprises, enhancing the accuracy and relevance of automated responses across various applications. How is it different from previous enterprise applications? Let's consider the HR support use case. Previously, employees would manually search an HR portal for documents related to parental leave, often having to read through several documents to piece together the required information. Chatbots might provide generic answers based on outdated or incomplete information. With the RAG approach, the system efficiently retrieves the most relevant sections from updated HR documents and policies. It generates a detailed and specific answer, such as, To apply for parental leave, please follow these steps. 1. Submit a leave application form through the HR portal. 2. Attach necessary documents, such as medical certificates or adoption papers. 3. Notify your supervisor. For detailed instructions, refer to the parental leave policy in the employee handbook. In summary, RAG systems offer a more sophisticated, accurate, and user-friendly approach compared to previous enterprise applications, leveraging the combined power of retrieval and generation to provide high-quality, contextually relevant responses. Subscribe to our channel and don't forget to hit the like button if you enjoyed this video. Your support helps us create more content just like this."
+}

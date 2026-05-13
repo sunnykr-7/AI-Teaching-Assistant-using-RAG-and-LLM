@@ -1,0 +1,299 @@
+{
+    "chunks": [
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 0.0,
+            "end": 10.44,
+            "text": " The artificial intelligence paradigm is turning the traditional knowledge process on its head."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 10.44,
+            "end": 15.96,
+            "text": " So traditionally we have observations of reality, we see something in reality and once you observe"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 15.96,
+            "end": 18.86,
+            "text": " it, we categorize it, our perception does that."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 18.86,
+            "end": 23.2,
+            "text": " So we basically measure and measurement goes very deep and we measure something."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 23.2,
+            "end": 28.48,
+            "text": " We could also like simplistically say we measure one, two, two, one, one, two, three, whatever,"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 28.48,
+            "end": 32.160000000000004,
+            "text": " we measure something and then we have a way to combine what we observe."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 32.160000000000004,
+            "end": 36.86,
+            "text": " We could observe sceneries but then we combine it with some kind of recipe, we make sense"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 36.86,
+            "end": 43.04,
+            "text": " of it, we call that the algorithm and in order to get to a conclusion, we compute something"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 43.04,
+            "end": 46.16,
+            "text": " and traditionally that's what we say and that's how we teach."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 46.16,
+            "end": 49.64,
+            "text": " Now what happened is a reason we turned it on our head."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 49.64,
+            "end": 53.1,
+            "text": " We feed into the machine and we will talk about what the machine is, that what this"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 53.1,
+            "end": 56.760000000000005,
+            "text": " lecture is about, what is this, what we call a computer, this machine."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 56.76,
+            "end": 64.25999999999999,
+            "text": " We feed into it observations, data and where we want to go and then the master algorithm,"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 64.25999999999999,
+            "end": 69.58,
+            "text": " that's what Pedro Dominguez calls it, the master algorithm computes the best algorithm."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 69.58,
+            "end": 74.08,
+            "text": " The machine learning is the master that computes the best algorithm and there can be different"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 74.08,
+            "end": 75.88,
+            "text": " ways that lead to the same result."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 75.88,
+            "end": 80.6,
+            "text": " You could compute it this way here or you compute it this way here and what's the better"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 80.6,
+            "end": 81.6,
+            "text": " one?"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 81.6,
+            "end": 86.36,
+            "text": " Well that's in the eye of the beholder and you might choose or you can ask the machine"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 86.36,
+            "end": 88.32,
+            "text": " to choose for you as you wish."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 88.32,
+            "end": 92.76,
+            "text": " So the artificial intelligence paradigm is basically a machine learning paradigm."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 92.76,
+            "end": 96.62,
+            "text": " So what I showed you this framework right now here, that's the crux of machine learning."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 96.62,
+            "end": 99.16,
+            "text": " The machine learns."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 99.16,
+            "end": 102.2,
+            "text": " It learns different ways of doing things."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 102.2,
+            "end": 107.7,
+            "text": " What's the best way that you give the goal to the machine and you give the machine of"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 107.7,
+            "end": 111.64,
+            "text": " where it's at and the data input and then the machine tells you well given the constraints"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 111.64,
+            "end": 116.7,
+            "text": " you can do this optimally in this kind of sense optimally or you can do that."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 116.7,
+            "end": 119.96000000000001,
+            "text": " But it learns the most important thing is here with data."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 119.96000000000001,
+            "end": 120.96000000000001,
+            "text": " That's what kicked it off."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 120.96000000000001,
+            "end": 124.4,
+            "text": " Artificial intelligence tried to do it different ways."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 124.4,
+            "end": 129.54,
+            "text": " Also usually the previous paradigm we try to write the recipes ourselves, the rules,"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 129.54,
+            "end": 134.58,
+            "text": " but once we had enough data, the digital footprint, once this was abundant, the data of the first"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 134.58,
+            "end": 141.56,
+            "text": " generation of the digital age kicked off communication which produced a flood of data which was"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 141.68,
+            "end": 144.48,
+            "text": " automatically recorded in our digital networks."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 144.48,
+            "end": 145.48,
+            "text": " We had all this data."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 145.48,
+            "end": 149.52,
+            "text": " We can turn this process around and we did machine learning."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 149.52,
+            "end": 151.04,
+            "text": " So that's what happened."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 151.04,
+            "end": 153.32,
+            "text": " That's thanks to the amount of data."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 153.32,
+            "end": 157.68,
+            "text": " Now we didn't pay enough attention to this goal here yet, but the most important message"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 157.68,
+            "end": 163.44,
+            "text": " that I want to hammer home here is that for all practical purposes nowadays when people"
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 163.44,
+            "end": 165.78,
+            "text": " say AI, they mean machine learning."
+        },
+        {
+            "number": "03",
+            "title": "What is the Difference between AI & Machine Learning",
+            "start": 165.78,
+            "end": 171.9,
+            "text": " That means you need data and usually a lot, a lot of data for the machine to work."
+        }
+    ],
+    "text": " The artificial intelligence paradigm is turning the traditional knowledge process on its head. So traditionally we have observations of reality, we see something in reality and once you observe it, we categorize it, our perception does that. So we basically measure and measurement goes very deep and we measure something. We could also like simplistically say we measure one, two, two, one, one, two, three, whatever, we measure something and then we have a way to combine what we observe. We could observe sceneries but then we combine it with some kind of recipe, we make sense of it, we call that the algorithm and in order to get to a conclusion, we compute something and traditionally that's what we say and that's how we teach. Now what happened is a reason we turned it on our head. We feed into the machine and we will talk about what the machine is, that what this lecture is about, what is this, what we call a computer, this machine. We feed into it observations, data and where we want to go and then the master algorithm, that's what Pedro Dominguez calls it, the master algorithm computes the best algorithm. The machine learning is the master that computes the best algorithm and there can be different ways that lead to the same result. You could compute it this way here or you compute it this way here and what's the better one? Well that's in the eye of the beholder and you might choose or you can ask the machine to choose for you as you wish. So the artificial intelligence paradigm is basically a machine learning paradigm. So what I showed you this framework right now here, that's the crux of machine learning. The machine learns. It learns different ways of doing things. What's the best way that you give the goal to the machine and you give the machine of where it's at and the data input and then the machine tells you well given the constraints you can do this optimally in this kind of sense optimally or you can do that. But it learns the most important thing is here with data. That's what kicked it off. Artificial intelligence tried to do it different ways. Also usually the previous paradigm we try to write the recipes ourselves, the rules, but once we had enough data, the digital footprint, once this was abundant, the data of the first generation of the digital age kicked off communication which produced a flood of data which was automatically recorded in our digital networks. We had all this data. We can turn this process around and we did machine learning. So that's what happened. That's thanks to the amount of data. Now we didn't pay enough attention to this goal here yet, but the most important message that I want to hammer home here is that for all practical purposes nowadays when people say AI, they mean machine learning. That means you need data and usually a lot, a lot of data for the machine to work."
+}
