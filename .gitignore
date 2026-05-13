@@ -1,1 +1,6 @@
-
+audio/
+video/
+*.mp3
+*.mp4
+*.joblib
+__pycache__/
