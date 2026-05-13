@@ -1,0 +1,7 @@
+You're looking for information about Python. In this course, we've covered some of the basics of Python in our first lecture.
+
+Let's start with what is Python? We've discussed this topic already in video 06, which starts at timestamp 0 seconds and goes up to 50 seconds. I talked about how Python is a high-level interpreted language, and explained its definition.
+
+If you're interested in learning more about what can you do with Python or why it's so popular, we also covered these topics in the same video. Just fast-forward to around 100-150 seconds to start understanding those points.
+
+Additionally, if you want to learn about how Python works under the hood, that'll be in a later lecture.
