@@ -10,3 +10,8 @@ def create_embedding(text):
 
 a= create_embedding("cat sat on the mat")
 print(a)
+
+
+
+
+
