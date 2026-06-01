@@ -1,4 +1,4 @@
-You're looking for information about Python. In this course, we've covered some of the basics of Python in our first lecture.
+You're looking for information about Python. In this course, we've covered some of the basics of Python in our first lecture..
 
 Let's start with what is Python? We've discussed this topic already in video 06, which starts at timestamp 0 seconds and goes up to 50 seconds. I talked about how Python is a high-level interpreted language, and explained its definition.
 
