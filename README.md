@@ -2,7 +2,9 @@
 
 ### NOTE - Dataset consists of educational AI/ML/Python tutorial videos converted into audio for transcription and retrieval.
 
-## The Live Project is on my laptop, I will soon upload Google Drive Video Related to the project video demo soon..
+## The Live Project is on my laptop, I will soon upload Google Drive Video Related to the project video demo soon
+
+## Subscribe to my youtube Channel - Here -  ..
 
 
 # 1 - Architecture Flow
