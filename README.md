@@ -4,7 +4,7 @@
 
 ## The Live Project is on my laptop, I will soon upload Google Drive Video Related to the project video demo soon
 
-## Subscribe to my youtube Channel - Here -  
+## Subscribe to my youtube Channel - Here -  ........
 
 
 # 1 - Architecture Flow
