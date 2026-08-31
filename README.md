@@ -1,6 +1,6 @@
 # RAG-based-AI-Teaching-Assistant
 
-### NOTE - Dataset consists of educational AI/ML/Python tutorial videos converted into audio for transcription and retrieval
+### NOTE - Dataset consists of educational AI/ML/Python tutorial videos converted into audio for transcription and retrieval -
 
 ## The Live Project is on my laptop, I will soon upload Google Drive Video Related to the project video demo soon
 
